@@ -102,6 +102,18 @@ Dessa hanteras i sina egna XML-filer enligt tilläggsschemat, se avsnitt 5 och 6
 
 Utöver XML-strukturerad data levereras lönespecifikationer i HTML-format, en per anställd och utbetalningstillfälle. Dessa lagras i undermappen `lonespecifikationer/` och refereras från motsvarande `lonekorning`-element.
 
+### 2.6 Källsystemsneutralitet
+
+Anpassningen är utvecklad utifrån behovet av att arkivera data från Flex Lön, men strukturen är avsedd att kunna ta emot data från andra lönesystem i framtiden. Generiska koncept som tidsserier med giltighetsperiod, tabellnär struktur för löneutbetalningar och dimensionsbaserade konteringar är systemneutrala.
+
+Vissa element kan sakna motsvarighet i andra lönesystem och är därför frivilliga eller anpassningsbara:
+
+- `personalkategori` i lonearter och transaktioner utelämns i system som saknar konceptet.
+- `formel`-elementet med `syntax`-attribut möjliggör bevarande av källsystemets ursprungliga beräkningssyntax utan krav på normalisering.
+- Öppna strängtyper för värdelistor (anställningsform, löneform, avslutsorsak, underlagstyp skatt) tillåter systemspecifika termer där vedertagna standarder saknas.
+
+Vid arkivering från annat system än Flex ska detta dokument kompletteras med en beskrivning av källsystemets mappning till anpassningens struktur, eventuellt som egen bilaga eller som separat dokument.
+
 ---
 
 ## 3. Ändrade kardinaliteter
@@ -420,13 +432,17 @@ Vid mappning från Flex-data motsvarar alltså `hemkontering` → `<standardkont
 
 Lönearter identifieras i registret via kombinationen `kod + personalkategori`. Samma löneart-kod kan förekomma i flera varianter för olika personalkategorier, med olika konton eller beräkningar. Transaktioner som refererar till en löneart måste därför inkludera både `personalkategori` och löneart-koden för att entydigt identifiera rätt löneart.
 
+Elementet `personalkategori` är frivilligt i schemat. Svenska kyrkans Flex-uttag har alltid värde här, men andra källsystem kan sakna motsvarande koncept. I sådana fall utelämns elementet både i registret och i transaktioner, och `kod` fungerar som ensam nyckel.
+
 ### 7.10 Bevarande av beräkningsformler
 
-Lönearter i Flex innehåller beräkningsformler som kan vara omfattande. Formlerna bevaras ordagrant i elementet `formel`, omslutet av CDATA-block för att hantera specialtecken som `<`, `>`, `¤` (radseparator i Flex:s syntax) och svenska tecken.
+Lönearter i många lönesystem innehåller beräkningsformler som kan vara omfattande. Formlerna bevaras ordagrant i elementet `formel`, omslutet av CDATA-block för att hantera specialtecken som `<`, `>`, systemspecifika radseparatorer och svenska tecken.
 
-Formlernas syntax är Flex-specifik och dokumenteras i Flex:s egen dokumentation. Anpassningen säkerställer bevarandet av formlerna som bevis på hur beräkningen var definierad vid arkiveringen, men tolkning kräver kunskap om Flex-syntaxen.
+Formelns syntax är källsystemspecifik. Elementet har därför attributet `syntax` som markerar vilket systems formelspråk formeln är skriven i, exempelvis `syntax="Flex"`. Tolkning kräver kunskap om källsystemets syntax och får göras utifrån systemets egen dokumentation.
 
-Registret `formelvariabler.xml` tillhandahåller mänskligt läsbara beskrivningar av de variabler som används i formlerna. Detta utgör stödmaterial för framtida tolkning.
+Anpassningen säkerställer bevarandet av formlerna som bevis på hur beräkningen var definierad vid arkiveringen, men tolkning förutsätter tillgång till källsystemets dokumentation. För system som inte uttrycker beräkningar som textsträngar (t.ex. system med enbart regelbaserad konfiguration) utelämnas elementet.
+
+Registret `formelvariabler.xml` tillhandahåller mänskligt läsbara beskrivningar av de variabler som används i formlerna. Detta utgör stödmaterial för framtida tolkning och är särskilt värdefullt när källsystemet använder icke-uppenbara variabelnamn.
 
 ### 7.11 Utelämnande av tomma värden
 
@@ -886,13 +902,29 @@ Det kompletta XML-schemat för tilläggsdomänen följer nedan. Schemat distribu
     <xs:complexType name="LoneartType">
         <xs:sequence>
             <xs:element name="kod"                type="xs:string"/>
-            <xs:element name="personalkategori"   type="xs:string"/>
+            <xs:element name="personalkategori"   type="xs:string" minOccurs="0"/>
             <xs:element name="namn"               type="xs:string"/>
-            <xs:element name="formel"             type="xs:string" minOccurs="0"/>
+            <xs:element name="formel"             type="LoneartFormelType" minOccurs="0"/>
             <xs:element name="underlagstypSkatt"  type="xs:string"/>
             <xs:element name="kontering"          type="LoneartKonteringType" minOccurs="0"/>
             <xs:element name="egenskaper"         type="LoneartEgenskaperType" minOccurs="0"/>
         </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="LoneartFormelType">
+        <xs:annotation>
+            <xs:documentation xml:lang="sv">
+                Beräkningsformel för lönearten bevarad ordagrant från källsystemet.
+                Attributet syntax markerar vilket systems formelspråk formeln är
+                skriven i, t.ex. "Flex". Tolkning kräver kunskap om källsystemets
+                syntax och får göras utifrån systemets egen dokumentation.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="syntax" type="xs:string" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
     </xs:complexType>
     
     <xs:complexType name="LoneartKonteringType">
@@ -1108,7 +1140,7 @@ Målfil: `register/lonearter.xml`
 | loneart_kod | `loneart/kod` |
 | personalkategori | `loneart/personalkategori` |
 | loneart_namn | `loneart/namn` |
-| loneart_formel | `loneart/formel` (i CDATA, om ej tomt) |
+| loneart_formel | `loneart/formel` med `@syntax="Flex"` (i CDATA, om ej tomt) |
 | underlagstyp_skatt | `loneart/underlagstypSkatt` |
 | loneart_konto | `loneart/kontering/konto` (om ej tomt) |
 | loneart_motkonto | `loneart/kontering/motkonto` (om ej tomt) |
