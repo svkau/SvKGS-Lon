@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="https://earkiv.svenskakyrkan.se/schemas/SVK-personal-lon/v1"
+           targetNamespace="https://earkiv.svenskakyrkan.se/schemas/SVK-personal-lon/v1"
+           elementFormDefault="qualified"
+           version="1.0">
+    
+    <xs:annotation>
+        <xs:documentation xml:lang="sv">
+            Svenska kyrkans tilläggsschema till FGS Personal för löneinformation
+            ur Flex Lön. Omfattar anställningstillägg (används inom FGS
+            additionalXMLData), löneutbetalningar som separata dokument,
+            och referensregister.
+        </xs:documentation>
+    </xs:annotation>
+    
+    
+    <!-- ================================================================ -->
+    <!-- GEMENSAMMA TYPER                                                 -->
+    <!-- ================================================================ -->
+    
+    <xs:complexType name="GiltighetsperiodType">
+        <xs:annotation>
+            <xs:documentation xml:lang="sv">
+                Tidsperiod under vilken posten är giltig. Slutdatum utelämnas
+                för poster som löper tills vidare.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="startdatum" type="xs:date"/>
+            <xs:element name="slutdatum"  type="xs:date" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:simpleType name="ValutakodType">
+        <xs:annotation>
+            <xs:documentation xml:lang="sv">Valutakod enligt ISO 4217.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z]{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="ProcentType">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="100"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:complexType name="DimensionType">
+        <xs:sequence>
+            <xs:element name="namn"  type="xs:string"/>
+            <xs:element name="varde" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="DimensionerType">
+        <xs:sequence>
+            <xs:element name="dimension" type="DimensionType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="AnstallningReferensType">
+        <xs:annotation>
+            <xs:documentation xml:lang="sv">
+                Referens till en anställning via anställningsnummer och personnummer.
+                Används i filer som ligger utanför FGS-anställningsdokumentet.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="anstallningsnummer" type="xs:string"/>
+            <xs:element name="personnummer"       type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="UtbetalningsgruppReferensType">
+        <xs:annotation>
+            <xs:documentation xml:lang="sv">
+                Referens till utbetalningsgrupp definierad i register/utbetalningsgrupper.xml.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="id" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    
+    <!-- ================================================================ -->
+    <!-- ANSTÄLLNINGSTILLÄGG (används i FGS additionalXMLData)            -->
+    <!-- ================================================================ -->
+    
+    <xs:element name="anstallningstillagg" type="AnstallningstillaggType"/>
+    
+    <xs:complexType name="AnstallningstillaggType">
+        <xs:sequence>
+            <xs:element name="utbetalningsgruppReferens" type="UtbetalningsgruppReferensType" minOccurs="0"/>
+            <xs:element name="personalkategori"          type="PersonalkategoriType"          minOccurs="0"/>
+            <xs:element name="anstallningsperioder"      type="AnstallningsperioderType"      minOccurs="0"/>
+            <xs:element name="sysselsattningsgrader"     type="SysselsattningsgraderType"     minOccurs="0"/>
+            <xs:element name="heltidsmatt"               type="HeltidsmattType"               minOccurs="0"/>
+            <xs:element name="lonetillagg"               type="LonetillaggType"               minOccurs="0"/>
+            <xs:element name="kostnadsfordelningar"      type="KostnadsfordelningarType"      minOccurs="0"/>
+            <xs:element name="standardkonteringar"       type="StandardkonteringarType"       minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="PersonalkategoriType">
+        <xs:sequence>
+            <xs:element name="kod"       type="xs:string"/>
+            <xs:element name="benamning" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="AnstallningsperioderType">
+        <xs:sequence>
+            <xs:element name="anstallningsperiod" type="AnstallningsperiodType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="AnstallningsperiodType">
+        <xs:sequence>
+            <xs:element name="id"               type="xs:string"/>
+            <xs:element name="giltighetsperiod" type="GiltighetsperiodType"/>
+            <xs:element name="anstallningsform" type="xs:string"/>
+            <xs:element name="loneform"         type="xs:string"/>
+            <xs:element name="avslutsorsak"     type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="SysselsattningsgraderType">
+        <xs:sequence>
+            <xs:element name="sysselsattningsgrad" type="SysselsattningsgradType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="SysselsattningsgradType">
+        <xs:sequence>
+            <xs:element name="id"               type="xs:string"/>
+            <xs:element name="procent"          type="ProcentType"/>
+            <xs:element name="giltighetsperiod" type="GiltighetsperiodType"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="HeltidsmattType">
+        <xs:sequence>
+            <xs:element name="arbetsmatt" type="ArbetsmattType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="ArbetsmattType">
+        <xs:sequence>
+            <xs:element name="id"               type="xs:string"/>
+            <xs:element name="timmarPerVecka"   type="xs:decimal"/>
+            <xs:element name="giltighetsperiod" type="GiltighetsperiodType"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="LonetillaggType">
+        <xs:sequence>
+            <xs:element name="tillagg" type="TillaggType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="TillaggType">
+        <xs:sequence>
+            <xs:element name="id"     type="xs:string"/>
+            <xs:element name="namn"   type="xs:string"/>
+            <xs:element name="varde"  type="VardeType"/>
+            <xs:element name="valuta" type="ValutakodType" minOccurs="0"/>
+            <xs:element name="giltighetsperiod" type="GiltighetsperiodType"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="VardeType">
+        <xs:annotation>
+            <xs:documentation xml:lang="sv">
+                Värde för lönetillägg. Attributet typ anger hur värdet ska tolkas.
+                Vid typ="belopp" ska valuta anges på tilläggets överordnade element.
+                Vid typ="faktor" anges inget belopp — värdet är en multiplikationsfaktor.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:extension base="xs:decimal">
+                <xs:attribute name="typ" type="xs:string" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:complexType name="KostnadsfordelningarType">
+        <xs:sequence>
+            <xs:element name="kostnadsfordelning" type="KostnadsfordelningType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="KostnadsfordelningType">
+        <xs:sequence>
+            <xs:element name="kostnadsfordelningId" type="xs:string"/>
+            <xs:element name="ordningsnummer"       type="xs:integer"/>
+            <xs:element name="giltighetsperiod"     type="GiltighetsperiodType"/>
+            <xs:element name="procentfordelning"    type="ProcentType"/>
+            <xs:element name="dimensioner"          type="DimensionerType"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="StandardkonteringarType">
+        <xs:sequence>
+            <xs:element name="standardkontering" type="StandardkonteringType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="StandardkonteringType">
+        <xs:annotation>
+            <xs:documentation xml:lang="sv">
+                Förhandsdefinierad kontering per dimension för en anställning.
+                I Flex Lön kallas detta "hemkontering".
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="dimensionId"   type="xs:string"/>
+            <xs:element name="dimensionNamn" type="xs:string"/>
+            <xs:element name="fordelningar"  type="StandardkonteringFordelningarType"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="StandardkonteringFordelningarType">
+        <xs:sequence>
+            <xs:element name="fordelning" type="StandardkonteringFordelningType" 
+                        maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="StandardkonteringFordelningType">
+        <xs:sequence>
+            <xs:element name="kontering" type="xs:string"/>
+            <xs:element name="procent"   type="ProcentType"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    
+    <!-- ================================================================ -->
+    <!-- LÖNEKÖRNINGAR (separat fil per paket)                            -->
+    <!-- ================================================================ -->
+    
+    <xs:element name="lonekorningar" type="LonekorningarType"/>
+    
+    <xs:complexType name="LonekorningarType">
+        <xs:sequence>
+            <xs:element name="lonekorning" type="LonekorningType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="LonekorningType">
+        <xs:sequence>
+            <xs:element name="id"                        type="xs:string"/>
+            <xs:element name="lonekorningsnummer"        type="xs:string"/>
+            <xs:element name="utbetalningsdatum"         type="xs:date"/>
+            <xs:element name="utbetalningsgruppReferens" type="UtbetalningsgruppReferensType"/>
+            <xs:element name="anstallningReferens"       type="AnstallningReferensType"/>
+            <xs:element name="lonespecifikation"         type="LonespecifikationType" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="LonespecifikationType">
+        <xs:attribute name="href" type="xs:anyURI" use="required"/>
+    </xs:complexType>
+    
+    
+    <!-- ================================================================ -->
+    <!-- LÖNETRANSAKTIONER (separat fil per paket)                        -->
+    <!-- ================================================================ -->
+    
+    <xs:element name="lonetransaktioner" type="LonetransaktionerType"/>
+    
+    <xs:complexType name="LonetransaktionerType">
+        <xs:sequence>
+            <xs:element name="lonetransaktion" type="LonetransaktionType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="LonetransaktionType">
+        <xs:sequence>
+            <xs:element name="id"                   type="xs:string"/>
+            <xs:element name="transaktionId"        type="xs:string"/>
+            <xs:element name="lonekorningReferens"  type="xs:string"/>
+            <xs:element name="personalkategori"     type="xs:string"/>
+            <xs:element name="loneart"              type="TransaktionLoneartType"/>
+            <xs:element name="period"               type="GiltighetsperiodType" minOccurs="0"/>
+            <xs:element name="omfattningProcent"    type="ProcentType" minOccurs="0"/>
+            <xs:element name="kvantitet"            type="KvantitetType" minOccurs="0"/>
+            <xs:element name="belopp"               type="xs:decimal"/>
+            <xs:element name="valuta"               type="ValutakodType"/>
+            <xs:element name="kommentar"            type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="TransaktionLoneartType">
+        <xs:sequence>
+            <xs:element name="kod"  type="xs:string"/>
+            <xs:element name="namn" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="KvantitetType">
+        <xs:sequence>
+            <xs:element name="antal" type="xs:decimal"/>
+            <xs:element name="enhet" type="xs:string" minOccurs="0"/>
+            <xs:element name="aPris" type="xs:decimal"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    
+    <!-- ================================================================ -->
+    <!-- KONTERINGAR (separat fil per paket)                              -->
+    <!-- ================================================================ -->
+    
+    <xs:element name="konteringar" type="KonteringarType"/>
+    
+    <xs:complexType name="KonteringarType">
+        <xs:sequence>
+            <xs:element name="kontering" type="KonteringType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="KonteringType">
+        <xs:sequence>
+            <xs:element name="id"                      type="xs:string"/>
+            <xs:element name="fordelningId"            type="xs:string"/>
+            <xs:element name="lonetransaktionReferens" type="xs:string"/>
+            <xs:element name="procentfordelning"       type="ProcentType"/>
+            <xs:element name="dimensioner"             type="DimensionerType"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    
+    <!-- ================================================================ -->
+    <!-- REGISTER: UTBETALNINGSGRUPPER                                    -->
+    <!-- ================================================================ -->
+    
+    <xs:element name="utbetalningsgrupper" type="UtbetalningsgrupperType"/>
+    
+    <xs:complexType name="UtbetalningsgrupperType">
+        <xs:sequence>
+            <xs:element name="utbetalningsgrupp" type="UtbetalningsgruppType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="UtbetalningsgruppType">
+        <xs:sequence>
+            <xs:element name="id"   type="xs:string"/>
+            <xs:element name="namn" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    
+    <!-- ================================================================ -->
+    <!-- REGISTER: FORMELVARIABLER                                        -->
+    <!-- ================================================================ -->
+    
+    <xs:element name="formelvariabler" type="FormelvariablerType"/>
+    
+    <xs:complexType name="FormelvariablerType">
+        <xs:sequence>
+            <xs:element name="formelvariabel" type="FormelvariabelType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="FormelvariabelType">
+        <xs:sequence>
+            <xs:element name="namn"        type="xs:string"/>
+            <xs:element name="beskrivning" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    
+    <!-- ================================================================ -->
+    <!-- REGISTER: LÖNEARTER                                              -->
+    <!-- ================================================================ -->
+    
+    <xs:element name="lonearter" type="LonearterType"/>
+    
+    <xs:complexType name="LonearterType">
+        <xs:sequence>
+            <xs:element name="loneart" type="LoneartType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="LoneartType">
+        <xs:sequence>
+            <xs:element name="kod"                type="xs:string"/>
+            <xs:element name="personalkategori"   type="xs:string"/>
+            <xs:element name="namn"               type="xs:string"/>
+            <xs:element name="formel"             type="xs:string" minOccurs="0"/>
+            <xs:element name="underlagstypSkatt"  type="xs:string"/>
+            <xs:element name="kontering"          type="LoneartKonteringType" minOccurs="0"/>
+            <xs:element name="egenskaper"         type="LoneartEgenskaperType" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="LoneartKonteringType">
+        <xs:sequence>
+            <xs:element name="konto"    type="xs:string"/>
+            <xs:element name="motkonto" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="LoneartEgenskaperType">
+        <xs:sequence>
+            <xs:element name="foraGrundande"             type="xs:boolean" minOccurs="0"/>
+            <xs:element name="kapKlGrundande"            type="xs:boolean" minOccurs="0"/>
+            <xs:element name="ejSocialavgiftsgrundande"  type="xs:boolean" minOccurs="0"/>
+            <xs:element name="kostnadsavdragSocAvg"      type="KostnadsavdragSocAvgType" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="KostnadsavdragSocAvgType">
+        <xs:sequence>
+            <xs:element name="procent" type="ProcentType"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+</xs:schema>
