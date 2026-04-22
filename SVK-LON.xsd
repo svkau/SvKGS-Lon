@@ -388,13 +388,29 @@
     <xs:complexType name="LoneartType">
         <xs:sequence>
             <xs:element name="kod"                type="xs:string"/>
-            <xs:element name="personalkategori"   type="xs:string"/>
+            <xs:element name="personalkategori"   type="xs:string" minOccurs="0"/>
             <xs:element name="namn"               type="xs:string"/>
-            <xs:element name="formel"             type="xs:string" minOccurs="0"/>
+            <xs:element name="formel"             type="LoneartFormelType" minOccurs="0"/>
             <xs:element name="underlagstypSkatt"  type="xs:string"/>
             <xs:element name="kontering"          type="LoneartKonteringType" minOccurs="0"/>
             <xs:element name="egenskaper"         type="LoneartEgenskaperType" minOccurs="0"/>
         </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="LoneartFormelType">
+        <xs:annotation>
+            <xs:documentation xml:lang="sv">
+                Beräkningsformel för lönearten bevarad ordagrant från källsystemet.
+                Attributet syntax markerar vilket systems formelspråk formeln är
+                skriven i, t.ex. "Flex". Tolkning kräver kunskap om källsystemets
+                syntax och får göras utifrån systemets egen dokumentation.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="syntax" type="xs:string" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
     </xs:complexType>
     
     <xs:complexType name="LoneartKonteringType">
