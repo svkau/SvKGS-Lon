@@ -141,3 +141,10 @@ Följande designdiskussioner har vi medvetet parkerat:
 - Riksarkivets FGS Personal (RAFGS2V1.0) och FGS Personal Tillägg (RAFGS2V1.0A20190225)
 - Flex:s egen dokumentation för systemspecifika begrepp och formelsyntax
 - Beställningsunderlaget för Flex-uttaget för CSV-strukturen
+
+## Idéer om framtida implementeringar
+
+- Ett komplett exempelpaket med alla XML-filer ifyllda från er Flex-exempeldata (skulle fungera som "golden sample" för systemleverantören)
+- En systemleverantörsbilaga med implementationstips (transformationslogik, hantering av UTF-8 BOM, komma→punkt, tid-strippning)
+- Ett Python-paketeringsscript som tar CSV-filer som input och producerar XML-paket
+- Ett Python-transformeringsscript som tar CSV-filer eller XML-paket och skapar en SQLITE-databas för sökning och publicering i Datasette
