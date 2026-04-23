@@ -1,0 +1,9 @@
+﻿system|artal_start|artal_slut|organisationsnummer|foretagsnummer|personnummer|anstallningsnummer|utbetalningsgrupp_id|kostnadsfordelning_id|ordningsnummer|kostnadsfordelning_startdatum|kostnadsfordelning_slutdatum|dim01_namn|dim01_varde|dim02_namn|dim02_varde|dim03_namn|dim03_varde|dim04_namn|dim04_varde|dim05_namn|dim05_varde|dim06_namn|dim06_varde|dim07_namn|dim07_varde|dim08_namn|dim08_varde|dim09_namn|dim09_varde|dim10_namn|dim10_varde|procentfordelning
+Flex Lön|1973|2022|123456-7890|923|19700712-3180|1|0|1|1|2020-06-01T00:00|2021-04-30T00:00|||K-ställe||Projekt|2100|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|123456-7890|923|19700712-3180|1|0|2|1|2021-05-01T00:00||||K-ställe||Projekt|1100|Kund|1100|Artikel||||||||||||100
+Flex Lön|1973|2022|123456-7890|923|19640814-0678|20|0|1|1|2020-06-01T00:00||||K-ställe||Projekt|8200|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|123456-7890|923|19800326-0695|110|0|1|1|2021-01-01T00:00||||K-ställe||Projekt|1100|Kund||Artikel||||||||||||50
+Flex Lön|1973|2022|123456-7890|923|19800326-0695|110|0|1|2|2021-01-01T00:00||||K-ställe||Projekt|1800|Kund||Artikel||||||||||||50
+Flex Lön|1973|2022|123456-7890|923|19770406-001|140|0|1|1|2020-06-01T00:00||||K-ställe||Projekt|5100|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|123456-7890|923|            |150|0|1|1|2016-01-01T00:00||||K-ställe||Projekt|8100|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|123456-7890|923|            |311|0|1|1|2016-01-01T00:00||||K-ställe||Projekt|8100|Kund||Artikel||||||||||||100

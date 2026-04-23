@@ -1,0 +1,155 @@
+﻿system|artal_start|artal_slut|organisationsnummer|foretagsnummer|variabelnamn|beskrivning
+Flex Lön|1973|2022|123456-7890|923|Omfattning|Omfattning % för aktuell lönerad
+Flex Lön|1973|2022|123456-7890|923|Antal|Antal för aktuell lönerad
+Flex Lön|1973|2022|123456-7890|923|Apris|A-Pris för aktuell lönerad
+Flex Lön|1973|2022|123456-7890|923|Belopp|Belopp för aktuell lönerad
+Flex Lön|1973|2022|123456-7890|923|Lönekod|Lönekod för aktuell lönerad
+Flex Lön|1973|2022|123456-7890|923|Bruttolön|Bruttolön för aktuell person
+Flex Lön|1973|2022|123456-7890|923|Förmån|Förmån för aktuell person
+Flex Lön|1973|2022|123456-7890|923|Prelskatt|Preliminär skatt för aktuell person
+Flex Lön|1973|2022|123456-7890|923|Avdrag|Avdrag för aktuell person
+Flex Lön|1973|2022|123456-7890|923|Ersättning|Ersättning för aktuell person
+Flex Lön|1973|2022|123456-7890|923|Nettolön|Nettolön för aktuell person
+Flex Lön|1973|2022|123456-7890|923|Närvaro|Närvaro för aktuell period
+Flex Lön|1973|2022|123456-7890|923|Frånvaro|Frånvaro för aktuell period
+Flex Lön|1973|2022|123456-7890|923|Summatid|Summa tid för aktuell period
+Flex Lön|1973|2022|123456-7890|923|Skattberäknadpå|Skatt beräknas på
+Flex Lön|1973|2022|123456-7890|923|SyssGrad|Aktuell sysselsättningsgrad
+Flex Lön|1973|2022|123456-7890|923|Arbetsmått|Arbetsmått (tim/vecka) för heltidsarbetande
+Flex Lön|1973|2022|123456-7890|923|ArbetsmåttFakt|Den anställdes faktiska arbetsmått (tim/vecka)
+Flex Lön|1973|2022|123456-7890|923|Veckoarbetstid|Veckoarbetstid heltid (tim/vecka) (Arbetsmått)
+Flex Lön|1973|2022|123456-7890|923|VeckoarbetstidFakt|Veckoarbetstid faktisk (tim/vecka) (ArbetsmåttFakt)
+Flex Lön|1973|2022|123456-7890|923|NettoDagar|Antal arbetsdagar per vecka
+Flex Lön|1973|2022|123456-7890|923|Månadslön|Heltidsmånadslön enligt personregistret
+Flex Lön|1973|2022|123456-7890|923|MånadslönFakt|Faktisk månadslön enligt personregistret
+Flex Lön|1973|2022|123456-7890|923|Timlön|Timlön enligt personregistret
+Flex Lön|1973|2022|123456-7890|923|EngSkatt|Engångsskatt %
+Flex Lön|1973|2022|123456-7890|923|EngSkattUnderlag|Underlag för engångsskatt
+Flex Lön|1973|2022|123456-7890|923|SemDagLön|Semesterdaglön
+Flex Lön|1973|2022|123456-7890|923|SemDaglönSparad|Semesterdaglön för sparad semester
+Flex Lön|1973|2022|123456-7890|923|SemTillägg|Semestertillägg per dag
+Flex Lön|1973|2022|123456-7890|923|SemTilläggRörlig|Semestertillägg rörlig del, per dag
+Flex Lön|1973|2022|123456-7890|923|SemErsättningProc|Semesterersättning i % enligt avtal
+Flex Lön|1973|2022|123456-7890|923|SemDaglönProc|Semesterdaglön i % av månadslön enligt avtal
+Flex Lön|1973|2022|123456-7890|923|SemGrLönPer|Periodens semesterlönegrundande lön
+Flex Lön|1973|2022|123456-7890|923|SemGrRörligLönPer|Periodens semesterlönegrundande rörlig lön
+Flex Lön|1973|2022|123456-7890|923|AktÅr|Aktuellt år
+Flex Lön|1973|2022|123456-7890|923|SemÅrStartDatAkt|Aktuellt semesterårs startdatum
+Flex Lön|1973|2022|123456-7890|923|SemÅrSlutDatAkt|Aktuellt semesretårs slutdatum
+Flex Lön|1973|2022|123456-7890|923|SemÅrStartDatIntj|Intjänandeårets startdatum
+Flex Lön|1973|2022|123456-7890|923|SemÅrSlutDatIntj|Intjänandeårets slutdatum
+Flex Lön|1973|2022|123456-7890|923|HelMånad|Om radens datum sträcker sig över en månad
+Flex Lön|1973|2022|123456-7890|923|SchTidPer|Periodens schematid (tim)
+Flex Lön|1973|2022|123456-7890|923|SchTidTransDatum|Schematid mellan transaktionens datum (tim)
+Flex Lön|1973|2022|123456-7890|923|SchDgrPer|Antal arbetsdagar i perioden (dgr)
+Flex Lön|1973|2022|123456-7890|923|SchDgrTransDatum|Arbetsdagar mellan transaktionens datum (dgr)
+Flex Lön|1973|2022|123456-7890|923|Prisbasbelopp|Prisbasbelopp
+Flex Lön|1973|2022|123456-7890|923|Inkomstbasbelopp|Inkomstbasbelopp
+Flex Lön|1973|2022|123456-7890|923|AkontoKvarvarandeKr|Kvarvarande saldo i kronor från föregående år
+Flex Lön|1973|2022|123456-7890|923|AkontoKvarvarandeTim|Kvarvarande saldo i timmar från föregående år
+Flex Lön|1973|2022|123456-7890|923|AkontoAvsättningPer|Periodens avsättning till arbetstidskontot
+Flex Lön|1973|2022|123456-7890|923|AkontoAvsättningÅr|Avsättning till arbetstidskontot hittils i år
+Flex Lön|1973|2022|123456-7890|923|SocAvgProc|Den anställdes gällande procentsats för socavg
+Flex Lön|1973|2022|123456-7890|923|SemdgrBetaldaKvar|Antal kvarvarande betalda semesterdagar
+Flex Lön|1973|2022|123456-7890|923|SemdgrObetaldaKvar|Antal kvarvarande obetalda semesterdagar
+Flex Lön|1973|2022|123456-7890|923|SemdgrSparadeKvar|Antal kvarvarande sparade semesterdagar
+Flex Lön|1973|2022|123456-7890|923|SemdgrFörskottKvar|Antal kvarvarande förskottsdagar
+Flex Lön|1973|2022|123456-7890|923|SemRätt|Semesterrätt
+Flex Lön|1973|2022|123456-7890|923|SemdgrBetaldaUttag|Antal uttagna betalda semesterdagar
+Flex Lön|1973|2022|123456-7890|923|SemdgrObetaldaUttag|Antal uttagna obetalda semesterdagar
+Flex Lön|1973|2022|123456-7890|923|SemdgrSparadeUttag|Antal uttagna sparade semesterdagar
+Flex Lön|1973|2022|123456-7890|923|SemdgrFörskottUttag|Antal uttagna förskottsdagar
+Flex Lön|1973|2022|123456-7890|923|AntalKdgrUtbetalningsmånad|Antal kalenderdagar i utbetalningsmånad
+Flex Lön|1973|2022|123456-7890|923|AntalKdgrAvvikelserTomMånad|Antal kalenderdagar i avvikelser t.o.m. -månad
+Flex Lön|1973|2022|123456-7890|923|AntalKdgrTransFromMånad|Antal kalenderdagar i transaktionens fr.o.m. -månad
+Flex Lön|1973|2022|123456-7890|923|AntalKdgrTransDatum|Antal kalenderdagar mellan transaktionens datum
+Flex Lön|1973|2022|123456-7890|923|SchTidAvvikelserTomMånad|Schematid i avvikelser t.o.m. -månad
+Flex Lön|1973|2022|123456-7890|923|Kalenderdagsfaktor|Kalenderdagsfaktor
+Flex Lön|1973|2022|123456-7890|923|AntalSchdgrAvvikelserTomMånad|Antal schemadagar i avvikelser t.o.m. -månad
+Flex Lön|1973|2022|123456-7890|923|AkontoIngåendeKr|Ingående saldo i kronor
+Flex Lön|1973|2022|123456-7890|923|AkontoIngåendeTim|Ingående saldo i timmar
+Flex Lön|1973|2022|123456-7890|923|Kontering1|Konto från aktuell lönerad (rad ett om fördelad)
+Flex Lön|1973|2022|123456-7890|923|Kontering2|Område från aktuell lönerad (rad ett om fördelad)
+Flex Lön|1973|2022|123456-7890|923|Kontering3|Verksamhet från aktuell lönerad (rad ett om fördelad)
+Flex Lön|1973|2022|123456-7890|923|Kontering4|Objekt från aktuell lönerad (rad ett om fördelad)
+Flex Lön|1973|2022|123456-7890|923|Kontering5|Projekt från aktuell lönerad (rad ett om fördelad)
+Flex Lön|1973|2022|123456-7890|923|Semesterkvot|Semesterkvot
+Flex Lön|1973|2022|123456-7890|923|KompIng|Komptid ingående
+Flex Lön|1973|2022|123456-7890|923|KompPer|Komptid perioden
+Flex Lön|1973|2022|123456-7890|923|KompUtg|Komptid utgående
+Flex Lön|1973|2022|123456-7890|923|ÅlderÅr|Antal år den anställde fyller i år
+Flex Lön|1973|2022|123456-7890|923|AntalMånFreTransDatum|Vardagar i transaktionens datumperiod
+Flex Lön|1973|2022|123456-7890|923|SemdgrSparadeÖveruttag|Total överutttag av sparad semester
+Flex Lön|1973|2022|123456-7890|923|LonekodUtbNivaProjekt|Värde från lönekod angiven på projekt
+Flex Lön|1973|2022|123456-7890|923|SemIntermittent|Semesteravtalets daghantering (brutto/netto)
+Flex Lön|1973|2022|123456-7890|923|TransFromDatum|Transaktionens fromdatum
+Flex Lön|1973|2022|123456-7890|923|TransTomDatum|Transaktionens tomdatum
+Flex Lön|1973|2022|123456-7890|923|Saldo4Ing|Eget saldo 4 - Semester timmar ingående
+Flex Lön|1973|2022|123456-7890|923|Saldo4Per|Eget saldo 4 - Semester timmar periodens
+Flex Lön|1973|2022|123456-7890|923|Saldo4Utg|Eget saldo 4 - Semester timmar utgående
+Flex Lön|1973|2022|123456-7890|923|Saldo7Ing|Eget saldo 7 - EA dagar ingående
+Flex Lön|1973|2022|123456-7890|923|Saldo7Per|Eget saldo 7 - EA dagar periodens
+Flex Lön|1973|2022|123456-7890|923|Saldo7Utg|Eget saldo 7 - EA dagar utgående
+Flex Lön|1973|2022|123456-7890|923|Saldo8Ing|Eget saldo 8 - Föräldrapenningstlg 10% ingående
+Flex Lön|1973|2022|123456-7890|923|Saldo8Per|Eget saldo 8 - Föräldrapenningstlg 10% periodens
+Flex Lön|1973|2022|123456-7890|923|Saldo8Utg|Eget saldo 8 - Föräldrapenningstlg 10% utgående
+Flex Lön|1973|2022|123456-7890|923|Saldo9Ing|Eget saldo 9 - Utfyllnad förled över 83,3 % ingående
+Flex Lön|1973|2022|123456-7890|923|Saldo9Per|Eget saldo 9 - Utfyllnad förled över 83,3 % periodens
+Flex Lön|1973|2022|123456-7890|923|Saldo9Utg|Eget saldo 9 - Utfyllnad förled över 83,3 % utgående
+Flex Lön|1973|2022|123456-7890|923|Saldo29Ing|Eget saldo 29 - Friskvård ingående
+Flex Lön|1973|2022|123456-7890|923|Saldo29Per|Eget saldo 29 - Friskvård periodens
+Flex Lön|1973|2022|123456-7890|923|Saldo29Utg|Eget saldo 29 - Friskvård utgående
+Flex Lön|1973|2022|123456-7890|923|Saldo31Ing|Eget saldo 31 - Preliminär skatt ingående
+Flex Lön|1973|2022|123456-7890|923|Saldo31Per|Eget saldo 31 - Preliminär skatt periodens
+Flex Lön|1973|2022|123456-7890|923|Saldo31Utg|Eget saldo 31 - Preliminär skatt utgående
+Flex Lön|1973|2022|123456-7890|923|Saldo32Ing|Eget saldo 32 - Bruttolön ingående
+Flex Lön|1973|2022|123456-7890|923|Saldo32Per|Eget saldo 32 - Bruttolön periodens
+Flex Lön|1973|2022|123456-7890|923|Saldo32Utg|Eget saldo 32 - Bruttolön utgående
+Flex Lön|1973|2022|123456-7890|923|Saldo70Ing|Eget saldo 70 - Kostförmån ingående
+Flex Lön|1973|2022|123456-7890|923|Saldo70Per|Eget saldo 70 - Kostförmån periodens
+Flex Lön|1973|2022|123456-7890|923|Saldo70Utg|Eget saldo 70 - Kostförmån utgående
+Flex Lön|1973|2022|123456-7890|923|Saldo93Ing|Eget saldo 93 - Extra lediga dagar saldo ingående
+Flex Lön|1973|2022|123456-7890|923|Saldo93Per|Eget saldo 93 - Extra lediga dagar saldo periodens
+Flex Lön|1973|2022|123456-7890|923|Saldo93Utg|Eget saldo 93 - Extra lediga dagar saldo utgående
+Flex Lön|1973|2022|123456-7890|923|Saldo200Ing|Eget saldo 200 - Pensionsavgifter ingående
+Flex Lön|1973|2022|123456-7890|923|Saldo200Per|Eget saldo 200 - Pensionsavgifter periodens
+Flex Lön|1973|2022|123456-7890|923|Saldo200Utg|Eget saldo 200 - Pensionsavgifter utgående
+Flex Lön|1973|2022|123456-7890|923|Saldo201Ing|Eget saldo 201 - Försäkringsavgift ingående
+Flex Lön|1973|2022|123456-7890|923|Saldo201Per|Eget saldo 201 - Försäkringsavgift periodens
+Flex Lön|1973|2022|123456-7890|923|Saldo201Utg|Eget saldo 201 - Försäkringsavgift utgående
+Flex Lön|1973|2022|123456-7890|923|Saldo203Ing|Eget saldo 203 - TPA18 >7,5 Ibb ingående
+Flex Lön|1973|2022|123456-7890|923|Saldo203Per|Eget saldo 203 - TPA18 >7,5 Ibb periodens
+Flex Lön|1973|2022|123456-7890|923|Saldo203Utg|Eget saldo 203 - TPA18 >7,5 Ibb utgående
+Flex Lön|1973|2022|123456-7890|923|Saldo210Ing|Eget saldo 210 - Avsättning löneväxling ingående
+Flex Lön|1973|2022|123456-7890|923|Saldo210Per|Eget saldo 210 - Avsättning löneväxling periodens
+Flex Lön|1973|2022|123456-7890|923|Saldo210Utg|Eget saldo 210 - Avsättning löneväxling utgående
+Flex Lön|1973|2022|123456-7890|923|Saldo211Ing|Eget saldo 211 - Kompletterande pensionspremie ingående
+Flex Lön|1973|2022|123456-7890|923|Saldo211Per|Eget saldo 211 - Kompletterande pensionspremie periodens
+Flex Lön|1973|2022|123456-7890|923|Saldo211Utg|Eget saldo 211 - Kompletterande pensionspremie utgående
+Flex Lön|1973|2022|123456-7890|923|N1|Lönetillägg_heltid
+Flex Lön|1973|2022|123456-7890|923|N14|Kalenderdagsfaktor
+Flex Lön|1973|2022|123456-7890|923|N16|Uppehållsfaktor
+Flex Lön|1973|2022|123456-7890|923|N2|Lönetillägg_faktiskt
+Flex Lön|1973|2022|123456-7890|923|N20|Extra_semdagar
+Flex Lön|1973|2022|123456-7890|923|N21|Deltidsfrånvaro_
+Flex Lön|1973|2022|123456-7890|923|N3|Förbehållsbelopp
+Flex Lön|1973|2022|123456-7890|923|N4|Utmätning
+Flex Lön|1973|2022|123456-7890|923|N5|Löneväxling_pension
+Flex Lön|1973|2022|123456-7890|923|N6|Kyrkoherdevikariat
+Flex Lön|1973|2022|123456-7890|923|N7|Frivillig_skatt
+Flex Lön|1973|2022|123456-7890|923|N8|Bilförmån
+Flex Lön|1973|2022|123456-7890|923|N9|80_90_100_modellen
+Flex Lön|1973|2022|123456-7890|923|LKOBA|OB-tillägg A storhelg
+Flex Lön|1973|2022|123456-7890|923|LKOBB|OB-tillägg B helg
+Flex Lön|1973|2022|123456-7890|923|LKOBC|OB-tillägg C natt
+Flex Lön|1973|2022|123456-7890|923|LKOBD|OB-tillägg D kväll
+Flex Lön|1973|2022|123456-7890|923|LKBER1|Beredskap <151 tim
+Flex Lön|1973|2022|123456-7890|923|LKBER2|Beredskap >150 tim
+Flex Lön|1973|2022|123456-7890|923|LKFTE1|Färdtidsersättning 1-10
+Flex Lön|1973|2022|123456-7890|923|LKFTE2|Färdtidsersättning >10
+Flex Lön|1973|2022|123456-7890|923|LKFAFRI|Förskjuten arbetstid fridag
+Flex Lön|1973|2022|123456-7890|923|LKFAÖVR|Förskjuten arbetstid övrig
+Flex Lön|1973|2022|123456-7890|923|LKLÄGFS|Lägerersättning fr-sö
+Flex Lön|1973|2022|123456-7890|923|LKLÄGMT|Lägerersättning må-to
+Flex Lön|1973|2022|123456-7890|923|LKTOB71|Tillägg för OB punkt 7.1
+Flex Lön|1973|2022|123456-7890|923|LKTOB72|Tillägg för OB punkt 7.2

@@ -1,0 +1,34 @@
+﻿system|artal_start|artal_slut|organisationsnummer|foretagsnummer|personnummer|anstallningsnummer|utbetalningsgrupp_id|utbetalningsgrupp_namn|personalkategori|befattning|bksk_kod|bksk_klartext|befattningskod|fornamn|efternamn|skyddad|nationalitet
+Flex Lön|1973|2022|123456-7890|923|19700712-3180|1|0|Månadsutbetalning|MÅN|Musiker||||Mimmi|Musiker||
+Flex Lön|1973|2022|123456-7890|923|19640814-0678|20|0|Månadsutbetalning|MÅN|Vaktmästare|421005|Kyrkvaktmästare||Valter|Vaktis||
+Flex Lön|1973|2022|123456-7890|923|19670626-0640|30|0|Månadsutbetalning|MÅN|Vaktmästare|421005|Kyrkvaktmästare||Vera|Vaktis||
+Flex Lön|1973|2022|123456-7890|923|19540823-0687|40|0|Månadsutbetalning|MÅN|Sjukhuspräst|411004|Sjukhuspräst||Piia|Präst||
+Flex Lön|1973|2022|123456-7890|923|19640303-0643|50|0|Månadsutbetalning|MÅN|Pedagog|414001|Församlingspedagog||Petra|Pedagog||
+Flex Lön|1973|2022|123456-7890|923|19610514-0666|60|0|Månadsutbetalning|MÅN|Kansliachef|433001|Kanslichef/Verksamhetschef||Karin|Kanslist||
+Flex Lön|1973|2022|123456-7890|923|19910509-3133|70|0|Månadsutbetalning|MÅN|Pedagog|414001|Församlingspedagog||Fröken|Fredrik||
+Flex Lön|1973|2022|123456-7890|923|19511206-0677|80|0|Månadsutbetalning|MÅN|Fastighetssamordnare|422006|Fastighetschef||Fabian|Fastigheter||
+Flex Lön|1973|2022|123456-7890|923|19960526-0687|90|0|Månadsutbetalning|MÅN|Diakon|412003|Sjukhusdiakon||Diana|Diakon||
+Flex Lön|1973|2022|123456-7890|923|19781008-0684|100|0|Månadsutbetalning|MÅN|Kyrkoherde|411001|Kyrkoherde||Kicki|Kyrkoherde||
+Flex Lön|1973|2022|123456-7890|923|19800326-0695|110|0|Månadsutbetalning|TIM|Intermittent|421009|Kyrkogårdsarbetare||Pelle|På Stan||
+Flex Lön|1973|2022|123456-7890|923|19891019-3153|120|0|Månadsutbetalning|TIM|Tim med schema|421009|Kyrkogårdsarbetare||Tim|Timmis||
+Flex Lön|1973|2022|123456-7890|923|            |130|0|Månadsutbetalning|TIM|Feriearbetare|421009|Kyrkogårdsarbetare||Felix|ferie||
+Flex Lön|1973|2022|123456-7890|923|19770406-001|140|0|Månadsutbetalning|FÖRT|||||Fred|Förtroende||
+Flex Lön|1973|2022|123456-7890|923|            |150|0|Månadsutbetalning|UPPDR|||||Uffe|Uppdragstagare||
+Flex Lön|1973|2022|123456-7890|923|19880121-0694|160|0|Månadsutbetalning|MÅN|||||Niklas|Ny||
+Flex Lön|1973|2022|123456-7890|923|19860214-3102|170|0|Månadsutbetalning|MÅN|||||Nikki|Ny||
+Flex Lön|1973|2022|123456-7890|923|19411129-0674|300|0|Månadsutbetalning|MÅN|Vaktmästare|421005|Kyrkvaktmästare||Pelle|Pensionär||
+Flex Lön|1973|2022|123456-7890|923|19970823-0637|301|0|Månadsutbetalning|MÅN|Föramslingsassistent|414005|Församlingsassistent||Dennis|Dublett||
+Flex Lön|1973|2022|123456-7890|923|19970823-0637|302|0|Månadsutbetalning|TIM|Ledare barngrupp|414006|Fritids-/ungdomsledare||Dennis|Dublett||
+Flex Lön|1973|2022|123456-7890|923|19630814-0604|303|0|Månadsutbetalning|MÅN|Diakon|412001|Församlingsdiakon||Doris|fr Deltid||
+Flex Lön|1973|2022|123456-7890|923|19950608-3105|304|0|Månadsutbetalning|MÅN|Vaktmästare|421005|Kyrkvaktmästare||Frida|Föräldraledig||
+Flex Lön|1973|2022|123456-7890|923|20010815-0657|305|0|Månadsutbetalning|MÅN|Lokalvårdare|422002|Lokalvårdare||Daniel|Dubbel Frånvaro||
+Flex Lön|1973|2022|123456-7890|923|20040506-0641|306|0|Månadsutbetalning|MÅN|Präst|411004|Sjukhuspräst||Lena|Lönetillägg||
+Flex Lön|1973|2022|123456-7890|923|20061125-0606|307|0|Månadsutbetalning|MÅN|Församlingsassistent|414005|Församlingsassistent||Nettan|Nettolöneavdrag||
+Flex Lön|1973|2022|123456-7890|923|19691208-0618|308|0|Månadsutbetalning|MÅN|Kamrer|433002|Ekonomichef||Lennart|Löneväxling||
+Flex Lön|1973|2022|123456-7890|923|19720817-3174|309|0|Månadsutbetalning|MÅN|HR-assistent|431004|HR-specialist||Sune|Semesterväxling||
+Flex Lön|1973|2022|123456-7890|923|19710207-3140|310|0|Månadsutbetalning|MÅN|Komminister|411002|Komminister||Sabine|Sinkare||
+Flex Lön|1973|2022|123456-7890|923|            |311|0|Månadsutbetalning|UPPDR|||||Ariana|Grande||
+Flex Lön|1973|2022|123456-7890|923|19690326-0609|312|0|Månadsutbetalning|MÅN|Förskolelärare|414002|Förskollärare||Ulla|Uppehållsanställning||
+Flex Lön|1973|2022|123456-7890|923|19800609-3119|313|0|Månadsutbetalning|MÅN|Kyrkvaktmästare|421005|Kyrkvaktmästare||Samuel|Som Slutat||
+Flex Lön|1973|2022|123456-7890|923|19600814-0623|314|0|Månadsutbetalning|UPPDR|||||Test|||
+Flex Lön|1973|2022|123456-7890|923|            |315|0|Månadsutbetalning|MÅN|||||Test|SKAPA||
