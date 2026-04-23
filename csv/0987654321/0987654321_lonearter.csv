@@ -1,0 +1,311 @@
+﻿system|artal_start|artal_slut|organisationsnummer|foretagsnummer|loneartsnummer|personalkategori|loneart_kod|loneart_namn|loneart_formel|underlagstyp_skatt|loneart_konto|loneart_motkonto|ej_underlag_soc_avg|kostnadsavdrag_sov_avg|kostnadsavdrag_soc_avg_procent|fora|kap_kl
+Flex Lön|1973|2022|098765-4321|921|1|(STD)|1|Pension||Tabellskatt|7490||true||0||
+Flex Lön|1973|2022|098765-4321|921|4|(STD)|4|Ersättning engångsskatt||Engångsskatt|7011||||0||
+Flex Lön|1973|2022|098765-4321|921|5|(STD)|5|Konteringsfördelning||Ej Skatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|6|(STD)|6|Särskild ersättning||Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|8|(STD)|8|Ersättning ej pensionsgr||Tabellskatt|7011||||0||
+Flex Lön|1973|2022|098765-4321|921|9|(STD)|9|Ersättning pensionsgr||Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|10|(STD)|10|Timlön|Apris=Timlön|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|11|(STD)|11|Timlön vid ändrad anst|Apris=Timlön|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|14|(STD)|14|Timlön månadsanst|Apris= (Månadslön + N1) /165|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|19|(STD)|19|Timlön retroaktiv||Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|19|TIM|19|Timlön retroaktiv||Engångsskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|30|(STD)|30|80/90/100 modell, debet|Om HelMånad¤Belopp= N9¤Annars¤Apris = N9/ AntalKdgrUtbetalningsmånad¤Antal =  AntalKdgrTransDatum¤Belopp = Apris*Antal¤Slut Om|Tabellskatt|7011||||0||true
+Flex Lön|1973|2022|098765-4321|921|31|(STD)|31|80/90/100 modell, kredit|Om HelMånad¤Belopp= N9¤Annars¤Apris = N9/ AntalKdgrUtbetalningsmånad¤Antal =  AntalKdgrTransDatum¤Belopp = Antal * Apris¤Slut Om|Tabellskatt|7011||||0||
+Flex Lön|1973|2022|098765-4321|921|38|(STD)|38|80/90/100 retro, debet||Engångsskatt|7011||||0||true
+Flex Lön|1973|2022|098765-4321|921|39|(STD)|39|80/90/100 retro, kredit||Engångsskatt|7011||||0||
+Flex Lön|1973|2022|098765-4321|921|60|(STD)|60|Arbetsdagar timanställd||Ej Skatt|||true||0||
+Flex Lön|1973|2022|098765-4321|921|62|(STD)|62|Ruta 62 Första anställd|Antal = 1|Tabellskatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|70|(STD)|70|Månadslön|Om HelMånad¤Belopp= MånadslönFakt + N9¤Apris = 0¤Annars¤Antal =  AntalKdgrTransDatum¤Apris = (MånadslönFakt+ N9)/ AntalKdgrUtbetalningsmånad¤Belopp = Antal*Apris¤Slut Om¤Omfattning= VeckoarbetstidFakt/Veckoarbetstid|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|71|(STD)|71|Daglön, del av månad|Om HelMånad¤Belopp=MånadslönFakt+ N9¤Apris = 0¤Annars¤Antal =  AntalKdgrTransDatum¤Apris = (MånadslönFakt + N9)/ AntalKdgrAvvikelserTomMånad¤Belopp = Antal*Apris¤Slut Om|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|74|(STD)|74|Periodens närvarotid||Tabellskatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|75|(STD)|75|Timmar- arbetsgivarintyg||Tabellskatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|79|(STD)|79|Månadslön retroaktiv||Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|80|(STD)|80|Uppehållslön|Om HelMånad¤Belopp=(MånadslönFakt+N2+N9)*N16¤Apris=0¤Annars¤Antal=AntalKdgrTransDatum¤Apris=(MånadslönFakt+N2+N9)*N16/AntalKdgrUtbetalningsmånad¤Belopp=Antal*Apris¤Slut Om|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|81|(STD)|81|Uppehållslöneavdrag|Om HelMånad¤Belopp=(MånadslönFakt+N2+N9)*(1-N16)¤Apris=0¤Annars¤Antal=AntalKdgrTransDatum¤Apris =(MånadslönFakt+N2+N9)*(1-N16)/AntalKdgrUtbetalningsmånad¤Belopp=Antal*Apris¤Slut Om|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|85|(STD)|85|Arvode A-Sink socavg||Tabellskatt|7110||||0||
+Flex Lön|1973|2022|098765-4321|921|86|(STD)|86|Arvode A- Sink ej socavg||Tabellskatt|7110||true||0||
+Flex Lön|1973|2022|098765-4321|921|87|(STD)|87|Arvode A-Sink kostn avdr||Tabellskatt|7110|||true|30||
+Flex Lön|1973|2022|098765-4321|921|90|(STD)|90|Arvode uppdragstagare||Tabellskatt|7120||||0||
+Flex Lön|1973|2022|098765-4321|921|91|(STD)|91|Arvode beslutande organ||Tabellskatt|7130||||0||
+Flex Lön|1973|2022|098765-4321|921|92|(STD)|92|Arvode verkst organ||Tabellskatt|7140||||0||
+Flex Lön|1973|2022|098765-4321|921|93|(STD)|93|Arvode artister||Tabellskatt|7110|||true|30||
+Flex Lön|1973|2022|098765-4321|921|94|(STD)|94|Arvode till kyrkvärdar||Tabellskatt|7160||||0||
+Flex Lön|1973|2022|098765-4321|921|95|(STD)|95|Arvode revisorer||Tabellskatt|7150||||0||
+Flex Lön|1973|2022|098765-4321|921|98|(STD)|98|Ers förl arb.ink beslut||Tabellskatt|7130||||0||
+Flex Lön|1973|2022|098765-4321|921|99|(STD)|99|Ers förl arb.ink verkst||Tabellskatt|7140||||0||
+Flex Lön|1973|2022|098765-4321|921|100|(STD)|100|Avgångsvederlag||Tabellskatt|7017||||0|true|
+Flex Lön|1973|2022|098765-4321|921|101|(STD)|101|Avgångsvederlag engångs||Engångsskatt|7017||||0|true|
+Flex Lön|1973|2022|098765-4321|921|102|(STD)|102|Månadslön arbetsbefriad|Om HelMånad¤Belopp= MånadslönFakt + N9¤Apris = 0¤Annars¤Antal =  AntalKdgrTransDatum¤Apris = (MånadslönFakt+ N9)/ AntalKdgrUtbetalningsmånad¤Belopp = Antal*Apris¤Slut Om|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|103|(STD)|103|Pens.gr avgångsvederlag||Tabellskatt|7017||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|107|(STD)|107|Extra arbuppg enl 18.1|Apris=Timlön*1.2|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|107|TIM|107|Extra arbuppg enl 18.1|Apris=Timlön*1.2|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|108|(STD)|108|Extra arbuppg enl 18.2|Apris=Timlön*1.8|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|108|TIM|108|Extra arbuppg enl 18.2|Apris=Timlön*1.8|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|109|(STD)|109|Extra arbuppg enl 18.3|Apris=Timlön*2.4|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|109|TIM|109|Extra arbuppg enl 18.3|Apris=Timlön*2,4|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|110|(STD)|110|Lönetillägg|Om HelMånad¤Belopp= N2¤Apris = 0¤Annars¤Antal =  AntalKdgrTransDatum¤Apris = N2/ AntalKdgrUtbetalningsmånad¤Belopp = Antal*Apris¤Slut Om|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|111|(STD)|111|Bruttolöneavdrag||Tabellskatt|7018||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|115|(STD)|115|Utbetalning komp|Apris= (Månadslön+N1)*0.0073|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|116|(STD)|116|Korrigering flex/timbank|Apris= (Månadslön + N1) /165|Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|210|(STD)|210|Övertid enkel|Apris=(Månadslön+N1)/165*1,8|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|210|TIM|210|Övertid enkel|Apris= Timlön*0,8|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|211|(STD)|211|Övertid kvalificerad|Apris=(Månadslön+N1)/165*2,4|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|211|TIM|211|Övertid kvalificerad|Apris=Timlön*1,4|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|212|(STD)|212|Fyllnadslön|Apris=(Månadslön+N1)/165*1,2|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|212|TIM|212|Fyllnadslön|Apris= Timlön*1,2|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|213|(STD)|213|Timlön vid övertid|Apris=Timlön|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|219|(STD)|219|Övertid retroaktiv||Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|228|(STD)|228|Tillägg för OB punkt 7.1|Apris= LKTOB71|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|228|TIM|228|Tillägg för OB punkt 7.1|Apris= LKTOB71|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|229|(STD)|229|Tillägg för OB punkt 7.2|Apris= LKTOB72|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|229|TIM|229|Tillägg för OB punkt 7.2|Apris= LKTOB72|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|230|(STD)|230|OB-tillägg D, kväll|Apris= LKOBD|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|230|TIM|230|OB-ersättning D, kväll|Apris= LKOBD|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|231|(STD)|231|OB-tillägg C, natt|Apris = LKOBC|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|231|TIM|231|OB-ersättning C, natt|Apris = LKOBC|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|232|(STD)|232|OB-tillägg B, helg|Apris = LKOBB|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|232|TIM|232|OB-ersättning B, helg|Apris = LKOBB|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|233|(STD)|233|OB-tillägg A,storhelg|Apris = LKOBA|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|233|TIM|233|OB-ersättning A,storhelg|Apris = LKOBA|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|240|(STD)|240|Beredskap <151 tim/mån|Apris = LKBER1|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|240|TIM|240|Beredskap <151 tim/mån|Apris = LKBER1|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|241|(STD)|241|Beredskap helg <151 tim|Apris = LKBER1 * 2|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|241|TIM|241|Beredskap helg <151 tim|Apris = LKBER1 * 2|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|242|(STD)|242|Beredskap  >150 tim|Apris = LKBER2|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|242|TIM|242|Beredskap  >150 tim|Apris = LKBER2|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|243|(STD)|243|Beredskap helg >150 tim|Apris = LKBER2*2|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|243|TIM|243|Beredskap helg >150 tim|Apris =LKBER2*2|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|255|(STD)|255|Telefonjour präster||Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|260|(STD)|260|Förskjuten arbt fridag|Apris = LKFAFRI|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|261|(STD)|261|Förskjuten arbt fri+50|Apris = LKFAFRI*1,5|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|262|(STD)|262|Förskjuten arbt övrig|Apris = LKFAÖVR|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|263|(STD)|263|Förskjuten arbt övr +50|Apris = LKFAÖVR*1,5|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|270|(STD)|270|Färdtidsersättning 1-10|Apris = LKFTE1|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|271|(STD)|271|Färdtidsersättning > 10|Apris = LKFTE2|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|289|(STD)|289|ANVÄNDS EJ||Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|290|(STD)|290|Kyrkoherdevikariat||Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|291|(STD)|291|Lägerersättning mån-tors|Apris = LKLÄGMT|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|291|TIM|291|Lägerersättning mån-tors|Apris = LKLÄGMT|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|292|(STD)|292|Lägerersättning fre-sön|Apris = LKLÄGFS|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|292|TIM|292|Lägerersättning fre-sön|Apris = LKLÄGFS|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|293|(STD)|293|Lägerersättning LOK|Belopp=Antal*Apris|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|293|TIM|293|Lägerersättning LOK||Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|298|(STD)|298|Kyrkoherdevik retroaktiv||Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|299|(STD)|299|Tjänstepensionpremie||Engångsskatt|7011||||0||
+Flex Lön|1973|2022|098765-4321|921|299|TIM|299|Tjänstepensionpremie||Engångsskatt|7012||||0||
+Flex Lön|1973|2022|098765-4321|921|300|(STD)|300|Flexsaldo||Ej Skatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|310|(STD)|310|Kompsaldo|Antal=(LartA(316)*1,5)+(LartA(317)*2)-LartA(115)-LartA(555)-LartA(311)+LartA(315)|Ej Skatt|||true||0||
+Flex Lön|1973|2022|098765-4321|921|311|(STD)|311|Kompledighet||Ej Skatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|315|(STD)|315|Övertid till komp, 1||Ej Skatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|316|(STD)|316|Övertid till komp, 1,5||Ej Skatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|317|(STD)|317|Övertid till komp, 2,0||Ej Skatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|398|(STD)|398|Justering löneart 299 +||Tabellskatt|7011||||0||
+Flex Lön|1973|2022|098765-4321|921|399|(STD)|399|Justering löneart 299 -|Belopp = LartB(398) * -1|Tabellskatt|7011||true||0||
+Flex Lön|1973|2022|098765-4321|921|400|(STD)|400|Karensavdrag|Om N21 = 0 Och N16 = 0¤KALENDERDAGLON = ((MånadslönFakt+ N2+N9)/AntalKdgrTransFromMånad)¤Annars Om N21 <> 0 Och N16 = 0¤KALENDERDAGLON = (((MånadslönFakt+ N2+N9)*((100-N21)/100))/AntalKdgrTransFromMånad)¤Annars Om N21 = 0 Och N16 <> 0¤KALENDERDAGLON = ((MånadslönFakt+ N2+N9)*N16/AntalKdgrTransFromMånad)¤Annars Om N21 <> 0 Och N16 <> 0¤KALENDERDAGLON = (((MånadslönFakt+ N2+N9)*((100-N21)/100))*N16/AntalKdgrTransFromMånad)¤SLUT Om¤KARENS = KALENDERDAGLON * 1,4 * 0,8¤FOREGANEDEKARENS = DatumLartB(400) * -1¤KARENS = KARENS - FOREGANEDEKARENS¤SJUKLON = DatumLartB(403)¤Om (KARENS+FOREGANEDEKARENS) > SJUKLON¤Belopp = SJUKLON - FOREGANEDEKARENS¤Annars¤Belopp = KARENS¤SLUT Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|400|TIM|400|Karensavdrag|Om N21 = 0 Och N16 = 0¤KALENDERDAGLON = ((LartA(10)*Timlön)/AntalKdgrTransFromMånad)¤Annars Om N21 <> 0 Och N16 = 0¤KALENDERDAGLON = (((LartA(10)*Timlön)*((100-N21)/100))/AntalKdgrTransFromMånad)¤Annars Om N21 = 0 Och N16 <> 0¤KALENDERDAGLON = ((LartA(10)*Timlön)*N16/AntalKdgrTransFromMånad)¤Annars Om N21 <> 0 Och N16 <> 0¤KALENDERDAGLON = (((LartA(10)*Timlön)*((100-N21)/100))*N16/AntalKdgrTransFromMånad)¤SLUT Om¤KARENS = KALENDERDAGLON * 1,4 * 0,8¤FOREGANEDEKARENS = DatumLartB(400) * -1¤KARENS = KARENS - FOREGANEDEKARENS¤SJUKLON = DatumLartB(403)¤Om (KARENS+FOREGANEDEKARENS) > SJUKLON¤Belopp = SJUKLON - FOREGANEDEKARENS¤Annars¤Belopp = KARENS¤SLUT Om|Tabellskatt|7012||||0|true|
+Flex Lön|1973|2022|098765-4321|921|401|(STD)|401|Sjukavdrag karensdag|Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Annars¤Apris=((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|401|TIM|401|Sjukavdrag karensdag|Apris= Timlön|Tabellskatt|7012||||0|true|
+Flex Lön|1973|2022|098765-4321|921|402|(STD)|402|Sjukavdrag dag 1 - 14|Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Annars¤Apris=((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|402|TIM|402|Sjukavdrag dag 1 - 14|Apris= Timlön|Tabellskatt|7012||||0|true|
+Flex Lön|1973|2022|098765-4321|921|403|(STD)|403|Sjuklön 80% dag 1 - 14|Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning*0.8¤Annars¤Apris=((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning*0.8¤Slut Om|Tabellskatt|7080||||0|true|
+Flex Lön|1973|2022|098765-4321|921|403|TIM|403|Sjuklön 80%|Apris = Timlön*0,8|Tabellskatt|7012||||0|true|
+Flex Lön|1973|2022|098765-4321|921|404|(STD)|404|Sjukavdrag dag 15 - 90|Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|404|TIM|404|Sjukavdrag dag 15 - 90|Apris= Timlön|Tabellskatt|7012||||0|true|
+Flex Lön|1973|2022|098765-4321|921|405|(STD)|405|Sjuklön 10% dag 15-90|Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt + N2+ N9)*Omfattning*0.1¤Annars¤Belopp= ((MånadslönFakt* N16) + N2+ N9)*Omfattning*0.1¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt + N2+ N9)/ AntalKdgrAvvikelserTomMånad* Omfattning*0.1¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16) + N2+ N9)/ AntalKdgrAvvikelserTomMånad* Omfattning*0.1¤Belopp= Antal*Apris¤Slut Om¤Slut Om|Tabellskatt|7080||||0|true|
+Flex Lön|1973|2022|098765-4321|921|405|TIM|405|Sjuklön dag 15-90|Apris= Timlön*0.1|Tabellskatt|7012||||0|true|
+Flex Lön|1973|2022|098765-4321|921|406|(STD)|406|Sjukavdrag > 90dgr|Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|406|TIM|406|Sjukavdrag > 90dgr|Apris=Timlön|Tabellskatt|7012||||0|true|
+Flex Lön|1973|2022|098765-4321|921|407|(STD)|407|Sjuklön >10 Pbb|Apris= ((((MånadslönFakt + N2+ N9) /AntalKdgrAvvikelserTomMånad) * 0.776) - ((((Prisbasbelopp * 0,8333)*12)/365)*0.776))*Omfattning|Tabellskatt|7080||||0|true|
+Flex Lön|1973|2022|098765-4321|921|409|(STD)|409|Sjukavdrag retroaktiv||Engångsskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|410|(STD)|410|Sjukavdrag innev månad|Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt + N2+ N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16) + N2+ N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt + N2+ N9)/ AntalKdgrUtbetalningsmånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16) + N2+ N9)/ AntalKdgrUtbetalningsmånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|411|(STD)|411|Sjukl >10 Pbb innev mån|Apris= ((((MånadslönFakt + N2+ N9) /AntalKdgrUtbetalningsmånad) * 0.776) - ((((Prisbasbelopp * 0,8333)*12)/365)*0.776))*Omfattning|Tabellskatt|7080||||0|true|
+Flex Lön|1973|2022|098765-4321|921|412|(STD)|412|Sjukavdrag >364 dgr|Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|413|(STD)|413|Sjuklön >10 Pbb|Apris= ((((MånadslönFakt + N2+ N9) /AntalKdgrAvvikelserTomMånad) * 0.7275) - ((((Prisbasbelopp * 0,8333)*12)/365)*0.7275))*Omfattning|Tabellskatt|7080||||0|true|
+Flex Lön|1973|2022|098765-4321|921|414|(STD)|414|Sjukavd >364 dgr innev m|Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt + N2+ N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16) + N2+ N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt + N2+ N9)/ AntalKdgrUtbetalningsmånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16) + N2+ N9)/ AntalKdgrUtbetalningsmånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|415|(STD)|415|Sjukl >10 Pbb innev mån|Apris= ((((MånadslönFakt + N2+ N9) /AntalKdgrUtbetalningsmånad) * 0.7275) - ((((Prisbasbelopp * 0,8333)*12)/365)*0.7275))*Omfattning|Tabellskatt|7080||||0|true|
+Flex Lön|1973|2022|098765-4321|921|421|(STD)|421|Sjukavdr ej sjukp 1-14|Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|421|TIM|421|Sjukavdr ej sjukp 1-14|Apris=Timlön|Tabellskatt|7012||||0|true|
+Flex Lön|1973|2022|098765-4321|921|422|(STD)|422|Sjukl 77,6% ej sjkp 1-14|Om N16=0¤Apris=(((MånadslönFakt + N2+ N9)/AntalKdgrAvvikelserTomMånad)*Omfattning)*0.776¤Annars¤Apris=((((MånadslönFakt + N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*Omfattning)*0.776¤Slut Om|Tabellskatt|7080||||0|true|
+Flex Lön|1973|2022|098765-4321|921|422|TIM|422|Sjukl 77,6% ej sjkp 1-14|Apris=Timlön*0,776|Tabellskatt|7080||||0|true|
+Flex Lön|1973|2022|098765-4321|921|423|(STD)|423|Sjukavdr ej sjukp 15-90|Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|423|TIM|423|Sjukavdr ej sjukp 15-90|Apris=Timlön|Tabellskatt|7012||||0|true|
+Flex Lön|1973|2022|098765-4321|921|424|(STD)|424|Sjukl 87,3% ej sjkp15-90|Om N16=0¤Apris=(((MånadslönFakt + N2+ N9)/AntalKdgrAvvikelserTomMånad)*Omfattning)*0.873¤Annars¤Apris=((((MånadslönFakt + N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*Omfattning)*0.873¤Slut Om|Tabellskatt|7080||||0|true|
+Flex Lön|1973|2022|098765-4321|921|424|TIM|424|Sjukl 87,3% ej sjkp15-90|Apris=Timlön*0,873|Tabellskatt|7080||||0|true|
+Flex Lön|1973|2022|098765-4321|921|425|(STD)|425|Sjukavdr ej sjukp 91-|Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|425|TIM|425|Sjukavdr ej sjukp 91-|Apris=Timlön|Tabellskatt|7012||||0|true|
+Flex Lön|1973|2022|098765-4321|921|426|(STD)|426|Sjukl 77,6% ej sjkp 91-|Om N16=0¤Apris=(((MånadslönFakt + N2+ N9)/AntalKdgrAvvikelserTomMånad)*Omfattning)*0.776¤Annars¤Apris=((((MånadslönFakt + N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*Omfattning)*0.776¤Slut Om|Tabellskatt|7080||||0|true|
+Flex Lön|1973|2022|098765-4321|921|426|TIM|426|Sjukl 77,6% ej sjkp 91-|Apris=Timlön*0,776|Tabellskatt|7080||||0|true|
+Flex Lön|1973|2022|098765-4321|921|427|(STD)|427|Sjukavdr ej sjukp 365-|Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|428|(STD)|428|Sjukl 72,75% ej sjkp 365|Om N16=0¤Apris=(((MånadslönFakt + N2+ N9)/AntalKdgrAvvikelserTomMånad)*Omfattning)*0.7275¤Annars¤Apris=((((MånadslönFakt + N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*Omfattning)*0.7275¤Slut Om|Tabellskatt|7080||||0|true|
+Flex Lön|1973|2022|098765-4321|921|430|(STD)|430|Sjuklön OB-ers D, kväll|Apris= LKOBD*0,8|Tabellskatt|7080||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|431|(STD)|431|Sjuklön OB-ers C, natt|Apris = LKOBC*0,8|Tabellskatt|7080||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|432|(STD)|432|Sjuklön OB-ers B, helg|Apris = LKOBB*0,8|Tabellskatt|7080||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|433|(STD)|433|SjuklönOB-ers A,storhelg|Apris = LKOBA*0,8|Tabellskatt|7080||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|434|(STD)|434|Sjuklön Bered <151|Apris= LKBER1*0,8|Tabellskatt|7080||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|435|(STD)|435|Sjuklön Bered <151 helg|Apris= (LKBER1*2)*0,8|Tabellskatt|7080||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|436|(STD)|436|Sjuklön Bered >150|Apris= LKBER2*0,8|Tabellskatt|7080||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|437|(STD)|437|Sjuklön Bered >150 helg|Apris= (LKBER2*2)*0,8|Tabellskatt|7080||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|439|(STD)|439|Sjuklön retroaktiv||Engångsskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|440|(STD)|440|Rehabavdrag dag 1-90|Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|441|(STD)|441|Rehabpenning dag 1-90|Apris = ((MånadslönFakt+N2+ N9)/AntalKdgrAvvikelserTomMånad*Omfattning)*0,1|Tabellskatt|7080||||0|true|
+Flex Lön|1973|2022|098765-4321|921|442|(STD)|442|Rehabavdrag > 90dgr|Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|443|(STD)|443|Rehabpenning >10 Pbb|Apris= ((((MånadslönFakt + N2+ N9) /AntalKdgrAvvikelserTomMånad) * 0.776) - ((((Prisbasbelopp * 0,8333)*12)/365)*0.776))*Omfattning|Tabellskatt|7080||||0|true|
+Flex Lön|1973|2022|098765-4321|921|450|(STD)|450|Förebyggande sjukpenning|Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|452|(STD)|452|Smittbärare avdr 1-14|Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Annars¤Apris=((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|452|TIM|452|Smittbärare avdr 1-14|Apris=Timlön|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|453|(STD)|453|Smittbärare avdr 15-90|Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|453|TIM|453|Smittbärare avdr 15-90|Apris=Timlön|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|454|(STD)|454|Smittbärare avdr >90dgr|Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|454|TIM|454|Smittbärare avdr >90dgr|Apris=Timlön|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|455|(STD)|455|Smittbäraravdrag retro||Engångsskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|501|(STD)|501|Semester betald||Tabellskatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|502|(STD)|502|Semester obetald||Tabellskatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|503|(STD)|503|Semester sparad||Tabellskatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|504|(STD)|504|Obetalt semesteravdrag|Antal= SchDgrTransDatum¤Apris= ((MånadslönFakt+N2+N9) *(LL01*1,4))*((100-N21)/100)/ AntalKdgrAvvikelserTomMånad¤Belopp= Antal*Apris|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|510|(STD)|510|Semesterlön|Apris= (MånadslönFakt + N2+ N9) * SemDaglönProc|Tabellskatt|7011||||0||
+Flex Lön|1973|2022|098765-4321|921|511|(STD)|511|Semesteravdrag|Apris= (MånadslönFakt + N2+ N9) * SemDaglönProc|Tabellskatt|7011||||0||
+Flex Lön|1973|2022|098765-4321|921|515|(STD)|515|Semesterlön sparade dgr|Apris= (MånadslönFakt + N2+ N9) * SemDaglönProc|Tabellskatt|7011||||0||
+Flex Lön|1973|2022|098765-4321|921|520|(STD)|520|Sem tillägg omv bet dgr|Om N20 = 1¤Apris = 0¤Belopp = 0¤Antal = Larta(536)/(VeckoarbetstidFakt/5)¤Slut Om¤Om N21=>0¤Apris=((MånadslönFakt+N2+N9) * 0,00605)*((100-N21)/100)¤Belopp=Antal*Apris¤Antal = Larta(536)/((VeckoarbetstidFakt/5)*((100-N21)/100))¤Om (N20=1) OCH (N21=>0)¤Apris=0¤Belopp=0¤Slut Om¤Annars¤Apris= ((MånadslönFakt+N2+N9) * 0,00605)¤Belopp=Antal*Apris¤Antal = Larta(536)/(VeckoarbetstidFakt/5)¤Slut Om|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|521|(STD)|521|Semtillägg omv spa dgr|Apris= ((MånadslönFakt+N2+N9) * 0,00605)*((100-N21)/100)¤Belopp= Antal*Apris¤Antal = Larta(537)/(VeckoarbetstidFakt*((100-N21)/100)/5)|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|522|(STD)|522|Semestertillägg 0,605%|Apris= ((MånadslönFakt+N2+N9) * 0,00605)*((100-N21)/100)|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|523|(STD)|523|Semesterlönetillägg|Apris =((21127*SyssGrad)- (MånadslönFakt+N2))*0,0521¤Om SemdgrBetaldaUttag < 25¤Antal = LartA(501)¤Annars¤Antal = (SemdgrBetaldaUttag - LartA(501) -25)*-1¤Slut Om|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|524|(STD)|524|Uppehållslönetillägg||Tabellskatt|7080||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|536|(STD)|536|Sem omv till tim bet dgr|Antal= (VeckoarbetstidFakt*((100-N21)/100)/5)¤Belopp=0|Ej Skatt|||true||0||
+Flex Lön|1973|2022|098765-4321|921|537|(STD)|537|Sem omv till tim spa dgr|Antal= (VeckoarbetstidFakt*((100-N21)/100)/5)¤Belopp=0|Ej Skatt|||true||0||
+Flex Lön|1973|2022|098765-4321|921|538|(STD)|538|Uttag semester i timmar||Tabellskatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|540|(STD)|540|Semester bet kontant|Apris =SemDagLön+SemTillägg|Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|541|(STD)|541|Semester sparad kontant|Apris =SemDagLön+SemTillägg|Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|542|(STD)|542|Överskjutande betald sem|Apris =SemDagLön+SemTillägg|Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|543|(STD)|543|Överskjutande sparad sem|Apris =SemDagLön+SemTillägg|Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|547|(STD)|547|Semers vid < 40%|Om ÅlderÅr < 40¤Belopp = LartB(70,110,406,410,412,414,440,442,504,602,603,606,609,612,659, 660,661,664)*0,1296¤Annars¤Om ÅlderÅr > 50¤Belopp = LartB(70,110,406,410,412,414,440,442,504,602,603,606,609,612,659,660,661,664)*0,1536¤Annars¤Belopp = LartB(70,110,406,410,412,414,440,442,504,602,603,606,609,612,659,660,661,664)*0,1488¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|549|(STD)|549|Semesterers övrigt|Belopp = (SemGrLönPer + SemGrRörligLönPer) * SemErsättningProc|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|550|(STD)|550|Semesterersättning|Om ÅlderÅr < 40 Och Timlön <128¤Apris= 15,40 + (Timlön*0.0096)¤Annars¤Om ÅlderÅr < 40 Och Timlön >=128¤Apris= Timlön*0.1296¤Slut Om¤Slut Om¤Om ÅlderÅr > 50 Och Timlön <128¤Apris= 15,40 + (Timlön*0,0336)¤Annars¤Om ÅlderÅr > 50 Och Timlön >=128¤Apris= Timlön*0,1536¤Slut Om¤Slut Om¤Om Timlön <128 Och ÅlderÅr >=40 Och ÅlderÅr <=50¤Apris= 15,40 + (Timlön*0.0288)¤Annars¤Apris= Timlön*0,1488¤Slut Om|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|550|TIM|550|Semesterersättning|Om ÅlderÅr < 40 Och Timlön <128¤Apris= 15,40 + (Timlön*0.0096)¤Annars¤Om ÅlderÅr < 40 Och Timlön >=128¤Apris= Timlön*0.1296¤Slut Om¤Slut Om¤Om ÅlderÅr > 50 Och Timlön <128¤Apris= 15,40 + (Timlön*0,0336)¤Annars¤Om ÅlderÅr > 50 Och Timlön >=128¤Apris= Timlön*0,1536¤Slut Om¤Slut Om¤Om Timlön <128 Och ÅlderÅr >=40 Och ÅlderÅr <=50¤Apris= 15,40 + (Timlön*0.0288)¤Annars¤Apris= Timlön*0,1488¤Slut Om|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|551|(STD)|551|Slutlön intjänad sem||Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|553|(STD)|553|Slutlön sparad sem||Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|554|(STD)|554|Slutlön flex/tim-bank|Apris= (Månadslön + N1) /165|Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|555|(STD)|555|Slutlön kompsaldo|Apris= (Månadslön+N1)*0.0073|Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|556|(STD)|556|Slutlön semestertimmar|Antal= Saldo4Ing - LartA(538)¤Apris= SemDagLön / (VeckoarbetstidFakt/5)|Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|559|(STD)|559|Semester retroaktiv||Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|560|(STD)|560|Uppehållslön slutlön||Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|570|(STD)|570|Semesteravdr under 40 %||Tabellskatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|571|(STD)|571|Extra lediga dagar saldo|Antal=-LartA(572)|Tabellskatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|572|(STD)|572|Extra lediga dagar uttag||Tabellskatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|599|(STD)|599|Olovlig frånvaro|Apris =(Månadslön+N1)/165|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|599|TIM|599|Olovlig frånvaro|Apris= Timlön|Tabellskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|600|(STD)|600|Justering FP/GP föreg m|Belopp= (((LartB(609)+LartB(612))*-1) - (MånadslönFakt+N2+N9))|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|601|(STD)|601|Tjänstledighet, tim|Apris =(Månadslön+N1)/165|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|601|TIM|601|Tjänstledighet, tim||Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|602|(STD)|602|Tjänstled del av månad|Om N16=0¤Apris=(((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*Omfattning¤Belopp= Apris* Antal¤Annars¤Om N16 > 0¤Apris= (((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|603|(STD)|603|Tjänstledighet dagar|Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|605|(STD)|605|Närståendevård tim|Apris =(Månadslön+N1)/165|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|606|(STD)|606|Närståendevård|Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|607|(STD)|607|Omvårdnadsledighet|Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|609|(STD)|609|Graviditetspenning|Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|610|(STD)|610|Tillf föräldrapenning|Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|610|TIM|610|Tillf föräldrapenning|Apris= Timlön|Tabellskatt|7012||||0|true|
+Flex Lön|1973|2022|098765-4321|921|612|(STD)|612|Föräldraledig dagar|Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|613|(STD)|613|Föräldraledig, tim|Apris =(Månadslön+N1)/165|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|614|(STD)|614|Led vid barns födelse|Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|615|(STD)|615|Fp-tillägg 10% 180 dgr|Om N16=0¤Apris = ((MånadslönFakt + N2)/ AntalKdgrAvvikelserTomMånad*Omfattning)*0,1¤Annars¤Apris = ((MånadslönFakt + N2)*N16/ AntalKdgrAvvikelserTomMånad*Omfattning)*0,1¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|615|TIM|615|Fp-tillägg 10% 180 dgr|Apris = ((MånadslönFakt +N2)*N16/ AntalKdgrAvvikelserTomMånad*N14*Omfattning)*0,1|Tabellskatt|7012||||0|true|
+Flex Lön|1973|2022|098765-4321|921|616|(STD)|616|F-ledig mlön >83,3% 270d|B= ((MånadslönFakt + N2)/AntalKdgrAvvikelserTomMånad)* 0.776¤C= (Prisbasbelopp*10)/365*0.776¤Apris= (B-C)*Omfattning¤Antal= AntalKdgrTransDatum¤Belopp= Antal*Apris|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|617|(STD)|617|Studieledig <60% semlgr|Om HelMånad¤Apris = 0¤Belopp = (MånadslönFakt+N2+N9)* Omfattning¤Annars¤Apris = (MånadslönFakt+N2+N9)*N16/AntalKdgrAvvikelserTomMånad*(LL01*1,4)*Omfattning¤Belopp = Antal * Apris¤Slut Om|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|618|(STD)|618|Studieledig tim ej semgr|Apris =(Månadslön+N1)/165|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|619|(STD)|619|Studieledighet ej sem gr|Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|620|(STD)|620|Studled hel mån ej semgr|Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|621|(STD)|621|Facklig led med lön, tim||Ej Skatt|7011||true||0||
+Flex Lön|1973|2022|098765-4321|921|622|(STD)|622|Facklig led med lön dgr||Ej Skatt|7011||true||0||
+Flex Lön|1973|2022|098765-4321|921|623|(STD)|623|Facklig utb u lön, tim|Apris =(Månadslön+N1)/165|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|624|(STD)|624|Facklig utb u lön, dgr|Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|625|(STD)|625|Facklig led utan lön tim|Apris =(Månadslön+N1)/165|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|626|(STD)|626|Facklig led utan lön dgr|Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|627|(STD)|627|Facklig utb m lön, tim||Ej Skatt|7011||true||0||
+Flex Lön|1973|2022|098765-4321|921|628|(STD)|628|Facklig utb m lön dgr||Ej Skatt|7011||true||0||
+Flex Lön|1973|2022|098765-4321|921|630|(STD)|630|Ensk angelägenhet -10dgr||Ej Skatt|7011||true||0||
+Flex Lön|1973|2022|098765-4321|921|650|(STD)|650|Semesterjustering  < 40%||Ej Skatt|||true||0||
+Flex Lön|1973|2022|098765-4321|921|659|(STD)|659|Tj led innev del av mån|Om N16=0¤Antal = AntalKdgrTransDatum¤Apris=(((MånadslönFakt + N2+ N9))/AntalKdgrUtbetalningsmånad)*Omfattning¤Belopp= Apris* Antal¤Annars¤Om N16 > 0¤Antal = AntalKdgrTransDatum¤Apris= (((MånadslönFakt + N2+N9)*N16)/AntalKdgrUtbetalningsmånad)*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|660|(STD)|660|Tjänstledig innev månad|Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt + N2+ N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt + N2+ N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrUtbetalningsmånad)*(LL01*1,4))*Omfattning¤Belopp= Apris* Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrUtbetalningsmånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|661|(STD)|661|Föräldraled innev månad|Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt + N2+ N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt + N2+ N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrUtbetalningsmånad)*(LL01*1,4))*Omfattning¤Belopp= Apris* Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrUtbetalningsmånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|662|(STD)|662|Fp-tillägg 10% innev mån|Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt + N2)*Omfattning*0.1¤Annars¤Belopp= ((MånadslönFakt* N16) + N2)*Omfattning*0.1¤Slut Om¤Annars¤Om N16=0¤Apris=((MånadslönFakt + N2)/ AntalKdgrUtbetalningsmånad* Omfattning)*0.1¤Belopp=Antal*Apris¤Annars¤Apris=(((MånadslönFakt* N16) + N2)/ AntalKdgrUtbetalningsmånad* Omfattning)*0.1¤Belopp= Antal*Apris¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|663|(STD)|663|F-led >83,3% innev mån|B= ((MånadslönFakt + N2)/AntalKdgrUtbetalningsmånad)* 0.776¤C= (Prisbasbelopp*10)/365*0.776¤Apris= (B-C)*Omfattning¤Antal= AntalKdgrTransDatum¤Belopp= Antal*Apris|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|664|(STD)|664|Graviditetsp innev månad|Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt + N2+ N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt + N2+ N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrUtbetalningsmånad)*(LL01*1,4))*Omfattning¤Belopp= Apris* Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrUtbetalningsmånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|665|(STD)|665|Justering FP/GP innev m|Belopp= (((LartB(661)+LartB(664))*-1) - (MånadslönFakt+N2+N9))|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|669|(STD)|669|Fasta belopp retroaktivt||Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|669|TIM|669|Fasta belopp retroaktivt||Engångsskatt|7012||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|694|(STD)|694|Kompl pensionspremie||Ej Skatt|7490|2930|true||0||
+Flex Lön|1973|2022|098765-4321|921|695|(STD)|695|Avdrag kompl pensionspr|Belopp=(Saldo211Per)*-1|Ej Skatt|7490|2930|true||0||
+Flex Lön|1973|2022|098765-4321|921|696|(STD)|696|Pension, löneväxling|Belopp= N5|Tabellskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|697|(STD)|697|Tjänstledigt retroaktiv||Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|698|(STD)|698|Närståendevård retro||Engångsskatt|7011||||0|true|true
+Flex Lön|1973|2022|098765-4321|921|699|(STD)|699|Graviditetspenning retro||Engångsskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|700|(STD)|700|Tillf föräldrap retro||Engångsskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|701|(STD)|701|Föräldraledighet retro||Engångsskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|702|(STD)|702|Led vid barns föd retro||Engångsskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|703|(STD)|703|Fp-tillägg 10 % retro||Engångsskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|704|(STD)|704|F-ledig mlön>83,3% retro||Engångsskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|705|(STD)|705|Omvårdnadsledighet retro||Engångsskatt|7011||||0|true|
+Flex Lön|1973|2022|098765-4321|921|710|(STD)|710|Utlägg inrikes||Ej Skatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|711|(STD)|711|Utlägg utrikes||Ej Skatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|712|(STD)|712|Utlägg friskvård||Ej Skatt|7693||||0||
+Flex Lön|1973|2022|098765-4321|921|715|(STD)|715|Representation avdragsgi||Ej Skatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|716|(STD)|716|Representation ej avdr||Ej Skatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|717|(STD)|717|Utlägg moms||Ej Skatt|2640||true||0||
+Flex Lön|1973|2022|098765-4321|921|720|(STD)|720|Friskvård via ekonomi||Ej Skatt|7693||||0||
+Flex Lön|1973|2022|098765-4321|921|721|(STD)|721|Friskvård ekonomi avdrag|Belopp = LartB(720) *-1|Ej Skatt|7693||||0||
+Flex Lön|1973|2022|098765-4321|921|731|(STD)|731|Bilersättning skfr|Apris= 1.85|Ej Skatt|7331||||0||
+Flex Lön|1973|2022|098765-4321|921|732|(STD)|732|Bilersättning skpl|Apris= 1.55|Tabellskatt|7332||||0||
+Flex Lön|1973|2022|098765-4321|921|733|(STD)|733|Mil ers motorcykel, skfr|Apris= 0.9|Ej Skatt|7331||||0||
+Flex Lön|1973|2022|098765-4321|921|736|(STD)|736|Tj bil tj kilometer bens|Apris= 0.95|Ej Skatt|5611||true||0||
+Flex Lön|1973|2022|098765-4321|921|737|(STD)|737|Tj bil tj kilometer dise|Apris= 0.65|Ej Skatt|5611||true||0||
+Flex Lön|1973|2022|098765-4321|921|739|(STD)|739|Milers övrigt, skfr|Apris=1.85|Ej Skatt|7331||||0||
+Flex Lön|1973|2022|098765-4321|921|740|(STD)|740|Milers övrigt, skpl||Tabellskatt|7332||||0||
+Flex Lön|1973|2022|098765-4321|921|741|(STD)|741|Bilers bostad - arbete|Apris=3.40|Tabellskatt|7332||||0||
+Flex Lön|1973|2022|098765-4321|921|742|(STD)|742|Inställelseresa skpl||Tabellskatt|||||0||
+Flex Lön|1973|2022|098765-4321|921|745|(STD)|745|Åkningsanslag||Tabellskatt|7332||||0||
+Flex Lön|1973|2022|098765-4321|921|760|(STD)|760|Trakt inrikes skfri|Apris=240|Ej Skatt|7321||||0||
+Flex Lön|1973|2022|098765-4321|921|761|(STD)|761|Resetillägg heldag||Tabellskatt|7322||||0||
+Flex Lön|1973|2022|098765-4321|921|762|(STD)|762|Resetillägg halvdag||Tabellskatt|7322||||0||
+Flex Lön|1973|2022|098765-4321|921|765|(STD)|765|Nattraktamente skfr|Apris=120|Ej Skatt|7321||||0||
+Flex Lön|1973|2022|098765-4321|921|770|(STD)|770|Traktamente utland skfri||Ej Skatt|7324||||0||
+Flex Lön|1973|2022|098765-4321|921|780|(STD)|780|Måltidsavdrag inr sk fri||Ej Skatt|7321||||0||
+Flex Lön|1973|2022|098765-4321|921|787|(STD)|787|Måltidsavdrag utr sk fri||Ej Skatt|7324||||0||
+Flex Lön|1973|2022|098765-4321|921|790|(STD)|790|Kostnadsersättning||Ej Skatt|7390||true||0||
+Flex Lön|1973|2022|098765-4321|921|790|TIM|790|Kostnadsersättning||Ej Skatt|7390||true||0||
+Flex Lön|1973|2022|098765-4321|921|830|(STD)|830|Bilförmån|Antal= 1¤Belopp= N8|Tabellskatt|7380|7380|||0||
+Flex Lön|1973|2022|098765-4321|921|835|(STD)|835|Drivmedelsförmån||Tabellskatt|7380|7380|||0||
+Flex Lön|1973|2022|098765-4321|921|836|(STD)|836|Drivmedelsförmån 20%|Belopp = LartB(835) * 0,2|Tabellskatt|7380|7380|true||0||
+Flex Lön|1973|2022|098765-4321|921|860|(STD)|860|Avdrag ersättningar||Ej Skatt|||true||0||
+Flex Lön|1973|2022|098765-4321|921|890|(STD)|890|Förmån Rikskortet||Tabellskatt|7380|7380|||0||
+Flex Lön|1973|2022|098765-4321|921|891|(STD)|891|Kostförmån övrig||Tabellskatt|7380|7380|||0||
+Flex Lön|1973|2022|098765-4321|921|893|(STD)|893|Kostförmån frukost||Tabellskatt|7380|7380|||0||
+Flex Lön|1973|2022|098765-4321|921|894|(STD)|894|Kostförmån||Tabellskatt|7380|7380|||0||
+Flex Lön|1973|2022|098765-4321|921|895|(STD)|895|Övrig förmån||Tabellskatt|7390|7390|||0||
+Flex Lön|1973|2022|098765-4321|921|896|(STD)|896|Parkeringsförmån||Tabellskatt|7390|7390|||0||
+Flex Lön|1973|2022|098765-4321|921|898|(STD)|898|Bostadsförmån, ej pensgr||Tabellskatt|7380|7380|||0||
+Flex Lön|1973|2022|098765-4321|921|912|(STD)|912|Skatt||Ej Skatt|2710||||0||
+Flex Lön|1973|2022|098765-4321|921|913|(STD)|913|Engångsskatt||Ej Skatt|2710||||0||
+Flex Lön|1973|2022|098765-4321|921|914|(STD)|914|Frivillig skatt|Om Nettolön - N7 >0¤Belopp= N7*-1¤Annars¤Belopp= 0¤Slut Om|Ej Skatt|2710||||0||
+Flex Lön|1973|2022|098765-4321|921|915|(STD)|915|Skattjustering||Ej Skatt|2710||||0||
+Flex Lön|1973|2022|098765-4321|921|916|(STD)|916|Skattejust automatisk||Ej Skatt|2710||||0||
+Flex Lön|1973|2022|098765-4321|921|917|(STD)|917|Skatt A-Sink|Belopp = (LartB(85,86,87)*0,15)*-1|Ej Skatt|2710||true||0||
+Flex Lön|1973|2022|098765-4321|921|921|(STD)|921|Löneförskott, netto||Ej Skatt|1610||true||0||
+Flex Lön|1973|2022|098765-4321|921|924|(STD)|924|Nettolöneavdrag||Ej Skatt|3690||true||0||
+Flex Lön|1973|2022|098765-4321|921|925|(STD)|925|Rikskortet||Ej Skatt|1610||||0||
+Flex Lön|1973|2022|098765-4321|921|926|(STD)|926|TPA18 >7,5 Ibb|Belopp= (Saldo200Per-((7,5*Inkomstbasbelopp)/12))|Tabellskatt|7011||||0||
+Flex Lön|1973|2022|098765-4321|921|927|(STD)|927|Avdrag TPA18 >7,5 Ibb|Belopp= (Saldo200Per-((7,5*Inkomstbasbelopp)/12))*-1|Tabellskatt|7011||||0||
+Flex Lön|1973|2022|098765-4321|921|930|(STD)|930|Utmätning|A=Bruttolön+LartB(912,913)¤Om (N3-A) < 0¤Om ((A - N4) < N3)¤Belopp = (N3 - A) * -1¤Annars¤Belopp = N4¤Slut Om¤Annars¤Belopp=0¤Slut Om|Ej Skatt|2750||true||0||
+Flex Lön|1973|2022|098765-4321|921|935|(STD)|935|ANVÄNDS EJ||Ej Skatt|1610||true||0||
+Flex Lön|1973|2022|098765-4321|921|945|(STD)|945|Återbetalning lön brutto||Tabellskatt|7011||||0||
+Flex Lön|1973|2022|098765-4321|921|946|(STD)|946|Återbetalning lön||Ej Skatt|1610||true||0||
+Flex Lön|1973|2022|098765-4321|921|950|(STD)|950|Semesterskuld||Ej Skatt|7090|2920|true||0||
+Flex Lön|1973|2022|098765-4321|921|951|(STD)|951|Soc avg semlöneskuld||Ej Skatt|7519|2940|true||0||
+Flex Lön|1973|2022|098765-4321|921|960|(STD)|960|Kompskuld|Apris= (Månadslön+N1)*0.0073|Ej Skatt|7090|2910|true||0||
+Flex Lön|1973|2022|098765-4321|921|961|(STD)|961|Soc avg kompskuld||Ej Skatt|7519|2940|true||0||
+Flex Lön|1973|2022|098765-4321|921|994|(STD)|994|Bruttoskuld fr föreg lön||Tabellskatt|1610||||0||
+Flex Lön|1973|2022|098765-4321|921|995|(STD)|995|Bruttoskuld till n lön||Tabellskatt|1610||||0||
+Flex Lön|1973|2022|098765-4321|921|996|(STD)|996|Nettoskuld fr föreg lön||Ej Skatt|||true||0||
+Flex Lön|1973|2022|098765-4321|921|997|(STD)|997|Nettoskuld till n lön||Ej Skatt|||true||0||
+Flex Lön|1973|2022|098765-4321|921|998|(STD)|998|Öresutjämning||Ej Skatt|3740||||0||
+Flex Lön|1973|2022|098765-4321|921|999|(STD)|999|Sociala avgifter||Ej Skatt|7510|2730|||0||

@@ -1,0 +1,132 @@
+﻿system|artal_start|artal_slut|organisationsnummer|foretagsnummer|personnummer|anstallningsnummer|lonekorningsnummer|utbetalningsgrupp_id|utbetalningsgrupp_namn|utbetalningsdatum|fornamn|efternamn|lonespec
+Flex Lön|1973|2022|098765-4321|921|            |1|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Mimmi|Musiker|lonespecifikationer\098765-4321__1_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Valter|Vaktis|lonespecifikationer\098765-4321_197606280696_20_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |30|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Vera|Vaktis|lonespecifikationer\098765-4321__30_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |40|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Piia|Präst|lonespecifikationer\098765-4321__40_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19650927-0689|50|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Petra|Pedagog|lonespecifikationer\098765-4321_196509270689_50_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |60|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Karin|Kanslist|lonespecifikationer\098765-4321__60_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |70|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Fröken|Fredrik|lonespecifikationer\098765-4321__70_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Fabian|Fastigheter|lonespecifikationer\098765-4321_197608010695_80_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19780525-3148|90|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Diana|Diakon|lonespecifikationer\098765-4321_197805253148_90_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |100|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Kicki|Kyrkoherde|lonespecifikationer\098765-4321__100_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19610514-0666|110|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Pelle|På Stan|lonespecifikationer\098765-4321_196105140666_110_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |120|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Tim|Timmis|lonespecifikationer\098765-4321__120_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |140|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Fred|Förtroende|lonespecifikationer\098765-4321__140_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |150|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Uffe|Uppdragstagare|lonespecifikationer\098765-4321__150_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |300|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Pelle|Pensionär|lonespecifikationer\098765-4321__300_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |301|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Dennis|Dublett|lonespecifikationer\098765-4321__301_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |302|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Dennis|Dublett|lonespecifikationer\098765-4321__302_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |303|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Doris|fr Deltid|lonespecifikationer\098765-4321__303_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |304|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Frida|Föräldraledig|lonespecifikationer\098765-4321__304_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |305|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Daniel|Dubbel Frånvaro|lonespecifikationer\098765-4321__305_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |306|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Lena|Lönetillägg|lonespecifikationer\098765-4321__306_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |307|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Nettan|Nettolöneavdrag|lonespecifikationer\098765-4321__307_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |308|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Lennart|Löneväxling|lonespecifikationer\098765-4321__308_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |309|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Sune|Semesterväxling|lonespecifikationer\098765-4321__309_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |310|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Sabine|Sinkare|lonespecifikationer\098765-4321__310_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |311|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Arian|Grande|lonespecifikationer\098765-4321__311_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |312|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Ulla|Uppehållsanställning|lonespecifikationer\098765-4321__312_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |313|2020-09|1|Månadsutbetalning|2020-09-25T00:00:00|Samuel|Som Slutat|lonespecifikationer\098765-4321__313_202009_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |1|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Mimmi|Musiker|lonespecifikationer\098765-4321__1_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Valter|Vaktis|lonespecifikationer\098765-4321_197606280696_20_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |30|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Vera|Vaktis|lonespecifikationer\098765-4321__30_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |40|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Piia|Präst|lonespecifikationer\098765-4321__40_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19650927-0689|50|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Petra|Pedagog|lonespecifikationer\098765-4321_196509270689_50_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |60|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Karin|Kanslist|lonespecifikationer\098765-4321__60_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |70|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Fröken|Fredrik|lonespecifikationer\098765-4321__70_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Fabian|Fastigheter|lonespecifikationer\098765-4321_197608010695_80_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19780525-3148|90|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Diana|Diakon|lonespecifikationer\098765-4321_197805253148_90_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |100|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Kicki|Kyrkoherde|lonespecifikationer\098765-4321__100_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19610514-0666|110|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Pelle|På Stan|lonespecifikationer\098765-4321_196105140666_110_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |120|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Tim|Timmis|lonespecifikationer\098765-4321__120_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |140|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Fred|Förtroende|lonespecifikationer\098765-4321__140_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |150|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Uffe|Uppdragstagare|lonespecifikationer\098765-4321__150_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |300|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Pelle|Pensionär|lonespecifikationer\098765-4321__300_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |301|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Dennis|Dublett|lonespecifikationer\098765-4321__301_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |302|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Dennis|Dublett|lonespecifikationer\098765-4321__302_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |303|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Doris|fr Deltid|lonespecifikationer\098765-4321__303_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |304|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Frida|Föräldraledig|lonespecifikationer\098765-4321__304_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |305|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Daniel|Dubbel Frånvaro|lonespecifikationer\098765-4321__305_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |306|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Lena|Lönetillägg|lonespecifikationer\098765-4321__306_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |307|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Nettan|Nettolöneavdrag|lonespecifikationer\098765-4321__307_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |308|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Lennart|Löneväxling|lonespecifikationer\098765-4321__308_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |309|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Sune|Semesterväxling|lonespecifikationer\098765-4321__309_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |310|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Sabine|Sinkare|lonespecifikationer\098765-4321__310_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |311|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Arian|Grande|lonespecifikationer\098765-4321__311_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |312|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Ulla|Uppehållsanställning|lonespecifikationer\098765-4321__312_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |313|2020-10|1|Månadsutbetalning|2020-10-23T00:00:00|Samuel|Som Slutat|lonespecifikationer\098765-4321__313_202010_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |1|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Mimmi|Musiker|lonespecifikationer\098765-4321__1_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Valter|Vaktis|lonespecifikationer\098765-4321_197606280696_20_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |30|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Vera|Vaktis|lonespecifikationer\098765-4321__30_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |40|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Piia|Präst|lonespecifikationer\098765-4321__40_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19650927-0689|50|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Petra|Pedagog|lonespecifikationer\098765-4321_196509270689_50_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |60|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Karin|Kanslist|lonespecifikationer\098765-4321__60_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |70|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Fröken|Fredrik|lonespecifikationer\098765-4321__70_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Fabian|Fastigheter|lonespecifikationer\098765-4321_197608010695_80_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |100|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Kicki|Kyrkoherde|lonespecifikationer\098765-4321__100_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19610514-0666|110|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Pelle|På Stan|lonespecifikationer\098765-4321_196105140666_110_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |120|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Tim|Timmis|lonespecifikationer\098765-4321__120_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |140|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Fred|Förtroende|lonespecifikationer\098765-4321__140_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |150|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Uffe|Uppdragstagare|lonespecifikationer\098765-4321__150_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |300|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Pelle|Pensionär|lonespecifikationer\098765-4321__300_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |301|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Dennis|Dublett|lonespecifikationer\098765-4321__301_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |302|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Dennis|Dublett|lonespecifikationer\098765-4321__302_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |303|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Doris|fr Deltid|lonespecifikationer\098765-4321__303_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |304|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Frida|Föräldraledig|lonespecifikationer\098765-4321__304_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |305|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Daniel|Dubbel Frånvaro|lonespecifikationer\098765-4321__305_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |306|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Lena|Lönetillägg|lonespecifikationer\098765-4321__306_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |307|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Nettan|Nettolöneavdrag|lonespecifikationer\098765-4321__307_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |308|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Lennart|Löneväxling|lonespecifikationer\098765-4321__308_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |309|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Sune|Semesterväxling|lonespecifikationer\098765-4321__309_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |310|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Sabine|Sinkare|lonespecifikationer\098765-4321__310_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |311|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Arian|Grande|lonespecifikationer\098765-4321__311_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |312|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Ulla|Uppehållsanställning|lonespecifikationer\098765-4321__312_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |313|2020-11|1|Månadsutbetalning|2020-11-27T00:00:00|Samuel|Som Slutat|lonespecifikationer\098765-4321__313_202011_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |1|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Mimmi|Musiker|lonespecifikationer\098765-4321__1_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Valter|Vaktis|lonespecifikationer\098765-4321_197606280696_20_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |30|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Vera|Vaktis|lonespecifikationer\098765-4321__30_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |40|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Piia|Präst|lonespecifikationer\098765-4321__40_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19650927-0689|50|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Petra|Pedagog|lonespecifikationer\098765-4321_196509270689_50_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |60|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Karin|Kanslist|lonespecifikationer\098765-4321__60_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |70|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Fröken|Fredrik|lonespecifikationer\098765-4321__70_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Fabian|Fastigheter|lonespecifikationer\098765-4321_197608010695_80_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |100|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Kicki|Kyrkoherde|lonespecifikationer\098765-4321__100_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19610514-0666|110|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Pelle|På Stan|lonespecifikationer\098765-4321_196105140666_110_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |120|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Tim|Timmis|lonespecifikationer\098765-4321__120_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |140|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Fred|Förtroende|lonespecifikationer\098765-4321__140_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |150|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Uffe|Uppdragstagare|lonespecifikationer\098765-4321__150_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |300|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Pelle|Pensionär|lonespecifikationer\098765-4321__300_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |301|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Dennis|Dublett|lonespecifikationer\098765-4321__301_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |302|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Dennis|Dublett|lonespecifikationer\098765-4321__302_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |303|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Doris|fr Deltid|lonespecifikationer\098765-4321__303_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |304|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Frida|Föräldraledig|lonespecifikationer\098765-4321__304_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |305|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Daniel|Dubbel Frånvaro|lonespecifikationer\098765-4321__305_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |306|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Lena|Lönetillägg|lonespecifikationer\098765-4321__306_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |307|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Nettan|Nettolöneavdrag|lonespecifikationer\098765-4321__307_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |308|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Lennart|Löneväxling|lonespecifikationer\098765-4321__308_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |309|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Sune|Semesterväxling|lonespecifikationer\098765-4321__309_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |310|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Sabine|Sinkare|lonespecifikationer\098765-4321__310_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |312|2020-12|1|Månadsutbetalning|2020-12-23T00:00:00|Ulla|Uppehållsanställning|lonespecifikationer\098765-4321__312_202012_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |1|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Mimmi|Musiker|lonespecifikationer\098765-4321__1_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Valter|Vaktis|lonespecifikationer\098765-4321_197606280696_20_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |30|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Vera|Vaktis|lonespecifikationer\098765-4321__30_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |40|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Piia|Präst|lonespecifikationer\098765-4321__40_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19650927-0689|50|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Petra|Pedagog|lonespecifikationer\098765-4321_196509270689_50_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |60|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Karin|Kanslist|lonespecifikationer\098765-4321__60_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Fabian|Fastigheter|lonespecifikationer\098765-4321_197608010695_80_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |100|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Kicki|Kyrkoherde|lonespecifikationer\098765-4321__100_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|19610514-0666|110|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Pelle|På Stan|lonespecifikationer\098765-4321_196105140666_110_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |120|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Tim|Timmis|lonespecifikationer\098765-4321__120_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |140|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Fred|Förtroende|lonespecifikationer\098765-4321__140_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |150|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Uffe|Uppdragstagare|lonespecifikationer\098765-4321__150_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |300|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Pelle|Pensionär|lonespecifikationer\098765-4321__300_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |301|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Dennis|Dublett|lonespecifikationer\098765-4321__301_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |302|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Dennis|Dublett|lonespecifikationer\098765-4321__302_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |303|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Doris|fr Deltid|lonespecifikationer\098765-4321__303_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |304|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Frida|Föräldraledig|lonespecifikationer\098765-4321__304_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |305|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Daniel|Dubbel Frånvaro|lonespecifikationer\098765-4321__305_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |306|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Lena|Lönetillägg|lonespecifikationer\098765-4321__306_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |307|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Nettan|Nettolöneavdrag|lonespecifikationer\098765-4321__307_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |308|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Lennart|Löneväxling|lonespecifikationer\098765-4321__308_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |310|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Sabine|Sinkare|lonespecifikationer\098765-4321__310_202201_lonespec.html
+Flex Lön|1973|2022|098765-4321|921|            |312|2022-01|1|Månadsutbetalning|2022-01-25T00:00:00|Ulla|Uppehållsanställning|lonespecifikationer\098765-4321__312_202201_lonespec.html

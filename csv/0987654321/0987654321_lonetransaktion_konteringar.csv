@@ -1,0 +1,379 @@
+﻿system|artal_start|artal_slut|organisationsnummer|foretagsnummer|personnummer|anstallningsnummer|fordelning_id|lonekorningsnummer|utbetalningsgrupp_id|utbetalningsgrupp_namn|transaktion_id|dim01_namn|dim01_varde|dim02_namn|dim02_varde|dim03_namn|dim03_varde|dim04_namn|dim04_varde|dim05_namn|dim05_varde|dim06_namn|dim06_varde|dim07_namn|dim07_varde|dim08_namn|dim08_varde|dim09_namn|dim09_varde|dim10_namn|dim10_varde|procentfordelning
+Flex Lön|1973|2022|098765-4321|921|            |1|1|2020-09|1|Månadsutbetalning|1|Konto|7120|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |1|1|2020-09|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |1|1|2020-09|1|Månadsutbetalning|4|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |1|1|2020-09|1|Månadsutbetalning|6|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |1|1|2020-09|1|Månadsutbetalning|7|Konto|1610|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |1|1|2020-10|1|Månadsutbetalning|1|Konto|1610|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |1|1|2020-10|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |1|1|2020-10|1|Månadsutbetalning|3|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |1|1|2020-11|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |1|1|2020-11|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |1|1|2020-11|1|Månadsutbetalning|3|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |1|1|2020-12|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |1|1|2020-12|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |1|1|2020-12|1|Månadsutbetalning|5|Konto|1610|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |1|1|2022-01|1|Månadsutbetalning|1|Konto|1610|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |1|1|2022-01|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |1|1|2022-01|1|Månadsutbetalning|3|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|1|2020-09|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|1|2020-09|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|1|2020-09|1|Månadsutbetalning|3|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|1|2020-09|1|Månadsutbetalning|4|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|1|2020-10|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|1|2020-10|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|1|2020-11|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|1|2020-11|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|1|2020-12|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|1|2020-12|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|1|2020-12|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|1|2020-12|1|Månadsutbetalning|4|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|1|2020-12|1|Månadsutbetalning|5|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|1|2020-12|1|Månadsutbetalning|6|Konto|3740|K-ställe|900|Projekt|6900|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|1|2022-01|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|1|2022-01|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |30|1|2020-09|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |30|1|2020-09|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |30|1|2020-09|1|Månadsutbetalning|3|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |30|1|2020-10|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |30|1|2020-10|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |30|1|2020-11|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |30|1|2020-11|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |30|1|2020-12|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |30|1|2020-12|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |30|1|2022-01|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |30|1|2022-01|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |40|1|2020-09|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |40|1|2020-09|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |40|1|2020-09|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |40|1|2020-09|1|Månadsutbetalning|4|Konto|7080|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |40|1|2020-09|1|Månadsutbetalning|5|Konto|3740|K-ställe|900|Projekt|6900|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |40|1|2020-10|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |40|1|2020-10|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |40|1|2020-11|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |40|1|2020-11|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |40|1|2020-12|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt|1100|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |40|1|2020-12|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |40|1|2020-12|1|Månadsutbetalning|3|Konto|2790|K-ställe||Projekt|1100|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |40|1|2022-01|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |40|1|2022-01|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19650927-0689|50|1|2020-09|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19650927-0689|50|1|2020-09|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19650927-0689|50|1|2020-09|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19650927-0689|50|1|2020-09|1|Månadsutbetalning|6|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19650927-0689|50|1|2020-10|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19650927-0689|50|1|2020-10|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19650927-0689|50|1|2020-11|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19650927-0689|50|1|2020-11|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19650927-0689|50|1|2020-12|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19650927-0689|50|1|2020-12|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19650927-0689|50|1|2022-01|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19650927-0689|50|1|2022-01|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |60|1|2020-09|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |60|1|2020-09|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |60|1|2020-09|1|Månadsutbetalning|3|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |60|1|2020-09|1|Månadsutbetalning|4|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |60|1|2020-09|1|Månadsutbetalning|6|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |60|1|2020-10|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |60|1|2020-10|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |60|1|2020-11|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |60|1|2020-11|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |60|1|2020-12|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |60|1|2020-12|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |60|1|2022-01|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |60|1|2022-01|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |70|1|2020-09|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |70|1|2020-09|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |70|1|2020-09|1|Månadsutbetalning|3|Konto|1610|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |70|1|2020-09|1|Månadsutbetalning|5|Konto|1610|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |70|1|2020-10|1|Månadsutbetalning|1|Konto|1610|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |70|1|2020-10|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |70|1|2020-10|1|Månadsutbetalning|3|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |70|1|2020-11|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |70|1|2020-11|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|1|2020-09|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|1|2020-09|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|1|2020-09|1|Månadsutbetalning|3|Konto|7490|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|1|2020-09|1|Månadsutbetalning|4|Konto|7490|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|1|2020-10|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|1|2020-10|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|1|2020-11|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|1|2020-11|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|1|2020-12|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|1|2020-12|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|1|2020-12|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|1|2020-12|1|Månadsutbetalning|4|Konto|3740|K-ställe|900|Projekt|6900|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|1|2020-12|1|Månadsutbetalning|5|Konto|7390|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|1|2022-01|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|1|2022-01|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19780525-3148|90|1|2020-09|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19780525-3148|90|1|2020-09|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19780525-3148|90|1|2020-09|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19780525-3148|90|1|2020-09|1|Månadsutbetalning|5|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19780525-3148|90|1|2020-09|1|Månadsutbetalning|7|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19780525-3148|90|1|2020-10|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19780525-3148|90|1|2020-10|1|Månadsutbetalning|9|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19780525-3148|90|1|2020-10|1|Månadsutbetalning|10|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19780525-3148|90|1|2020-10|1|Månadsutbetalning|11|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19780525-3148|90|1|2020-10|1|Månadsutbetalning|12|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2020-09|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2020-09|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2020-09|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2020-09|1|Månadsutbetalning|4|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2020-10|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2020-10|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2020-10|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2020-10|1|Månadsutbetalning|4|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2020-11|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2020-11|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2020-11|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2020-11|1|Månadsutbetalning|4|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2020-12|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2020-12|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2020-12|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2020-12|1|Månadsutbetalning|4|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2022-01|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2022-01|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2022-01|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |100|1|2022-01|1|Månadsutbetalning|4|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19610514-0666|110|1|2020-09|1|Månadsutbetalning|1|Konto|7012|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19610514-0666|110|1|2020-09|1|Månadsutbetalning|2|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19610514-0666|110|1|2020-09|1|Månadsutbetalning|3|Konto|7012|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19610514-0666|110|1|2020-09|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19610514-0666|110|1|2020-09|1|Månadsutbetalning|5|Konto|3740|K-ställe|900|Projekt|6900|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19610514-0666|110|1|2020-09|1|Månadsutbetalning|6|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|19610514-0666|110|1|2020-09|1|Månadsutbetalning|7|Konto|7012|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |140|1|2020-09|1|Månadsutbetalning|15|Konto|7140|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |140|1|2020-09|1|Månadsutbetalning|16|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |140|1|2020-09|1|Månadsutbetalning|17|Konto|7140|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |140|1|2020-09|1|Månadsutbetalning|18|Konto|1610|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |140|1|2020-10|1|Månadsutbetalning|1|Konto|1610|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |140|1|2020-10|1|Månadsutbetalning|2|Konto|1610|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |140|1|2020-11|1|Månadsutbetalning|1|Konto|1610|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |140|1|2020-11|1|Månadsutbetalning|3|Konto|7140|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |140|1|2020-11|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2020-09|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2020-09|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2020-09|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2020-09|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2020-10|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2020-10|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2020-10|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2020-10|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2020-11|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2020-11|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2020-11|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2020-11|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2020-12|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2020-12|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2020-12|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2020-12|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2022-01|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2022-01|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2022-01|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |300|1|2022-01|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2020-09|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2020-09|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2020-09|1|Månadsutbetalning|3|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2020-09|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2020-10|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2020-10|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2020-10|1|Månadsutbetalning|3|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2020-10|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2020-11|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2020-11|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2020-11|1|Månadsutbetalning|3|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2020-11|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2020-12|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2020-12|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2020-12|1|Månadsutbetalning|3|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2020-12|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2022-01|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2022-01|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2022-01|1|Månadsutbetalning|3|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |301|1|2022-01|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-09|1|Månadsutbetalning|1|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-09|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-09|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-09|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-09|1|Månadsutbetalning|5|Konto|3740|K-ställe|900|Projekt|6900|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-10|1|Månadsutbetalning|1|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-10|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-10|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-10|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-10|1|Månadsutbetalning|5|Konto|3740|K-ställe|900|Projekt|6900|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-11|1|Månadsutbetalning|1|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-11|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-11|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-11|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-11|1|Månadsutbetalning|5|Konto|3740|K-ställe|900|Projekt|6900|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-12|1|Månadsutbetalning|1|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-12|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-12|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-12|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2020-12|1|Månadsutbetalning|5|Konto|3740|K-ställe|900|Projekt|6900|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2022-01|1|Månadsutbetalning|1|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2022-01|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2022-01|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2022-01|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |303|1|2022-01|1|Månadsutbetalning|5|Konto|3740|K-ställe|900|Projekt|6900|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-09|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-09|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-09|1|Månadsutbetalning|3|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-09|1|Månadsutbetalning|4|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-09|1|Månadsutbetalning|5|Konto|3740|K-ställe|900|Projekt|6900|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-10|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-10|1|Månadsutbetalning|2|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-10|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-10|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-10|1|Månadsutbetalning|5|Konto|3740|K-ställe|900|Projekt|6900|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-11|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-11|1|Månadsutbetalning|2|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-11|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-11|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-11|1|Månadsutbetalning|5|Konto|3740|K-ställe|900|Projekt|6900|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-12|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-12|1|Månadsutbetalning|2|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-12|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-12|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2020-12|1|Månadsutbetalning|5|Konto|3740|K-ställe|900|Projekt|6900|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2022-01|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2022-01|1|Månadsutbetalning|2|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2022-01|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2022-01|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |304|1|2022-01|1|Månadsutbetalning|5|Konto|3740|K-ställe|900|Projekt|6900|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2020-09|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2020-09|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2020-10|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2020-10|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2020-11|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2020-11|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2020-12|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2020-12|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2020-12|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2020-12|1|Månadsutbetalning|4|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2020-12|1|Månadsutbetalning|9|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2020-12|1|Månadsutbetalning|10|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2020-12|1|Månadsutbetalning|11|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2020-12|1|Månadsutbetalning|12|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2020-12|1|Månadsutbetalning|13|Konto|3740|K-ställe|900|Projekt|6900|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2020-12|1|Månadsutbetalning|15|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2020-12|1|Månadsutbetalning|16|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2020-12|1|Månadsutbetalning|17|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2020-12|1|Månadsutbetalning|18|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2022-01|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2022-01|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2022-01|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |305|1|2022-01|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |306|1|2020-09|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |306|1|2020-09|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |306|1|2020-09|1|Månadsutbetalning|3|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |306|1|2020-10|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |306|1|2020-10|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |306|1|2020-10|1|Månadsutbetalning|3|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |306|1|2020-11|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |306|1|2020-11|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |306|1|2020-11|1|Månadsutbetalning|3|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |306|1|2020-12|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |306|1|2020-12|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |306|1|2020-12|1|Månadsutbetalning|3|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |306|1|2020-12|1|Månadsutbetalning|4|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |306|1|2020-12|1|Månadsutbetalning|5|Konto|3740|K-ställe|900|Projekt|6900|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |306|1|2022-01|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |306|1|2022-01|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |306|1|2022-01|1|Månadsutbetalning|3|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |307|1|2020-09|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |307|1|2020-09|1|Månadsutbetalning|2|Konto|3690|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |307|1|2020-09|1|Månadsutbetalning|3|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |307|1|2020-10|1|Månadsutbetalning|1|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |307|1|2020-10|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |307|1|2020-10|1|Månadsutbetalning|3|Konto|3690|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |307|1|2020-10|1|Månadsutbetalning|4|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |307|1|2020-11|1|Månadsutbetalning|1|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |307|1|2020-11|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |307|1|2020-11|1|Månadsutbetalning|3|Konto|3690|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |307|1|2020-11|1|Månadsutbetalning|4|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |307|1|2020-12|1|Månadsutbetalning|1|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |307|1|2020-12|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |307|1|2020-12|1|Månadsutbetalning|3|Konto|3690|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |307|1|2020-12|1|Månadsutbetalning|4|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |307|1|2022-01|1|Månadsutbetalning|1|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |307|1|2022-01|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |307|1|2022-01|1|Månadsutbetalning|3|Konto|3690|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |307|1|2022-01|1|Månadsutbetalning|4|Konto||K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-09|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-09|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-09|1|Månadsutbetalning|3|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-09|1|Månadsutbetalning|4|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-09|1|Månadsutbetalning|5|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-10|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-10|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-10|1|Månadsutbetalning|3|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-10|1|Månadsutbetalning|4|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-10|1|Månadsutbetalning|5|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-11|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-11|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-11|1|Månadsutbetalning|3|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-11|1|Månadsutbetalning|4|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-11|1|Månadsutbetalning|5|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-12|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-12|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-12|1|Månadsutbetalning|3|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-12|1|Månadsutbetalning|4|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2020-12|1|Månadsutbetalning|5|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2022-01|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2022-01|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2022-01|1|Månadsutbetalning|3|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2022-01|1|Månadsutbetalning|4|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |308|1|2022-01|1|Månadsutbetalning|5|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |309|1|2020-09|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |309|1|2020-09|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |309|1|2020-10|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |309|1|2020-10|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |309|1|2020-11|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |309|1|2020-11|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |309|1|2020-12|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |309|1|2020-12|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |309|1|2020-12|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |309|1|2020-12|1|Månadsutbetalning|10|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |309|1|2020-12|1|Månadsutbetalning|11|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |309|1|2020-12|1|Månadsutbetalning|12|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |309|1|2020-12|1|Månadsutbetalning|13|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |309|1|2020-12|1|Månadsutbetalning|14|Konto|3740|K-ställe|900|Projekt|6900|Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |310|1|2020-09|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |310|1|2020-10|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |310|1|2020-11|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |310|1|2020-12|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |310|1|2022-01|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |311|1|2020-09|1|Månadsutbetalning|1|Konto|7110|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |311|1|2020-09|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |311|1|2020-10|1|Månadsutbetalning|1|Konto|7110|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |311|1|2020-10|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |311|1|2020-11|1|Månadsutbetalning|1|Konto|7110|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |311|1|2020-11|1|Månadsutbetalning|2|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |312|1|2020-09|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |312|1|2020-09|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |312|1|2020-09|1|Månadsutbetalning|3|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |312|1|2020-10|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |312|1|2020-10|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |312|1|2020-10|1|Månadsutbetalning|3|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |312|1|2020-11|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |312|1|2020-11|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |312|1|2020-11|1|Månadsutbetalning|3|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |312|1|2020-12|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |312|1|2020-12|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |312|1|2020-12|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |312|1|2020-12|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |312|1|2022-01|1|Månadsutbetalning|1|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |312|1|2022-01|1|Månadsutbetalning|2|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |312|1|2022-01|1|Månadsutbetalning|3|Konto|7011|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |312|1|2022-01|1|Månadsutbetalning|4|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |313|1|2020-09|1|Månadsutbetalning|1|Konto|7017|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |313|1|2020-09|1|Månadsutbetalning|2|Konto|7017|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |313|1|2020-09|1|Månadsutbetalning|3|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |313|1|2020-10|1|Månadsutbetalning|1|Konto|7017|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |313|1|2020-10|1|Månadsutbetalning|2|Konto|7017|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |313|1|2020-10|1|Månadsutbetalning|3|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |313|1|2020-11|1|Månadsutbetalning|1|Konto|7017|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |313|1|2020-11|1|Månadsutbetalning|2|Konto|7017|K-ställe||Projekt||Kund||Artikel||||||||||||100
+Flex Lön|1973|2022|098765-4321|921|            |313|1|2020-11|1|Månadsutbetalning|3|Konto|2710|K-ställe||Projekt||Kund||Artikel||||||||||||100
