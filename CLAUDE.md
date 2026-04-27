@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-Guide for Claude Code when working on this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## What this project is
 
@@ -14,12 +14,41 @@ Arkitekturen utformades så att den inte ska vara alltför bunden till Flex — 
 .
 ├── CLAUDE.md                          # Denna fil
 ├── svk-fgs-personal-anpassning.md     # Anpassningsdokumentet (huvuddokument)
-├── svk-personal-lon.xsd               # XSD-schema för tilläggsschemat
+├── SVK-personal-lon.xsd               # XSD-schema för tilläggsschemat
 ├── svk-personal-lon.sch               # Schematron-regler (XSLT 1-kompatibla)
-└── ...                                # Övriga arbetsfiler, exempel, testdata
+├── create_tables.sql                  # SQLite-schema för CSV-data (för Datasette)
+├── csv/
+│   └── <organisationsnummer>/         # CSV-uttag per arbetsgivare
+│       ├── *_anstallningar.csv
+│       ├── *_lonekorningar.csv
+│       ├── *_lonetransaktioner.csv
+│       └── lonespecifikationer/*.html
+└── pyproject.toml                     # Python-projektfil
 ```
 
-XSD:n ligger också inline i anpassningsdokumentets Bilaga A. Vid ändringar måste båda platserna uppdateras samtidigt.
+OBS: XSD-filen heter `SVK-personal-lon.xsd` (versaler i prefixet). XSD:n ligger också inline i anpassningsdokumentets Bilaga A. Vid ändringar måste båda platserna uppdateras samtidigt.
+
+## Teknisk miljö och kommandon
+
+Python-miljön hanteras med en `.venv` i projektmappen. Aktivera och installera beroenden:
+
+```bash
+source .venv/bin/activate
+pip install lxml
+```
+
+Validering körs med Python och `lxml.isoschematron`. Det finns i nuläget inget färdigt testskript — `test_full.py` är planerat men ej skapat. För att validera en XML-fil mot Schematron manuellt:
+
+```python
+from lxml import etree, isoschematron
+schema_doc = etree.parse("svk-personal-lon.sch")
+schematron = isoschematron.Schematron(schema_doc, store_report=True)
+doc = etree.parse("path/to/fil.xml")
+schematron.validate(doc)
+print(schematron.validation_report)
+```
+
+SQLite-schemat i `create_tables.sql` skapar tabeller för ackumulering av CSV-data över flera årgångar. Primärnycklar inkluderar alltid `(system, artal_start, artal_slut, organisationsnummer, foretagsnummer)` som prefix för att möjliggöra UPSERT-semantik.
 
 ## Designfilosofi (viktig att förstå innan ändringar)
 
@@ -63,6 +92,7 @@ Full bevaring i arkivpaketet. Ingen maskning av personnummer, namn eller andra u
 - **Validering**: Python med `lxml.isoschematron` (XSLT 1-baserat). Schematron-reglerna är skrivna för XSLT 1-kompatibilitet — inga XSLT 2-funktioner som `matches()`, `for-each-group`, `xs:date`-aritmetik.
 - **Datumjämförelse i Schematron**: Görs via `number(translate(datum, '-', ''))` för numerisk jämförelse av YYYY-MM-DD-strängar.
 - **Referensintegritet via `document()`**: Reglerna är defensivt skrivna — om filen inte finns i förväntad relativ sökväg hoppas kontrollen tyst över. Möjliggör isolerad validering.
+- **SQLite-schema** (`create_tables.sql`): Tabeller för ackumulering av CSV-data. Anropas som `sqlite3 lon.db < create_tables.sql`.
 
 ## Paketstruktur
 
@@ -91,8 +121,8 @@ Ett paket = en arbetsgivare × ett uttagsår. Paketet innehåller hela den histo
 ### Lägga till ny regel i Schematron
 
 1. Formulera regeln som `<assert>` (blockerar) eller `<report>` (varnar).
-2. Lägg till ett testfall i `test_full.py` — både positivt och negativt exempel.
-3. Kör `python3 test_full.py` och verifiera att alla 14+ tester passerar.
+2. Lägg till ett testfall i `test_full.py` (planerat skript, ej skapat ännu) — både positivt och negativt exempel.
+3. Validera manuellt med `lxml.isoschematron` mot ett testdokument.
 4. Kontrollera att regeln fungerar i XSLT 1 (ingen `matches()`, `tokenize()`, `xs:date`-aritmetik).
 
 ### Ändra XSD-schema
