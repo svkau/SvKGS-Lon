@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svk="https://earkiv.svenskakyrkan.se/schemas/SVK-personal-lon/v1">
+  <control>
+    <recordId>F_20</recordId>
+    <maintenanceStatus>revised</maintenanceStatus>
+    <maintenanceAgency>
+      <agencyName>Test AÅ</agencyName>
+    </maintenanceAgency>
+    <maintenanceHistory>
+      <maintenanceEvent>
+        <eventType>created</eventType>
+        <eventDateTime standardDateTime="2026-04-27T00:00:00">2026-04-27</eventDateTime>
+        <agentType>machine</agentType>
+        <agent>Flex Lön export / paketeringsscript.py</agent>
+      </maintenanceEvent>
+    </maintenanceHistory>
+  </control>
+  <cpfDescription>
+    <employmentDescription>
+      <employmentId>20</employmentId>
+      <positions>
+        <position>
+          <term source="BKSK" code="421005">Kyrkvaktmästare</term>
+          <description>Vaktmästare</description>
+        </position>
+      </positions>
+      <salaryAgreements>
+        <salaryAgreement salaryType="monthlyPay" amount="25500" currency="SEK">
+          <salaryPeriod>
+            <dateRange>
+              <startDate>2001-07-01</startDate>
+            </dateRange>
+          </salaryPeriod>
+        </salaryAgreement>
+      </salaryAgreements>
+      <additionalElements>
+        <additionalXMLData>
+          <svk:anstallningstillagg>
+            <svk:utbetalningsgruppReferens>
+              <svk:id>0</svk:id>
+            </svk:utbetalningsgruppReferens>
+            <svk:personalkategori>
+              <svk:kod>MÅN</svk:kod>
+            </svk:personalkategori>
+            <svk:anstallningsperioder>
+              <svk:anstallningsperiod>
+                <svk:id>47832043-7700-489C-B7C7-47A51B4C80E6</svk:id>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2001-07-01</svk:startdatum>
+                </svk:giltighetsperiod>
+                <svk:anstallningsform>Tillsvidareanställd</svk:anstallningsform>
+                <svk:loneform>Månadslön</svk:loneform>
+              </svk:anstallningsperiod>
+            </svk:anstallningsperioder>
+            <svk:sysselsattningsgrader>
+              <svk:sysselsattningsgrad>
+                <svk:id>1</svk:id>
+                <svk:procent>100</svk:procent>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2001-07-01</svk:startdatum>
+                </svk:giltighetsperiod>
+              </svk:sysselsattningsgrad>
+            </svk:sysselsattningsgrader>
+            <svk:heltidsmatt>
+              <svk:arbetsmatt>
+                <svk:id>1</svk:id>
+                <svk:timmarPerVecka>38.25</svk:timmarPerVecka>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2001-07-01</svk:startdatum>
+                </svk:giltighetsperiod>
+              </svk:arbetsmatt>
+            </svk:heltidsmatt>
+            <svk:lonetillagg>
+              <svk:tillagg>
+                <svk:id>N1</svk:id>
+                <svk:namn>Lönetillägg_heltid</svk:namn>
+                <svk:varde typ="belopp">3000</svk:varde>
+                <svk:valuta>SEK</svk:valuta>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2001-07-01</svk:startdatum>
+                </svk:giltighetsperiod>
+              </svk:tillagg>
+              <svk:tillagg>
+                <svk:id>N2</svk:id>
+                <svk:namn>Lönetillägg_faktiskt</svk:namn>
+                <svk:varde typ="belopp">3000</svk:varde>
+                <svk:valuta>SEK</svk:valuta>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2001-07-01</svk:startdatum>
+                </svk:giltighetsperiod>
+              </svk:tillagg>
+            </svk:lonetillagg>
+            <svk:kostnadsfordelningar>
+              <svk:kostnadsfordelning>
+                <svk:kostnadsfordelningId>A1B2C3D4-0001-0001-0001-000000000020</svk:kostnadsfordelningId>
+                <svk:ordningsnummer>1</svk:ordningsnummer>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2001-07-01</svk:startdatum>
+                </svk:giltighetsperiod>
+                <svk:procentfordelning></svk:procentfordelning>
+                <svk:dimensioner>
+                  <svk:dimension>
+                    <svk:namn>Resultatenhet</svk:namn>
+                    <svk:varde>2110</svk:varde>
+                  </svk:dimension>
+                  <svk:dimension>
+                    <svk:namn>Projekt</svk:namn>
+                    <svk:varde>P2022-01</svk:varde>
+                  </svk:dimension>
+                </svk:dimensioner>
+              </svk:kostnadsfordelning>
+            </svk:kostnadsfordelningar>
+            <svk:standardkonteringar>
+              <svk:standardkontering>
+                <svk:dimensionId>1</svk:dimensionId>
+                <svk:dimensionNamn>Resultatenhet</svk:dimensionNamn>
+                <svk:fordelningar>
+                  <svk:fordelning>
+                    <svk:kontering>2110</svk:kontering>
+                    <svk:procent>100</svk:procent>
+                  </svk:fordelning>
+                </svk:fordelningar>
+              </svk:standardkontering>
+            </svk:standardkonteringar>
+          </svk:anstallningstillagg>
+        </additionalXMLData>
+      </additionalElements>
+    </employmentDescription>
+  </cpfDescription>
+  <relations>
+    <cpfRelation cpfRelationType="creatorOf" xlink:type="simple" xlink:href="../arbetstagare/A_197606280696.xml#A_197606280696"/>
+    <cpfRelation cpfRelationType="isAssociatedWith" xlink:type="simple" xlink:href="../organisation/organisation.xml#ORG_0987654321"/>
+  </relations>
+</eac-cpf>

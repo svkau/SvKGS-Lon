@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svk="https://earkiv.svenskakyrkan.se/schemas/SVK-personal-lon/v1">
+  <control>
+    <recordId>P_199906122345</recordId>
+    <maintenanceStatus>revised</maintenanceStatus>
+    <maintenanceAgency>
+      <agencyName>Test AÅ</agencyName>
+    </maintenanceAgency>
+    <maintenanceHistory>
+      <maintenanceEvent>
+        <eventType>created</eventType>
+        <eventDateTime standardDateTime="2026-04-27T00:00:00">2026-04-27</eventDateTime>
+        <agentType>machine</agentType>
+        <agent>Flex Lön export / paketeringsscript.py</agent>
+      </maintenanceEvent>
+    </maintenanceHistory>
+  </control>
+  <cpfDescription>
+    <identity>
+      <entityType>person</entityType>
+      <entityId localType="PersonalIdentityNumber">19990612-2345</entityId>
+      <nameEntry localType="forename">
+        <part>Arian</part>
+      </nameEntry>
+      <nameEntry localType="surname">
+        <part>Grande</part>
+      </nameEntry>
+    </identity>
+    <description>
+      <localDescription localType="nationality">
+        <term>USA</term>
+      </localDescription>
+    </description>
+  </cpfDescription>
+</eac-cpf>

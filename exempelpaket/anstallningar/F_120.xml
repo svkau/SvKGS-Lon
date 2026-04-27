@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svk="https://earkiv.svenskakyrkan.se/schemas/SVK-personal-lon/v1">
+  <control>
+    <recordId>F_120</recordId>
+    <maintenanceStatus>revised</maintenanceStatus>
+    <maintenanceAgency>
+      <agencyName>Test AÅ</agencyName>
+    </maintenanceAgency>
+    <maintenanceHistory>
+      <maintenanceEvent>
+        <eventType>created</eventType>
+        <eventDateTime standardDateTime="2026-04-27T00:00:00">2026-04-27</eventDateTime>
+        <agentType>machine</agentType>
+        <agent>Flex Lön export / paketeringsscript.py</agent>
+      </maintenanceEvent>
+    </maintenanceHistory>
+  </control>
+  <cpfDescription>
+    <employmentDescription>
+      <employmentId>120</employmentId>
+      <positions>
+        <position>
+          <term source="BKSK" code="421009">Kyrkogårdsarbetare</term>
+          <description>Tim med schema</description>
+        </position>
+      </positions>
+      <salaryAgreements>
+        <salaryAgreement salaryType="hourlyWage" amount="140" currency="SEK">
+          <salaryPeriod>
+            <dateRange>
+              <startDate>2018-08-01</startDate>
+            </dateRange>
+          </salaryPeriod>
+        </salaryAgreement>
+      </salaryAgreements>
+      <additionalElements>
+        <additionalXMLData>
+          <svk:anstallningstillagg>
+            <svk:utbetalningsgruppReferens>
+              <svk:id>0</svk:id>
+            </svk:utbetalningsgruppReferens>
+            <svk:personalkategori>
+              <svk:kod>TIM</svk:kod>
+            </svk:personalkategori>
+            <svk:anstallningsperioder>
+              <svk:anstallningsperiod>
+                <svk:id>85EF9FF1-CF89-4E28-B1C7-58068EB363FC</svk:id>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2018-08-01</svk:startdatum>
+                </svk:giltighetsperiod>
+                <svk:anstallningsform>Allmän visstidsanställning</svk:anstallningsform>
+                <svk:loneform>Timlön</svk:loneform>
+              </svk:anstallningsperiod>
+            </svk:anstallningsperioder>
+            <svk:sysselsattningsgrader>
+              <svk:sysselsattningsgrad>
+                <svk:id>1</svk:id>
+                <svk:procent>20</svk:procent>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2018-08-01</svk:startdatum>
+                </svk:giltighetsperiod>
+              </svk:sysselsattningsgrad>
+            </svk:sysselsattningsgrader>
+            <svk:heltidsmatt>
+              <svk:arbetsmatt>
+                <svk:id>1</svk:id>
+                <svk:timmarPerVecka>0</svk:timmarPerVecka>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2018-08-01</svk:startdatum>
+                </svk:giltighetsperiod>
+              </svk:arbetsmatt>
+            </svk:heltidsmatt>
+          </svk:anstallningstillagg>
+        </additionalXMLData>
+      </additionalElements>
+    </employmentDescription>
+  </cpfDescription>
+  <relations>
+    <cpfRelation cpfRelationType="creatorOf" xlink:type="simple" xlink:href="../arbetstagare/A_197508312222.xml#A_197508312222"/>
+    <cpfRelation cpfRelationType="isAssociatedWith" xlink:type="simple" xlink:href="../organisation/organisation.xml#ORG_0987654321"/>
+  </relations>
+</eac-cpf>

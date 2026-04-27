@@ -1,0 +1,3729 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lonearter xmlns="https://earkiv.svenskakyrkan.se/schemas/SVK-personal-lon/v1">
+  <loneart>
+    <kod>1</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Pension</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7490</konto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>4</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Ersättning engångsskatt</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>5</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Konteringsfördelning</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>6</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Särskild ersättning</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>8</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Ersättning ej pensionsgr</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>9</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Ersättning pensionsgr</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>10</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Timlön</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>11</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Timlön vid ändrad anst</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>14</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Timlön månadsanst</namn>
+    <formel syntax="Flex"><![CDATA[Apris= (Månadslön + N1) /165]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>19</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Timlön retroaktiv</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>19</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Timlön retroaktiv</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>30</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>80/90/100 modell, debet</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Belopp= N9¤Annars¤Apris = N9/ AntalKdgrUtbetalningsmånad¤Antal =  AntalKdgrTransDatum¤Belopp = Apris*Antal¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>31</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>80/90/100 modell, kredit</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Belopp= N9¤Annars¤Apris = N9/ AntalKdgrUtbetalningsmånad¤Antal =  AntalKdgrTransDatum¤Belopp = Antal * Apris¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>38</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>80/90/100 retro, debet</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>39</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>80/90/100 retro, kredit</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>60</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Arbetsdagar timanställd</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>62</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Ruta 62 Första anställd</namn>
+    <formel syntax="Flex"><![CDATA[Antal = 1]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>70</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Månadslön</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Belopp= MånadslönFakt + N9¤Apris = 0¤Annars¤Antal =  AntalKdgrTransDatum¤Apris = (MånadslönFakt+ N9)/ AntalKdgrUtbetalningsmånad¤Belopp = Antal*Apris¤Slut Om¤Omfattning= VeckoarbetstidFakt/Veckoarbetstid]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>71</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Daglön, del av månad</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Belopp=MånadslönFakt+ N9¤Apris = 0¤Annars¤Antal =  AntalKdgrTransDatum¤Apris = (MånadslönFakt + N9)/ AntalKdgrAvvikelserTomMånad¤Belopp = Antal*Apris¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>74</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Periodens närvarotid</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>75</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Timmar- arbetsgivarintyg</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>79</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Månadslön retroaktiv</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>80</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Uppehållslön</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Belopp=(MånadslönFakt+N2+N9)*N16¤Apris=0¤Annars¤Antal=AntalKdgrTransDatum¤Apris=(MånadslönFakt+N2+N9)*N16/AntalKdgrUtbetalningsmånad¤Belopp=Antal*Apris¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>81</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Uppehållslöneavdrag</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Belopp=(MånadslönFakt+N2+N9)*(1-N16)¤Apris=0¤Annars¤Antal=AntalKdgrTransDatum¤Apris =(MånadslönFakt+N2+N9)*(1-N16)/AntalKdgrUtbetalningsmånad¤Belopp=Antal*Apris¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>85</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Arvode A-Sink socavg</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7110</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>86</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Arvode A- Sink ej socavg</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7110</konto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>87</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Arvode A-Sink kostn avdr</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7110</konto>
+    </kontering>
+    <egenskaper>
+      <kostnadsavdragSocAvg>
+        <procent>30</procent>
+      </kostnadsavdragSocAvg>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>90</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Arvode uppdragstagare</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7120</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>91</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Arvode beslutande organ</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7130</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>92</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Arvode verkst organ</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7140</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>93</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Arvode artister</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7110</konto>
+    </kontering>
+    <egenskaper>
+      <kostnadsavdragSocAvg>
+        <procent>30</procent>
+      </kostnadsavdragSocAvg>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>94</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Arvode till kyrkvärdar</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7160</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>95</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Arvode revisorer</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7150</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>98</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Ers förl arb.ink beslut</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7130</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>99</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Ers förl arb.ink verkst</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7140</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>100</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Avgångsvederlag</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7017</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>101</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Avgångsvederlag engångs</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7017</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>102</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Månadslön arbetsbefriad</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Belopp= MånadslönFakt + N9¤Apris = 0¤Annars¤Antal =  AntalKdgrTransDatum¤Apris = (MånadslönFakt+ N9)/ AntalKdgrUtbetalningsmånad¤Belopp = Antal*Apris¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>103</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Pens.gr avgångsvederlag</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7017</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>107</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Extra arbuppg enl 18.1</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön*1.2]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>107</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Extra arbuppg enl 18.1</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön*1.2]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>108</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Extra arbuppg enl 18.2</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön*1.8]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>108</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Extra arbuppg enl 18.2</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön*1.8]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>109</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Extra arbuppg enl 18.3</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön*2.4]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>109</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Extra arbuppg enl 18.3</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön*2,4]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>110</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Lönetillägg</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Belopp= N2¤Apris = 0¤Annars¤Antal =  AntalKdgrTransDatum¤Apris = N2/ AntalKdgrUtbetalningsmånad¤Belopp = Antal*Apris¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>111</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Bruttolöneavdrag</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7018</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>115</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Utbetalning komp</namn>
+    <formel syntax="Flex"><![CDATA[Apris= (Månadslön+N1)*0.0073]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>116</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Korrigering flex/timbank</namn>
+    <formel syntax="Flex"><![CDATA[Apris= (Månadslön + N1) /165]]></formel>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>210</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Övertid enkel</namn>
+    <formel syntax="Flex"><![CDATA[Apris=(Månadslön+N1)/165*1,8]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>210</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Övertid enkel</namn>
+    <formel syntax="Flex"><![CDATA[Apris= Timlön*0,8]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>211</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Övertid kvalificerad</namn>
+    <formel syntax="Flex"><![CDATA[Apris=(Månadslön+N1)/165*2,4]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>211</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Övertid kvalificerad</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön*1,4]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>212</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Fyllnadslön</namn>
+    <formel syntax="Flex"><![CDATA[Apris=(Månadslön+N1)/165*1,2]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>212</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Fyllnadslön</namn>
+    <formel syntax="Flex"><![CDATA[Apris= Timlön*1,2]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>213</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Timlön vid övertid</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>219</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Övertid retroaktiv</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>228</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Tillägg för OB punkt 7.1</namn>
+    <formel syntax="Flex"><![CDATA[Apris= LKTOB71]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>228</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Tillägg för OB punkt 7.1</namn>
+    <formel syntax="Flex"><![CDATA[Apris= LKTOB71]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>229</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Tillägg för OB punkt 7.2</namn>
+    <formel syntax="Flex"><![CDATA[Apris= LKTOB72]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>229</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Tillägg för OB punkt 7.2</namn>
+    <formel syntax="Flex"><![CDATA[Apris= LKTOB72]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>230</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>OB-tillägg D, kväll</namn>
+    <formel syntax="Flex"><![CDATA[Apris= LKOBD]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>230</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>OB-ersättning D, kväll</namn>
+    <formel syntax="Flex"><![CDATA[Apris= LKOBD]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>231</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>OB-tillägg C, natt</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKOBC]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>231</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>OB-ersättning C, natt</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKOBC]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>232</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>OB-tillägg B, helg</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKOBB]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>232</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>OB-ersättning B, helg</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKOBB]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>233</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>OB-tillägg A,storhelg</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKOBA]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>233</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>OB-ersättning A,storhelg</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKOBA]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>240</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Beredskap &lt;151 tim/mån</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKBER1]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>240</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Beredskap &lt;151 tim/mån</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKBER1]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>241</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Beredskap helg &lt;151 tim</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKBER1 * 2]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>241</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Beredskap helg &lt;151 tim</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKBER1 * 2]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>242</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Beredskap  &gt;150 tim</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKBER2]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>242</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Beredskap  &gt;150 tim</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKBER2]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>243</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Beredskap helg &gt;150 tim</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKBER2*2]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>243</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Beredskap helg &gt;150 tim</namn>
+    <formel syntax="Flex"><![CDATA[Apris =LKBER2*2]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>255</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Telefonjour präster</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>260</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Förskjuten arbt fridag</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKFAFRI]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>261</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Förskjuten arbt fri+50</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKFAFRI*1,5]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>262</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Förskjuten arbt övrig</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKFAÖVR]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>263</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Förskjuten arbt övr +50</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKFAÖVR*1,5]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>270</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Färdtidsersättning 1-10</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKFTE1]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>271</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Färdtidsersättning &gt; 10</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKFTE2]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>289</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>ANVÄNDS EJ</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>290</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Kyrkoherdevikariat</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>291</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Lägerersättning mån-tors</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKLÄGMT]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>291</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Lägerersättning mån-tors</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKLÄGMT]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>292</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Lägerersättning fre-sön</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKLÄGFS]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>292</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Lägerersättning fre-sön</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKLÄGFS]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>293</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Lägerersättning LOK</namn>
+    <formel syntax="Flex"><![CDATA[Belopp=Antal*Apris]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>293</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Lägerersättning LOK</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>298</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Kyrkoherdevik retroaktiv</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>299</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Tjänstepensionpremie</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>299</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Tjänstepensionpremie</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>300</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Flexsaldo</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>310</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Kompsaldo</namn>
+    <formel syntax="Flex"><![CDATA[Antal=(LartA(316)*1,5)+(LartA(317)*2)-LartA(115)-LartA(555)-LartA(311)+LartA(315)]]></formel>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>311</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Kompledighet</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>315</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Övertid till komp, 1</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>316</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Övertid till komp, 1,5</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>317</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Övertid till komp, 2,0</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>398</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Justering löneart 299 +</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>399</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Justering löneart 299 -</namn>
+    <formel syntax="Flex"><![CDATA[Belopp = LartB(398) * -1]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>400</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Karensavdrag</namn>
+    <formel syntax="Flex"><![CDATA[Om N21 = 0 Och N16 = 0¤KALENDERDAGLON = ((MånadslönFakt+ N2+N9)/AntalKdgrTransFromMånad)¤Annars Om N21 <> 0 Och N16 = 0¤KALENDERDAGLON = (((MånadslönFakt+ N2+N9)*((100-N21)/100))/AntalKdgrTransFromMånad)¤Annars Om N21 = 0 Och N16 <> 0¤KALENDERDAGLON = ((MånadslönFakt+ N2+N9)*N16/AntalKdgrTransFromMånad)¤Annars Om N21 <> 0 Och N16 <> 0¤KALENDERDAGLON = (((MånadslönFakt+ N2+N9)*((100-N21)/100))*N16/AntalKdgrTransFromMånad)¤SLUT Om¤KARENS = KALENDERDAGLON * 1,4 * 0,8¤FOREGANEDEKARENS = DatumLartB(400) * -1¤KARENS = KARENS - FOREGANEDEKARENS¤SJUKLON = DatumLartB(403)¤Om (KARENS+FOREGANEDEKARENS) > SJUKLON¤Belopp = SJUKLON - FOREGANEDEKARENS¤Annars¤Belopp = KARENS¤SLUT Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>400</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Karensavdrag</namn>
+    <formel syntax="Flex"><![CDATA[Om N21 = 0 Och N16 = 0¤KALENDERDAGLON = ((LartA(10)*Timlön)/AntalKdgrTransFromMånad)¤Annars Om N21 <> 0 Och N16 = 0¤KALENDERDAGLON = (((LartA(10)*Timlön)*((100-N21)/100))/AntalKdgrTransFromMånad)¤Annars Om N21 = 0 Och N16 <> 0¤KALENDERDAGLON = ((LartA(10)*Timlön)*N16/AntalKdgrTransFromMånad)¤Annars Om N21 <> 0 Och N16 <> 0¤KALENDERDAGLON = (((LartA(10)*Timlön)*((100-N21)/100))*N16/AntalKdgrTransFromMånad)¤SLUT Om¤KARENS = KALENDERDAGLON * 1,4 * 0,8¤FOREGANEDEKARENS = DatumLartB(400) * -1¤KARENS = KARENS - FOREGANEDEKARENS¤SJUKLON = DatumLartB(403)¤Om (KARENS+FOREGANEDEKARENS) > SJUKLON¤Belopp = SJUKLON - FOREGANEDEKARENS¤Annars¤Belopp = KARENS¤SLUT Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>401</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjukavdrag karensdag</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Annars¤Apris=((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>401</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Sjukavdrag karensdag</namn>
+    <formel syntax="Flex"><![CDATA[Apris= Timlön]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>402</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjukavdrag dag 1 - 14</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Annars¤Apris=((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>402</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Sjukavdrag dag 1 - 14</namn>
+    <formel syntax="Flex"><![CDATA[Apris= Timlön]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>403</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjuklön 80% dag 1 - 14</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning*0.8¤Annars¤Apris=((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning*0.8¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>403</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Sjuklön 80%</namn>
+    <formel syntax="Flex"><![CDATA[Apris = Timlön*0,8]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>404</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjukavdrag dag 15 - 90</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>404</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Sjukavdrag dag 15 - 90</namn>
+    <formel syntax="Flex"><![CDATA[Apris= Timlön]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>405</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjuklön 10% dag 15-90</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt + N2+ N9)*Omfattning*0.1¤Annars¤Belopp= ((MånadslönFakt* N16) + N2+ N9)*Omfattning*0.1¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt + N2+ N9)/ AntalKdgrAvvikelserTomMånad* Omfattning*0.1¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16) + N2+ N9)/ AntalKdgrAvvikelserTomMånad* Omfattning*0.1¤Belopp= Antal*Apris¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>405</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Sjuklön dag 15-90</namn>
+    <formel syntax="Flex"><![CDATA[Apris= Timlön*0.1]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>406</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjukavdrag &gt; 90dgr</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>406</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Sjukavdrag &gt; 90dgr</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>407</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjuklön &gt;10 Pbb</namn>
+    <formel syntax="Flex"><![CDATA[Apris= ((((MånadslönFakt + N2+ N9) /AntalKdgrAvvikelserTomMånad) * 0.776) - ((((Prisbasbelopp * 0,8333)*12)/365)*0.776))*Omfattning]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>409</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjukavdrag retroaktiv</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>410</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjukavdrag innev månad</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt + N2+ N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16) + N2+ N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt + N2+ N9)/ AntalKdgrUtbetalningsmånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16) + N2+ N9)/ AntalKdgrUtbetalningsmånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>411</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjukl &gt;10 Pbb innev mån</namn>
+    <formel syntax="Flex"><![CDATA[Apris= ((((MånadslönFakt + N2+ N9) /AntalKdgrUtbetalningsmånad) * 0.776) - ((((Prisbasbelopp * 0,8333)*12)/365)*0.776))*Omfattning]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>412</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjukavdrag &gt;364 dgr</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>413</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjuklön &gt;10 Pbb</namn>
+    <formel syntax="Flex"><![CDATA[Apris= ((((MånadslönFakt + N2+ N9) /AntalKdgrAvvikelserTomMånad) * 0.7275) - ((((Prisbasbelopp * 0,8333)*12)/365)*0.7275))*Omfattning]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>414</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjukavd &gt;364 dgr innev m</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt + N2+ N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16) + N2+ N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt + N2+ N9)/ AntalKdgrUtbetalningsmånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16) + N2+ N9)/ AntalKdgrUtbetalningsmånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>415</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjukl &gt;10 Pbb innev mån</namn>
+    <formel syntax="Flex"><![CDATA[Apris= ((((MånadslönFakt + N2+ N9) /AntalKdgrUtbetalningsmånad) * 0.7275) - ((((Prisbasbelopp * 0,8333)*12)/365)*0.7275))*Omfattning]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>421</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjukavdr ej sjukp 1-14</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>421</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Sjukavdr ej sjukp 1-14</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>422</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjukl 77,6% ej sjkp 1-14</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0¤Apris=(((MånadslönFakt + N2+ N9)/AntalKdgrAvvikelserTomMånad)*Omfattning)*0.776¤Annars¤Apris=((((MånadslönFakt + N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*Omfattning)*0.776¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>422</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Sjukl 77,6% ej sjkp 1-14</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön*0,776]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>423</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjukavdr ej sjukp 15-90</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>423</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Sjukavdr ej sjukp 15-90</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>424</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjukl 87,3% ej sjkp15-90</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0¤Apris=(((MånadslönFakt + N2+ N9)/AntalKdgrAvvikelserTomMånad)*Omfattning)*0.873¤Annars¤Apris=((((MånadslönFakt + N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*Omfattning)*0.873¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>424</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Sjukl 87,3% ej sjkp15-90</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön*0,873]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>425</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjukavdr ej sjukp 91-</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>425</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Sjukavdr ej sjukp 91-</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>426</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjukl 77,6% ej sjkp 91-</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0¤Apris=(((MånadslönFakt + N2+ N9)/AntalKdgrAvvikelserTomMånad)*Omfattning)*0.776¤Annars¤Apris=((((MånadslönFakt + N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*Omfattning)*0.776¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>426</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Sjukl 77,6% ej sjkp 91-</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön*0,776]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>427</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjukavdr ej sjukp 365-</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>428</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjukl 72,75% ej sjkp 365</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0¤Apris=(((MånadslönFakt + N2+ N9)/AntalKdgrAvvikelserTomMånad)*Omfattning)*0.7275¤Annars¤Apris=((((MånadslönFakt + N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*Omfattning)*0.7275¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>430</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjuklön OB-ers D, kväll</namn>
+    <formel syntax="Flex"><![CDATA[Apris= LKOBD*0,8]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>431</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjuklön OB-ers C, natt</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKOBC*0,8]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>432</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjuklön OB-ers B, helg</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKOBB*0,8]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>433</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>SjuklönOB-ers A,storhelg</namn>
+    <formel syntax="Flex"><![CDATA[Apris = LKOBA*0,8]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>434</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjuklön Bered &lt;151</namn>
+    <formel syntax="Flex"><![CDATA[Apris= LKBER1*0,8]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>435</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjuklön Bered &lt;151 helg</namn>
+    <formel syntax="Flex"><![CDATA[Apris= (LKBER1*2)*0,8]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>436</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjuklön Bered &gt;150</namn>
+    <formel syntax="Flex"><![CDATA[Apris= LKBER2*0,8]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>437</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjuklön Bered &gt;150 helg</namn>
+    <formel syntax="Flex"><![CDATA[Apris= (LKBER2*2)*0,8]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>439</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sjuklön retroaktiv</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>440</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Rehabavdrag dag 1-90</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>441</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Rehabpenning dag 1-90</namn>
+    <formel syntax="Flex"><![CDATA[Apris = ((MånadslönFakt+N2+ N9)/AntalKdgrAvvikelserTomMånad*Omfattning)*0,1]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>442</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Rehabavdrag &gt; 90dgr</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>443</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Rehabpenning &gt;10 Pbb</namn>
+    <formel syntax="Flex"><![CDATA[Apris= ((((MånadslönFakt + N2+ N9) /AntalKdgrAvvikelserTomMånad) * 0.776) - ((((Prisbasbelopp * 0,8333)*12)/365)*0.776))*Omfattning]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>450</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Förebyggande sjukpenning</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>452</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Smittbärare avdr 1-14</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Annars¤Apris=((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>452</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Smittbärare avdr 1-14</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>453</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Smittbärare avdr 15-90</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>453</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Smittbärare avdr 15-90</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>454</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Smittbärare avdr &gt;90dgr</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Belopp= ((MånadslönFakt* N16)+N2+N9)*Omfattning¤Slut Om¤Annars¤Om N16=0¤Apris=(MånadslönFakt+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp=Antal*Apris¤Annars¤Apris=((MånadslönFakt* N16)+N2+N9)/ AntalKdgrAvvikelserTomMånad* Omfattning¤Belopp= Antal*Apris¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>454</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Smittbärare avdr &gt;90dgr</namn>
+    <formel syntax="Flex"><![CDATA[Apris=Timlön]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>455</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Smittbäraravdrag retro</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>501</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Semester betald</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>502</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Semester obetald</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>503</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Semester sparad</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>504</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Obetalt semesteravdrag</namn>
+    <formel syntax="Flex"><![CDATA[Antal= SchDgrTransDatum¤Apris= ((MånadslönFakt+N2+N9) *(LL01*1,4))*((100-N21)/100)/ AntalKdgrAvvikelserTomMånad¤Belopp= Antal*Apris]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>510</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Semesterlön</namn>
+    <formel syntax="Flex"><![CDATA[Apris= (MånadslönFakt + N2+ N9) * SemDaglönProc]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>511</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Semesteravdrag</namn>
+    <formel syntax="Flex"><![CDATA[Apris= (MånadslönFakt + N2+ N9) * SemDaglönProc]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>515</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Semesterlön sparade dgr</namn>
+    <formel syntax="Flex"><![CDATA[Apris= (MånadslönFakt + N2+ N9) * SemDaglönProc]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>520</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sem tillägg omv bet dgr</namn>
+    <formel syntax="Flex"><![CDATA[Om N20 = 1¤Apris = 0¤Belopp = 0¤Antal = Larta(536)/(VeckoarbetstidFakt/5)¤Slut Om¤Om N21=>0¤Apris=((MånadslönFakt+N2+N9) * 0,00605)*((100-N21)/100)¤Belopp=Antal*Apris¤Antal = Larta(536)/((VeckoarbetstidFakt/5)*((100-N21)/100))¤Om (N20=1) OCH (N21=>0)¤Apris=0¤Belopp=0¤Slut Om¤Annars¤Apris= ((MånadslönFakt+N2+N9) * 0,00605)¤Belopp=Antal*Apris¤Antal = Larta(536)/(VeckoarbetstidFakt/5)¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>521</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Semtillägg omv spa dgr</namn>
+    <formel syntax="Flex"><![CDATA[Apris= ((MånadslönFakt+N2+N9) * 0,00605)*((100-N21)/100)¤Belopp= Antal*Apris¤Antal = Larta(537)/(VeckoarbetstidFakt*((100-N21)/100)/5)]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>522</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Semestertillägg 0,605%</namn>
+    <formel syntax="Flex"><![CDATA[Apris= ((MånadslönFakt+N2+N9) * 0,00605)*((100-N21)/100)]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>523</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Semesterlönetillägg</namn>
+    <formel syntax="Flex"><![CDATA[Apris =((21127*SyssGrad)- (MånadslönFakt+N2))*0,0521¤Om SemdgrBetaldaUttag < 25¤Antal = LartA(501)¤Annars¤Antal = (SemdgrBetaldaUttag - LartA(501) -25)*-1¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>524</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Uppehållslönetillägg</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7080</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>536</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sem omv till tim bet dgr</namn>
+    <formel syntax="Flex"><![CDATA[Antal= (VeckoarbetstidFakt*((100-N21)/100)/5)¤Belopp=0]]></formel>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>537</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sem omv till tim spa dgr</namn>
+    <formel syntax="Flex"><![CDATA[Antal= (VeckoarbetstidFakt*((100-N21)/100)/5)¤Belopp=0]]></formel>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>538</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Uttag semester i timmar</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>540</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Semester bet kontant</namn>
+    <formel syntax="Flex"><![CDATA[Apris =SemDagLön+SemTillägg]]></formel>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>541</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Semester sparad kontant</namn>
+    <formel syntax="Flex"><![CDATA[Apris =SemDagLön+SemTillägg]]></formel>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>542</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Överskjutande betald sem</namn>
+    <formel syntax="Flex"><![CDATA[Apris =SemDagLön+SemTillägg]]></formel>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>543</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Överskjutande sparad sem</namn>
+    <formel syntax="Flex"><![CDATA[Apris =SemDagLön+SemTillägg]]></formel>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>547</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Semers vid &lt; 40%</namn>
+    <formel syntax="Flex"><![CDATA[Om ÅlderÅr < 40¤Belopp = LartB(70,110,406,410,412,414,440,442,504,602,603,606,609,612,659, 660,661,664)*0,1296¤Annars¤Om ÅlderÅr > 50¤Belopp = LartB(70,110,406,410,412,414,440,442,504,602,603,606,609,612,659,660,661,664)*0,1536¤Annars¤Belopp = LartB(70,110,406,410,412,414,440,442,504,602,603,606,609,612,659,660,661,664)*0,1488¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>549</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Semesterers övrigt</namn>
+    <formel syntax="Flex"><![CDATA[Belopp = (SemGrLönPer + SemGrRörligLönPer) * SemErsättningProc]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>550</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Semesterersättning</namn>
+    <formel syntax="Flex"><![CDATA[Om ÅlderÅr < 40 Och Timlön <128¤Apris= 15,40 + (Timlön*0.0096)¤Annars¤Om ÅlderÅr < 40 Och Timlön >=128¤Apris= Timlön*0.1296¤Slut Om¤Slut Om¤Om ÅlderÅr > 50 Och Timlön <128¤Apris= 15,40 + (Timlön*0,0336)¤Annars¤Om ÅlderÅr > 50 Och Timlön >=128¤Apris= Timlön*0,1536¤Slut Om¤Slut Om¤Om Timlön <128 Och ÅlderÅr >=40 Och ÅlderÅr <=50¤Apris= 15,40 + (Timlön*0.0288)¤Annars¤Apris= Timlön*0,1488¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>550</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Semesterersättning</namn>
+    <formel syntax="Flex"><![CDATA[Om ÅlderÅr < 40 Och Timlön <128¤Apris= 15,40 + (Timlön*0.0096)¤Annars¤Om ÅlderÅr < 40 Och Timlön >=128¤Apris= Timlön*0.1296¤Slut Om¤Slut Om¤Om ÅlderÅr > 50 Och Timlön <128¤Apris= 15,40 + (Timlön*0,0336)¤Annars¤Om ÅlderÅr > 50 Och Timlön >=128¤Apris= Timlön*0,1536¤Slut Om¤Slut Om¤Om Timlön <128 Och ÅlderÅr >=40 Och ÅlderÅr <=50¤Apris= 15,40 + (Timlön*0.0288)¤Annars¤Apris= Timlön*0,1488¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>551</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Slutlön intjänad sem</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>553</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Slutlön sparad sem</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>554</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Slutlön flex/tim-bank</namn>
+    <formel syntax="Flex"><![CDATA[Apris= (Månadslön + N1) /165]]></formel>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>555</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Slutlön kompsaldo</namn>
+    <formel syntax="Flex"><![CDATA[Apris= (Månadslön+N1)*0.0073]]></formel>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>556</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Slutlön semestertimmar</namn>
+    <formel syntax="Flex"><![CDATA[Antal= Saldo4Ing - LartA(538)¤Apris= SemDagLön / (VeckoarbetstidFakt/5)]]></formel>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>559</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Semester retroaktiv</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>560</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Uppehållslön slutlön</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>570</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Semesteravdr under 40 %</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>571</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Extra lediga dagar saldo</namn>
+    <formel syntax="Flex"><![CDATA[Antal=-LartA(572)]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>572</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Extra lediga dagar uttag</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>599</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Olovlig frånvaro</namn>
+    <formel syntax="Flex"><![CDATA[Apris =(Månadslön+N1)/165]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>599</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Olovlig frånvaro</namn>
+    <formel syntax="Flex"><![CDATA[Apris= Timlön]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>600</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Justering FP/GP föreg m</namn>
+    <formel syntax="Flex"><![CDATA[Belopp= (((LartB(609)+LartB(612))*-1) - (MånadslönFakt+N2+N9))]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>601</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Tjänstledighet, tim</namn>
+    <formel syntax="Flex"><![CDATA[Apris =(Månadslön+N1)/165]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>601</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Tjänstledighet, tim</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>602</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Tjänstled del av månad</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0¤Apris=(((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*Omfattning¤Belopp= Apris* Antal¤Annars¤Om N16 > 0¤Apris= (((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>603</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Tjänstledighet dagar</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>605</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Närståendevård tim</namn>
+    <formel syntax="Flex"><![CDATA[Apris =(Månadslön+N1)/165]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>606</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Närståendevård</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>607</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Omvårdnadsledighet</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>609</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Graviditetspenning</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>610</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Tillf föräldrapenning</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>610</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Tillf föräldrapenning</namn>
+    <formel syntax="Flex"><![CDATA[Apris= Timlön]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>612</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Föräldraledig dagar</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>613</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Föräldraledig, tim</namn>
+    <formel syntax="Flex"><![CDATA[Apris =(Månadslön+N1)/165]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>614</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Led vid barns födelse</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>615</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Fp-tillägg 10% 180 dgr</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0¤Apris = ((MånadslönFakt + N2)/ AntalKdgrAvvikelserTomMånad*Omfattning)*0,1¤Annars¤Apris = ((MånadslönFakt + N2)*N16/ AntalKdgrAvvikelserTomMånad*Omfattning)*0,1¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>615</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Fp-tillägg 10% 180 dgr</namn>
+    <formel syntax="Flex"><![CDATA[Apris = ((MånadslönFakt +N2)*N16/ AntalKdgrAvvikelserTomMånad*N14*Omfattning)*0,1]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>616</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>F-ledig mlön &gt;83,3% 270d</namn>
+    <formel syntax="Flex"><![CDATA[B= ((MånadslönFakt + N2)/AntalKdgrAvvikelserTomMånad)* 0.776¤C= (Prisbasbelopp*10)/365*0.776¤Apris= (B-C)*Omfattning¤Antal= AntalKdgrTransDatum¤Belopp= Antal*Apris]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>617</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Studieledig &lt;60% semlgr</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Apris = 0¤Belopp = (MånadslönFakt+N2+N9)* Omfattning¤Annars¤Apris = (MånadslönFakt+N2+N9)*N16/AntalKdgrAvvikelserTomMånad*(LL01*1,4)*Omfattning¤Belopp = Antal * Apris¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>618</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Studieledig tim ej semgr</namn>
+    <formel syntax="Flex"><![CDATA[Apris =(Månadslön+N1)/165]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>619</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Studieledighet ej sem gr</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>620</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Studled hel mån ej semgr</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>621</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Facklig led med lön, tim</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>622</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Facklig led med lön dgr</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>623</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Facklig utb u lön, tim</namn>
+    <formel syntax="Flex"><![CDATA[Apris =(Månadslön+N1)/165]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>624</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Facklig utb u lön, dgr</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>625</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Facklig led utan lön tim</namn>
+    <formel syntax="Flex"><![CDATA[Apris =(Månadslön+N1)/165]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>626</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Facklig led utan lön dgr</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt+N2+N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt+N2+N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp= Apris*Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrAvvikelserTomMånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>627</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Facklig utb m lön, tim</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>628</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Facklig utb m lön dgr</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>630</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Ensk angelägenhet -10dgr</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>650</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Semesterjustering  &lt; 40%</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>659</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Tj led innev del av mån</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0¤Antal = AntalKdgrTransDatum¤Apris=(((MånadslönFakt + N2+ N9))/AntalKdgrUtbetalningsmånad)*Omfattning¤Belopp= Apris* Antal¤Annars¤Om N16 > 0¤Antal = AntalKdgrTransDatum¤Apris= (((MånadslönFakt + N2+N9)*N16)/AntalKdgrUtbetalningsmånad)*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>660</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Tjänstledig innev månad</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt + N2+ N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt + N2+ N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrUtbetalningsmånad)*(LL01*1,4))*Omfattning¤Belopp= Apris* Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrUtbetalningsmånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>661</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Föräldraled innev månad</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt + N2+ N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt + N2+ N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrUtbetalningsmånad)*(LL01*1,4))*Omfattning¤Belopp= Apris* Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrUtbetalningsmånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>662</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Fp-tillägg 10% innev mån</namn>
+    <formel syntax="Flex"><![CDATA[Om HelMånad¤Apris= 0¤Om N16= 0¤Belopp= (MånadslönFakt + N2)*Omfattning*0.1¤Annars¤Belopp= ((MånadslönFakt* N16) + N2)*Omfattning*0.1¤Slut Om¤Annars¤Om N16=0¤Apris=((MånadslönFakt + N2)/ AntalKdgrUtbetalningsmånad* Omfattning)*0.1¤Belopp=Antal*Apris¤Annars¤Apris=(((MånadslönFakt* N16) + N2)/ AntalKdgrUtbetalningsmånad* Omfattning)*0.1¤Belopp= Antal*Apris¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>663</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>F-led &gt;83,3% innev mån</namn>
+    <formel syntax="Flex"><![CDATA[B= ((MånadslönFakt + N2)/AntalKdgrUtbetalningsmånad)* 0.776¤C= (Prisbasbelopp*10)/365*0.776¤Apris= (B-C)*Omfattning¤Antal= AntalKdgrTransDatum¤Belopp= Antal*Apris]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>664</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Graviditetsp innev månad</namn>
+    <formel syntax="Flex"><![CDATA[Om N16=0 Och HelMånad¤Apris =0¤Belopp= (MånadslönFakt + N2+ N9)*Omfattning¤Annars¤Om N16>0 Och HelMånad¤Belopp= ((MånadslönFakt + N2+ N9)*N16)*Omfattning¤Annars¤Om N16=0¤Apris=((((MånadslönFakt+N2+N9))/AntalKdgrUtbetalningsmånad)*(LL01*1,4))*Omfattning¤Belopp= Apris* Antal¤Annars¤Om N16 > 0¤Apris= ((((MånadslönFakt+N2+N9)*N16)/AntalKdgrUtbetalningsmånad)*(LL01*1,4))*Omfattning¤Belopp=Apris*Antal¤Slut Om¤Slut Om¤Slut Om¤Slut Om]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>665</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Justering FP/GP innev m</namn>
+    <formel syntax="Flex"><![CDATA[Belopp= (((LartB(661)+LartB(664))*-1) - (MånadslönFakt+N2+N9))]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>669</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Fasta belopp retroaktivt</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>669</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Fasta belopp retroaktivt</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7012</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>694</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Kompl pensionspremie</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7490</konto>
+      <motkonto>2930</motkonto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>695</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Avdrag kompl pensionspr</namn>
+    <formel syntax="Flex"><![CDATA[Belopp=(Saldo211Per)*-1]]></formel>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7490</konto>
+      <motkonto>2930</motkonto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>696</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Pension, löneväxling</namn>
+    <formel syntax="Flex"><![CDATA[Belopp= N5]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>697</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Tjänstledigt retroaktiv</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>698</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Närståendevård retro</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+      <kapKlGrundande>true</kapKlGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>699</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Graviditetspenning retro</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>700</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Tillf föräldrap retro</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>701</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Föräldraledighet retro</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>702</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Led vid barns föd retro</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>703</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Fp-tillägg 10 % retro</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>704</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>F-ledig mlön&gt;83,3% retro</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>705</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Omvårdnadsledighet retro</namn>
+    <underlagstypSkatt>Engångsskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+    <egenskaper>
+      <foraGrundande>true</foraGrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>710</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Utlägg inrikes</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>711</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Utlägg utrikes</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>712</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Utlägg friskvård</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7693</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>715</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Representation avdragsgi</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>716</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Representation ej avdr</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>717</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Utlägg moms</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>2640</konto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>720</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Friskvård via ekonomi</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7693</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>721</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Friskvård ekonomi avdrag</namn>
+    <formel syntax="Flex"><![CDATA[Belopp = LartB(720) *-1]]></formel>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7693</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>731</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Bilersättning skfr</namn>
+    <formel syntax="Flex"><![CDATA[Apris= 1.85]]></formel>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7331</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>732</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Bilersättning skpl</namn>
+    <formel syntax="Flex"><![CDATA[Apris= 1.55]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7332</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>733</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Mil ers motorcykel, skfr</namn>
+    <formel syntax="Flex"><![CDATA[Apris= 0.9]]></formel>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7331</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>736</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Tj bil tj kilometer bens</namn>
+    <formel syntax="Flex"><![CDATA[Apris= 0.95]]></formel>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>5611</konto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>737</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Tj bil tj kilometer dise</namn>
+    <formel syntax="Flex"><![CDATA[Apris= 0.65]]></formel>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>5611</konto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>739</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Milers övrigt, skfr</namn>
+    <formel syntax="Flex"><![CDATA[Apris=1.85]]></formel>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7331</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>740</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Milers övrigt, skpl</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7332</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>741</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Bilers bostad - arbete</namn>
+    <formel syntax="Flex"><![CDATA[Apris=3.40]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7332</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>742</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Inställelseresa skpl</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+  </loneart>
+  <loneart>
+    <kod>745</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Åkningsanslag</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7332</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>760</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Trakt inrikes skfri</namn>
+    <formel syntax="Flex"><![CDATA[Apris=240]]></formel>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7321</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>761</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Resetillägg heldag</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7322</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>762</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Resetillägg halvdag</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7322</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>765</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Nattraktamente skfr</namn>
+    <formel syntax="Flex"><![CDATA[Apris=120]]></formel>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7321</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>770</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Traktamente utland skfri</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7324</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>780</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Måltidsavdrag inr sk fri</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7321</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>787</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Måltidsavdrag utr sk fri</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7324</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>790</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Kostnadsersättning</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7390</konto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>790</kod>
+    <personalkategori>TIM</personalkategori>
+    <namn>Kostnadsersättning</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7390</konto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>830</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Bilförmån</namn>
+    <formel syntax="Flex"><![CDATA[Antal= 1¤Belopp= N8]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7380</konto>
+      <motkonto>7380</motkonto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>835</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Drivmedelsförmån</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7380</konto>
+      <motkonto>7380</motkonto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>836</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Drivmedelsförmån 20%</namn>
+    <formel syntax="Flex"><![CDATA[Belopp = LartB(835) * 0,2]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7380</konto>
+      <motkonto>7380</motkonto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>860</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Avdrag ersättningar</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>890</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Förmån Rikskortet</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7380</konto>
+      <motkonto>7380</motkonto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>891</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Kostförmån övrig</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7380</konto>
+      <motkonto>7380</motkonto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>893</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Kostförmån frukost</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7380</konto>
+      <motkonto>7380</motkonto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>894</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Kostförmån</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7380</konto>
+      <motkonto>7380</motkonto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>895</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Övrig förmån</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7390</konto>
+      <motkonto>7390</motkonto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>896</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Parkeringsförmån</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7390</konto>
+      <motkonto>7390</motkonto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>898</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Bostadsförmån, ej pensgr</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7380</konto>
+      <motkonto>7380</motkonto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>912</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Skatt</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>2710</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>913</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Engångsskatt</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>2710</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>914</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Frivillig skatt</namn>
+    <formel syntax="Flex"><![CDATA[Om Nettolön - N7 >0¤Belopp= N7*-1¤Annars¤Belopp= 0¤Slut Om]]></formel>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>2710</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>915</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Skattjustering</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>2710</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>916</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Skattejust automatisk</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>2710</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>917</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Skatt A-Sink</namn>
+    <formel syntax="Flex"><![CDATA[Belopp = (LartB(85,86,87)*0,15)*-1]]></formel>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>2710</konto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>921</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Löneförskott, netto</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>1610</konto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>924</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Nettolöneavdrag</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>3690</konto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>925</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Rikskortet</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>1610</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>926</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>TPA18 &gt;7,5 Ibb</namn>
+    <formel syntax="Flex"><![CDATA[Belopp= (Saldo200Per-((7,5*Inkomstbasbelopp)/12))]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>927</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Avdrag TPA18 &gt;7,5 Ibb</namn>
+    <formel syntax="Flex"><![CDATA[Belopp= (Saldo200Per-((7,5*Inkomstbasbelopp)/12))*-1]]></formel>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>930</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Utmätning</namn>
+    <formel syntax="Flex"><![CDATA[A=Bruttolön+LartB(912,913)¤Om (N3-A) < 0¤Om ((A - N4) < N3)¤Belopp = (N3 - A) * -1¤Annars¤Belopp = N4¤Slut Om¤Annars¤Belopp=0¤Slut Om]]></formel>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>2750</konto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>935</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>ANVÄNDS EJ</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>1610</konto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>945</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Återbetalning lön brutto</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>7011</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>946</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Återbetalning lön</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>1610</konto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>950</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Semesterskuld</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7090</konto>
+      <motkonto>2920</motkonto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>951</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Soc avg semlöneskuld</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7519</konto>
+      <motkonto>2940</motkonto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>960</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Kompskuld</namn>
+    <formel syntax="Flex"><![CDATA[Apris= (Månadslön+N1)*0.0073]]></formel>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7090</konto>
+      <motkonto>2910</motkonto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>961</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Soc avg kompskuld</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7519</konto>
+      <motkonto>2940</motkonto>
+    </kontering>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>994</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Bruttoskuld fr föreg lön</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>1610</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>995</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Bruttoskuld till n lön</namn>
+    <underlagstypSkatt>Tabellskatt</underlagstypSkatt>
+    <kontering>
+      <konto>1610</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>996</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Nettoskuld fr föreg lön</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>997</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Nettoskuld till n lön</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <egenskaper>
+      <ejSocialavgiftsgrundande>true</ejSocialavgiftsgrundande>
+    </egenskaper>
+  </loneart>
+  <loneart>
+    <kod>998</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Öresutjämning</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>3740</konto>
+    </kontering>
+  </loneart>
+  <loneart>
+    <kod>999</kod>
+    <personalkategori>(STD)</personalkategori>
+    <namn>Sociala avgifter</namn>
+    <underlagstypSkatt>Ej Skatt</underlagstypSkatt>
+    <kontering>
+      <konto>7510</konto>
+      <motkonto>2730</motkonto>
+    </kontering>
+  </loneart>
+</lonearter>

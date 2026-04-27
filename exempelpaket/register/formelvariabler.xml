@@ -1,0 +1,619 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<formelvariabler xmlns="https://earkiv.svenskakyrkan.se/schemas/SVK-personal-lon/v1">
+  <formelvariabel>
+    <namn>Omfattning</namn>
+    <beskrivning>Omfattning % för aktuell lönerad</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Antal</namn>
+    <beskrivning>Antal för aktuell lönerad</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Apris</namn>
+    <beskrivning>A-Pris för aktuell lönerad</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Belopp</namn>
+    <beskrivning>Belopp för aktuell lönerad</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Lönekod</namn>
+    <beskrivning>Lönekod för aktuell lönerad</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Bruttolön</namn>
+    <beskrivning>Bruttolön för aktuell person</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Förmån</namn>
+    <beskrivning>Förmån för aktuell person</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Prelskatt</namn>
+    <beskrivning>Preliminär skatt för aktuell person</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Avdrag</namn>
+    <beskrivning>Avdrag för aktuell person</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Ersättning</namn>
+    <beskrivning>Ersättning för aktuell person</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Nettolön</namn>
+    <beskrivning>Nettolön för aktuell person</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Närvaro</namn>
+    <beskrivning>Närvaro för aktuell period</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Frånvaro</namn>
+    <beskrivning>Frånvaro för aktuell period</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Summatid</namn>
+    <beskrivning>Summa tid för aktuell period</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Skattberäknadpå</namn>
+    <beskrivning>Skatt beräknas på</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SyssGrad</namn>
+    <beskrivning>Aktuell sysselsättningsgrad</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Arbetsmått</namn>
+    <beskrivning>Arbetsmått (tim/vecka) för heltidsarbetande</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>ArbetsmåttFakt</namn>
+    <beskrivning>Den anställdes faktiska arbetsmått (tim/vecka)</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Veckoarbetstid</namn>
+    <beskrivning>Veckoarbetstid heltid (tim/vecka) (Arbetsmått)</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>VeckoarbetstidFakt</namn>
+    <beskrivning>Veckoarbetstid faktisk (tim/vecka) (ArbetsmåttFakt)</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>NettoDagar</namn>
+    <beskrivning>Antal arbetsdagar per vecka</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Månadslön</namn>
+    <beskrivning>Heltidsmånadslön enligt personregistret</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>MånadslönFakt</namn>
+    <beskrivning>Faktisk månadslön enligt personregistret</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Timlön</namn>
+    <beskrivning>Timlön enligt personregistret</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>EngSkatt</namn>
+    <beskrivning>Engångsskatt %</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>EngSkattUnderlag</namn>
+    <beskrivning>Underlag för engångsskatt</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemDagLön</namn>
+    <beskrivning>Semesterdaglön</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemDaglönSparad</namn>
+    <beskrivning>Semesterdaglön för sparad semester</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemTillägg</namn>
+    <beskrivning>Semestertillägg per dag</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemTilläggRörlig</namn>
+    <beskrivning>Semestertillägg rörlig del, per dag</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemErsättningProc</namn>
+    <beskrivning>Semesterersättning i % enligt avtal</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemDaglönProc</namn>
+    <beskrivning>Semesterdaglön i % av månadslön enligt avtal</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemGrLönPer</namn>
+    <beskrivning>Periodens semesterlönegrundande lön</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemGrRörligLönPer</namn>
+    <beskrivning>Periodens semesterlönegrundande rörlig lön</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>AktÅr</namn>
+    <beskrivning>Aktuellt år</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemÅrStartDatAkt</namn>
+    <beskrivning>Aktuellt semesterårs startdatum</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemÅrSlutDatAkt</namn>
+    <beskrivning>Aktuellt semesretårs slutdatum</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemÅrStartDatIntj</namn>
+    <beskrivning>Intjänandeårets startdatum</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemÅrSlutDatIntj</namn>
+    <beskrivning>Intjänandeårets slutdatum</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>HelMånad</namn>
+    <beskrivning>Om radens datum sträcker sig över en månad</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SchTidPer</namn>
+    <beskrivning>Periodens schematid (tim)</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SchTidTransDatum</namn>
+    <beskrivning>Schematid mellan transaktionens datum (tim)</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SchDgrPer</namn>
+    <beskrivning>Antal arbetsdagar i perioden (dgr)</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SchDgrTransDatum</namn>
+    <beskrivning>Arbetsdagar mellan transaktionens datum (dgr)</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Prisbasbelopp</namn>
+    <beskrivning>Prisbasbelopp</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Inkomstbasbelopp</namn>
+    <beskrivning>Inkomstbasbelopp</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>AkontoKvarvarandeKr</namn>
+    <beskrivning>Kvarvarande saldo i kronor från föregående år</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>AkontoKvarvarandeTim</namn>
+    <beskrivning>Kvarvarande saldo i timmar från föregående år</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>AkontoAvsättningPer</namn>
+    <beskrivning>Periodens avsättning till arbetstidskontot</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>AkontoAvsättningÅr</namn>
+    <beskrivning>Avsättning till arbetstidskontot hittils i år</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SocAvgProc</namn>
+    <beskrivning>Den anställdes gällande procentsats för socavg</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemdgrBetaldaKvar</namn>
+    <beskrivning>Antal kvarvarande betalda semesterdagar</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemdgrObetaldaKvar</namn>
+    <beskrivning>Antal kvarvarande obetalda semesterdagar</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemdgrSparadeKvar</namn>
+    <beskrivning>Antal kvarvarande sparade semesterdagar</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemdgrFörskottKvar</namn>
+    <beskrivning>Antal kvarvarande förskottsdagar</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemRätt</namn>
+    <beskrivning>Semesterrätt</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemdgrBetaldaUttag</namn>
+    <beskrivning>Antal uttagna betalda semesterdagar</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemdgrObetaldaUttag</namn>
+    <beskrivning>Antal uttagna obetalda semesterdagar</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemdgrSparadeUttag</namn>
+    <beskrivning>Antal uttagna sparade semesterdagar</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemdgrFörskottUttag</namn>
+    <beskrivning>Antal uttagna förskottsdagar</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>AntalKdgrUtbetalningsmånad</namn>
+    <beskrivning>Antal kalenderdagar i utbetalningsmånad</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>AntalKdgrAvvikelserTomMånad</namn>
+    <beskrivning>Antal kalenderdagar i avvikelser t.o.m. -månad</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>AntalKdgrTransFromMånad</namn>
+    <beskrivning>Antal kalenderdagar i transaktionens fr.o.m. -månad</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>AntalKdgrTransDatum</namn>
+    <beskrivning>Antal kalenderdagar mellan transaktionens datum</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SchTidAvvikelserTomMånad</namn>
+    <beskrivning>Schematid i avvikelser t.o.m. -månad</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Kalenderdagsfaktor</namn>
+    <beskrivning>Kalenderdagsfaktor</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>AntalSchdgrAvvikelserTomMånad</namn>
+    <beskrivning>Antal schemadagar i avvikelser t.o.m. -månad</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>AkontoIngåendeKr</namn>
+    <beskrivning>Ingående saldo i kronor</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>AkontoIngåendeTim</namn>
+    <beskrivning>Ingående saldo i timmar</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Kontering1</namn>
+    <beskrivning>Konto från aktuell lönerad (rad ett om fördelad)</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Kontering2</namn>
+    <beskrivning>Område från aktuell lönerad (rad ett om fördelad)</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Kontering3</namn>
+    <beskrivning>Verksamhet från aktuell lönerad (rad ett om fördelad)</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Kontering4</namn>
+    <beskrivning>Objekt från aktuell lönerad (rad ett om fördelad)</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Kontering5</namn>
+    <beskrivning>Projekt från aktuell lönerad (rad ett om fördelad)</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Semesterkvot</namn>
+    <beskrivning>Semesterkvot</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>KompIng</namn>
+    <beskrivning>Komptid ingående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>KompPer</namn>
+    <beskrivning>Komptid perioden</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>KompUtg</namn>
+    <beskrivning>Komptid utgående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>ÅlderÅr</namn>
+    <beskrivning>Antal år den anställde fyller i år</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>AntalMånFreTransDatum</namn>
+    <beskrivning>Vardagar i transaktionens datumperiod</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemdgrSparadeÖveruttag</namn>
+    <beskrivning>Total överutttag av sparad semester</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>LonekodUtbNivaProjekt</namn>
+    <beskrivning>Värde från lönekod angiven på projekt</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>SemIntermittent</namn>
+    <beskrivning>Semesteravtalets daghantering (brutto/netto)</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>TransFromDatum</namn>
+    <beskrivning>Transaktionens fromdatum</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>TransTomDatum</namn>
+    <beskrivning>Transaktionens tomdatum</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo4Ing</namn>
+    <beskrivning>Eget saldo 4 - Semester timmar ingående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo4Per</namn>
+    <beskrivning>Eget saldo 4 - Semester timmar periodens</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo4Utg</namn>
+    <beskrivning>Eget saldo 4 - Semester timmar utgående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo7Ing</namn>
+    <beskrivning>Eget saldo 7 - EA dagar ingående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo7Per</namn>
+    <beskrivning>Eget saldo 7 - EA dagar periodens</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo7Utg</namn>
+    <beskrivning>Eget saldo 7 - EA dagar utgående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo8Ing</namn>
+    <beskrivning>Eget saldo 8 - Föräldrapenningstlg 10% ingående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo8Per</namn>
+    <beskrivning>Eget saldo 8 - Föräldrapenningstlg 10% periodens</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo8Utg</namn>
+    <beskrivning>Eget saldo 8 - Föräldrapenningstlg 10% utgående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo9Ing</namn>
+    <beskrivning>Eget saldo 9 - Utfyllnad förled över 83,3 % ingående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo9Per</namn>
+    <beskrivning>Eget saldo 9 - Utfyllnad förled över 83,3 % periodens</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo9Utg</namn>
+    <beskrivning>Eget saldo 9 - Utfyllnad förled över 83,3 % utgående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo29Ing</namn>
+    <beskrivning>Eget saldo 29 - Friskvård ingående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo29Per</namn>
+    <beskrivning>Eget saldo 29 - Friskvård periodens</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo29Utg</namn>
+    <beskrivning>Eget saldo 29 - Friskvård utgående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo31Ing</namn>
+    <beskrivning>Eget saldo 31 - Preliminär skatt ingående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo31Per</namn>
+    <beskrivning>Eget saldo 31 - Preliminär skatt periodens</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo31Utg</namn>
+    <beskrivning>Eget saldo 31 - Preliminär skatt utgående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo32Ing</namn>
+    <beskrivning>Eget saldo 32 - Bruttolön ingående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo32Per</namn>
+    <beskrivning>Eget saldo 32 - Bruttolön periodens</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo32Utg</namn>
+    <beskrivning>Eget saldo 32 - Bruttolön utgående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo70Ing</namn>
+    <beskrivning>Eget saldo 70 - Kostförmån ingående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo70Per</namn>
+    <beskrivning>Eget saldo 70 - Kostförmån periodens</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo70Utg</namn>
+    <beskrivning>Eget saldo 70 - Kostförmån utgående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo93Ing</namn>
+    <beskrivning>Eget saldo 93 - Extra lediga dagar saldo ingående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo93Per</namn>
+    <beskrivning>Eget saldo 93 - Extra lediga dagar saldo periodens</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo93Utg</namn>
+    <beskrivning>Eget saldo 93 - Extra lediga dagar saldo utgående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo200Ing</namn>
+    <beskrivning>Eget saldo 200 - Pensionsavgifter ingående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo200Per</namn>
+    <beskrivning>Eget saldo 200 - Pensionsavgifter periodens</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo200Utg</namn>
+    <beskrivning>Eget saldo 200 - Pensionsavgifter utgående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo201Ing</namn>
+    <beskrivning>Eget saldo 201 - Försäkringsavgift ingående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo201Per</namn>
+    <beskrivning>Eget saldo 201 - Försäkringsavgift periodens</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo201Utg</namn>
+    <beskrivning>Eget saldo 201 - Försäkringsavgift utgående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo203Ing</namn>
+    <beskrivning>Eget saldo 203 - TPA18 &gt;7,5 Ibb ingående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo203Per</namn>
+    <beskrivning>Eget saldo 203 - TPA18 &gt;7,5 Ibb periodens</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo203Utg</namn>
+    <beskrivning>Eget saldo 203 - TPA18 &gt;7,5 Ibb utgående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo210Ing</namn>
+    <beskrivning>Eget saldo 210 - Avsättning löneväxling ingående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo210Per</namn>
+    <beskrivning>Eget saldo 210 - Avsättning löneväxling periodens</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo210Utg</namn>
+    <beskrivning>Eget saldo 210 - Avsättning löneväxling utgående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo211Ing</namn>
+    <beskrivning>Eget saldo 211 - Kompletterande pensionspremie ingående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo211Per</namn>
+    <beskrivning>Eget saldo 211 - Kompletterande pensionspremie periodens</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>Saldo211Utg</namn>
+    <beskrivning>Eget saldo 211 - Kompletterande pensionspremie utgående</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>N1</namn>
+    <beskrivning>Lönetillägg_heltid</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>N14</namn>
+    <beskrivning>Kalenderdagsfaktor</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>N16</namn>
+    <beskrivning>Uppehållsfaktor</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>N2</namn>
+    <beskrivning>Lönetillägg_faktiskt</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>N20</namn>
+    <beskrivning>Extra_semdagar</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>N21</namn>
+    <beskrivning>Deltidsfrånvaro_</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>N3</namn>
+    <beskrivning>Förbehållsbelopp</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>N4</namn>
+    <beskrivning>Utmätning</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>N5</namn>
+    <beskrivning>Löneväxling_pension</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>N6</namn>
+    <beskrivning>Kyrkoherdevikariat</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>N7</namn>
+    <beskrivning>Frivillig_skatt</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>N8</namn>
+    <beskrivning>Bilförmån</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>N9</namn>
+    <beskrivning>80_90_100_modellen</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>LKOBA</namn>
+    <beskrivning>OB-tillägg A storhelg</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>LKOBB</namn>
+    <beskrivning>OB-tillägg B helg</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>LKOBC</namn>
+    <beskrivning>OB-tillägg C natt</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>LKOBD</namn>
+    <beskrivning>OB-tillägg D kväll</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>LKBER1</namn>
+    <beskrivning>Beredskap &lt;151 tim</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>LKBER2</namn>
+    <beskrivning>Beredskap &gt;150 tim</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>LKFTE1</namn>
+    <beskrivning>Färdtidsersättning 1-10</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>LKFTE2</namn>
+    <beskrivning>Färdtidsersättning &gt;10</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>LKFAFRI</namn>
+    <beskrivning>Förskjuten arbetstid fridag</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>LKFAÖVR</namn>
+    <beskrivning>Förskjuten arbetstid övrig</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>LKLÄGFS</namn>
+    <beskrivning>Lägerersättning fr-sö</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>LKLÄGMT</namn>
+    <beskrivning>Lägerersättning må-to</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>LKTOB71</namn>
+    <beskrivning>Tillägg för OB punkt 7.1</beskrivning>
+  </formelvariabel>
+  <formelvariabel>
+    <namn>LKTOB72</namn>
+    <beskrivning>Tillägg för OB punkt 7.2</beskrivning>
+  </formelvariabel>
+</formelvariabler>

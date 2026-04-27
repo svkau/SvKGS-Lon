@@ -1,5 +1,10 @@
-﻿system|artal_start|artal_slut|organisationsnummer|foretagsnummer|personnummer|anstallningsnummer|utbetalningsgrupp_id|timlon_id|timlon_sek|timlon_sek_startdatum|timlon_sek_slutdatum
+system|artal_start|artal_slut|organisationsnummer|foretagsnummer|personnummer|anstallningsnummer|utbetalningsgrupp_id|timlon_id|timlon_sek|timlon_sek_startdatum|timlon_sek_slutdatum
 Flex Lön|1973|2022|098765-4321|921|19610514-0666|110|0|1|130|2020-01-01T00:00|
 Flex Lön|1973|2022|098765-4321|921|19610514-0666|110|0|2|500|2020-08-01T00:00|
-Flex Lön|1973|2022|098765-4321|921|            |120|0|1|140|2018-08-01T00:00|
-Flex Lön|1973|2022|098765-4321|921|            |130|0|1|120|2020-06-01T00:00|
+Flex Lön|1973|2022|098765-4321|921|19750831-2222|120|0|1|140|2018-08-01T00:00|
+Flex Lön|1973|2022|098765-4321|921|20020618-1234|130|0|1|120|2020-06-01T00:00|
+Flex Lön|1973|2022|098765-4321|921|19591201-3456|140|0|1|220|2020-01-01T00:00|
+Flex Lön|1973|2022|098765-4321|921|19810403-5678|150|0|1|250|2020-01-01T00:00|
+Flex Lön|1973|2022|098765-4321|921|20110827-0669|151|0|1|150|2020-09-06T00:00|
+Flex Lön|1973|2022|098765-4321|921|19940307-3456|302|0|1|145|2019-01-01T00:00|
+Flex Lön|1973|2022|098765-4321|921|19990612-2345|311|0|1|350|2020-01-01T00:00|

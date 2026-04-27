@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svk="https://earkiv.svenskakyrkan.se/schemas/SVK-personal-lon/v1">
+  <control>
+    <recordId>A_197608010695</recordId>
+    <maintenanceStatus>revised</maintenanceStatus>
+    <maintenanceAgency>
+      <agencyName>Test AÅ</agencyName>
+    </maintenanceAgency>
+    <maintenanceHistory>
+      <maintenanceEvent>
+        <eventType>created</eventType>
+        <eventDateTime standardDateTime="2026-04-27T00:00:00">2026-04-27</eventDateTime>
+        <agentType>machine</agentType>
+        <agent>Flex Lön export / paketeringsscript.py</agent>
+      </maintenanceEvent>
+    </maintenanceHistory>
+  </control>
+  <cpfDescription>
+    <identity>
+      <entityType>person</entityType>
+      <nameEntry>
+        <part>Fabian Fastigheter</part>
+      </nameEntry>
+    </identity>
+  </cpfDescription>
+  <relations>
+    <cpfRelation cpfRelationType="isEmployedBy" xlink:type="simple" xlink:href="../organisation/organisation.xml#ORG_0987654321"/>
+    <cpfRelation cpfRelationType="sameAs" xlink:type="simple" xlink:href="../personer/P_197608010695.xml#P_197608010695"/>
+  </relations>
+</eac-cpf>

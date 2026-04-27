@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svk="https://earkiv.svenskakyrkan.se/schemas/SVK-personal-lon/v1">
+  <control>
+    <recordId>F_313</recordId>
+    <maintenanceStatus>revised</maintenanceStatus>
+    <maintenanceAgency>
+      <agencyName>Test AÅ</agencyName>
+    </maintenanceAgency>
+    <maintenanceHistory>
+      <maintenanceEvent>
+        <eventType>created</eventType>
+        <eventDateTime standardDateTime="2026-04-27T00:00:00">2026-04-27</eventDateTime>
+        <agentType>machine</agentType>
+        <agent>Flex Lön export / paketeringsscript.py</agent>
+      </maintenanceEvent>
+    </maintenanceHistory>
+  </control>
+  <cpfDescription>
+    <employmentDescription>
+      <employmentId>313</employmentId>
+      <positions>
+        <position>
+          <term source="BKSK" code="421005">Kyrkvaktmästare</term>
+          <description>Kyrkvaktmästare</description>
+        </position>
+      </positions>
+      <salaryAgreements>
+        <salaryAgreement salaryType="monthlyPay" amount="27500" currency="SEK">
+          <salaryPeriod>
+            <dateRange>
+              <startDate>1989-05-01</startDate>
+            </dateRange>
+          </salaryPeriod>
+        </salaryAgreement>
+      </salaryAgreements>
+      <additionalElements>
+        <additionalXMLData>
+          <svk:anstallningstillagg>
+            <svk:utbetalningsgruppReferens>
+              <svk:id>0</svk:id>
+            </svk:utbetalningsgruppReferens>
+            <svk:personalkategori>
+              <svk:kod>MÅN</svk:kod>
+            </svk:personalkategori>
+            <svk:anstallningsperioder>
+              <svk:anstallningsperiod>
+                <svk:id>23B15062-E5EC-48B3-90E1-11CBE91FF438</svk:id>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>1989-05-01</svk:startdatum>
+                  <svk:slutdatum>2020-04-30</svk:slutdatum>
+                </svk:giltighetsperiod>
+                <svk:anstallningsform>Tillsvidareanställd</svk:anstallningsform>
+                <svk:loneform>Månadslön</svk:loneform>
+                <svk:avslutsorsak>Egen begäran</svk:avslutsorsak>
+              </svk:anstallningsperiod>
+              <svk:anstallningsperiod>
+                <svk:id>856992BE-42FD-4305-ACB0-FD8D575E6ECC</svk:id>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2020-05-01</svk:startdatum>
+                  <svk:slutdatum>2020-11-30</svk:slutdatum>
+                </svk:giltighetsperiod>
+                <svk:anstallningsform>Intermittent AVA</svk:anstallningsform>
+                <svk:loneform>Månadslön</svk:loneform>
+                <svk:avslutsorsak>Avslutad tidsbeg. anställning</svk:avslutsorsak>
+              </svk:anstallningsperiod>
+            </svk:anstallningsperioder>
+            <svk:sysselsattningsgrader>
+              <svk:sysselsattningsgrad>
+                <svk:id>1</svk:id>
+                <svk:procent>100</svk:procent>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>1989-05-01</svk:startdatum>
+                </svk:giltighetsperiod>
+              </svk:sysselsattningsgrad>
+            </svk:sysselsattningsgrader>
+            <svk:heltidsmatt>
+              <svk:arbetsmatt>
+                <svk:id>1</svk:id>
+                <svk:timmarPerVecka>38.25</svk:timmarPerVecka>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>1989-05-01</svk:startdatum>
+                </svk:giltighetsperiod>
+              </svk:arbetsmatt>
+            </svk:heltidsmatt>
+          </svk:anstallningstillagg>
+        </additionalXMLData>
+      </additionalElements>
+    </employmentDescription>
+  </cpfDescription>
+  <relations>
+    <cpfRelation cpfRelationType="creatorOf" xlink:type="simple" xlink:href="../arbetstagare/A_195610238901.xml#A_195610238901"/>
+    <cpfRelation cpfRelationType="isAssociatedWith" xlink:type="simple" xlink:href="../organisation/organisation.xml#ORG_0987654321"/>
+  </relations>
+</eac-cpf>

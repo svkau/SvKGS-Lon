@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svk="https://earkiv.svenskakyrkan.se/schemas/SVK-personal-lon/v1">
+  <control>
+    <recordId>F_80</recordId>
+    <maintenanceStatus>revised</maintenanceStatus>
+    <maintenanceAgency>
+      <agencyName>Test AÅ</agencyName>
+    </maintenanceAgency>
+    <maintenanceHistory>
+      <maintenanceEvent>
+        <eventType>created</eventType>
+        <eventDateTime standardDateTime="2026-04-27T00:00:00">2026-04-27</eventDateTime>
+        <agentType>machine</agentType>
+        <agent>Flex Lön export / paketeringsscript.py</agent>
+      </maintenanceEvent>
+    </maintenanceHistory>
+  </control>
+  <cpfDescription>
+    <employmentDescription>
+      <employmentId>80</employmentId>
+      <positions>
+        <position>
+          <term source="BKSK" code="422006">Fastighetschef</term>
+          <description>Fastighetssamordnare</description>
+        </position>
+      </positions>
+      <salaryAgreements>
+        <salaryAgreement salaryType="monthlyPay" amount="32500" currency="SEK">
+          <salaryPeriod>
+            <dateRange>
+              <startDate>2017-11-01</startDate>
+            </dateRange>
+          </salaryPeriod>
+        </salaryAgreement>
+      </salaryAgreements>
+      <additionalElements>
+        <additionalXMLData>
+          <svk:anstallningstillagg>
+            <svk:utbetalningsgruppReferens>
+              <svk:id>0</svk:id>
+            </svk:utbetalningsgruppReferens>
+            <svk:personalkategori>
+              <svk:kod>MÅN</svk:kod>
+            </svk:personalkategori>
+            <svk:anstallningsperioder>
+              <svk:anstallningsperiod>
+                <svk:id>8A865A57-2529-4EE1-92E9-B39F8FCD18ED</svk:id>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2017-11-01</svk:startdatum>
+                </svk:giltighetsperiod>
+                <svk:anstallningsform>Tillsvidareanställd</svk:anstallningsform>
+                <svk:loneform>Månadslön</svk:loneform>
+              </svk:anstallningsperiod>
+            </svk:anstallningsperioder>
+            <svk:sysselsattningsgrader>
+              <svk:sysselsattningsgrad>
+                <svk:id>1</svk:id>
+                <svk:procent>100</svk:procent>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2017-11-01</svk:startdatum>
+                </svk:giltighetsperiod>
+              </svk:sysselsattningsgrad>
+            </svk:sysselsattningsgrader>
+            <svk:heltidsmatt>
+              <svk:arbetsmatt>
+                <svk:id>1</svk:id>
+                <svk:timmarPerVecka>38.25</svk:timmarPerVecka>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2017-11-01</svk:startdatum>
+                </svk:giltighetsperiod>
+              </svk:arbetsmatt>
+            </svk:heltidsmatt>
+            <svk:lonetillagg>
+              <svk:tillagg>
+                <svk:id>N1</svk:id>
+                <svk:namn>Lönetillägg_heltid</svk:namn>
+                <svk:varde typ="belopp">4500</svk:varde>
+                <svk:valuta>SEK</svk:valuta>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2017-11-01</svk:startdatum>
+                </svk:giltighetsperiod>
+              </svk:tillagg>
+              <svk:tillagg>
+                <svk:id>N2</svk:id>
+                <svk:namn>Lönetillägg_faktiskt</svk:namn>
+                <svk:varde typ="belopp">4500</svk:varde>
+                <svk:valuta>SEK</svk:valuta>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2017-11-01</svk:startdatum>
+                </svk:giltighetsperiod>
+              </svk:tillagg>
+            </svk:lonetillagg>
+          </svk:anstallningstillagg>
+        </additionalXMLData>
+      </additionalElements>
+    </employmentDescription>
+  </cpfDescription>
+  <relations>
+    <cpfRelation cpfRelationType="creatorOf" xlink:type="simple" xlink:href="../arbetstagare/A_197608010695.xml#A_197608010695"/>
+    <cpfRelation cpfRelationType="isAssociatedWith" xlink:type="simple" xlink:href="../organisation/organisation.xml#ORG_0987654321"/>
+  </relations>
+</eac-cpf>

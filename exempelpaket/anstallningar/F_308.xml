@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svk="https://earkiv.svenskakyrkan.se/schemas/SVK-personal-lon/v1">
+  <control>
+    <recordId>F_308</recordId>
+    <maintenanceStatus>revised</maintenanceStatus>
+    <maintenanceAgency>
+      <agencyName>Test AÅ</agencyName>
+    </maintenanceAgency>
+    <maintenanceHistory>
+      <maintenanceEvent>
+        <eventType>created</eventType>
+        <eventDateTime standardDateTime="2026-04-27T00:00:00">2026-04-27</eventDateTime>
+        <agentType>machine</agentType>
+        <agent>Flex Lön export / paketeringsscript.py</agent>
+      </maintenanceEvent>
+    </maintenanceHistory>
+  </control>
+  <cpfDescription>
+    <employmentDescription>
+      <employmentId>308</employmentId>
+      <positions>
+        <position>
+          <term source="BKSK" code="433002">Ekonomichef</term>
+          <description>Kamrer</description>
+        </position>
+      </positions>
+      <salaryAgreements>
+        <salaryAgreement salaryType="monthlyPay" amount="45000" currency="SEK">
+          <salaryPeriod>
+            <dateRange>
+              <startDate>2017-05-01</startDate>
+            </dateRange>
+          </salaryPeriod>
+        </salaryAgreement>
+      </salaryAgreements>
+      <additionalElements>
+        <additionalXMLData>
+          <svk:anstallningstillagg>
+            <svk:utbetalningsgruppReferens>
+              <svk:id>0</svk:id>
+            </svk:utbetalningsgruppReferens>
+            <svk:personalkategori>
+              <svk:kod>MÅN</svk:kod>
+            </svk:personalkategori>
+            <svk:anstallningsperioder>
+              <svk:anstallningsperiod>
+                <svk:id>7801813E-73DC-49EB-B1DB-9EF9B03D4352</svk:id>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2017-05-01</svk:startdatum>
+                </svk:giltighetsperiod>
+                <svk:anstallningsform>Tillsvidareanställd</svk:anstallningsform>
+                <svk:loneform>Månadslön</svk:loneform>
+              </svk:anstallningsperiod>
+            </svk:anstallningsperioder>
+            <svk:sysselsattningsgrader>
+              <svk:sysselsattningsgrad>
+                <svk:id>1</svk:id>
+                <svk:procent>100</svk:procent>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2017-05-01</svk:startdatum>
+                </svk:giltighetsperiod>
+              </svk:sysselsattningsgrad>
+            </svk:sysselsattningsgrader>
+            <svk:heltidsmatt>
+              <svk:arbetsmatt>
+                <svk:id>1</svk:id>
+                <svk:timmarPerVecka>38.25</svk:timmarPerVecka>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2017-05-01</svk:startdatum>
+                </svk:giltighetsperiod>
+              </svk:arbetsmatt>
+            </svk:heltidsmatt>
+            <svk:kostnadsfordelningar>
+              <svk:kostnadsfordelning>
+                <svk:kostnadsfordelningId>A1B2C3D4-0001-0001-0001-000000000308</svk:kostnadsfordelningId>
+                <svk:ordningsnummer>1</svk:ordningsnummer>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2017-05-01</svk:startdatum>
+                </svk:giltighetsperiod>
+                <svk:procentfordelning></svk:procentfordelning>
+                <svk:dimensioner>
+                  <svk:dimension>
+                    <svk:namn>Resultatenhet</svk:namn>
+                    <svk:varde>4100</svk:varde>
+                  </svk:dimension>
+                </svk:dimensioner>
+              </svk:kostnadsfordelning>
+              <svk:kostnadsfordelning>
+                <svk:kostnadsfordelningId>A1B2C3D4-0001-0001-0001-000000000308</svk:kostnadsfordelningId>
+                <svk:ordningsnummer>2</svk:ordningsnummer>
+                <svk:giltighetsperiod>
+                  <svk:startdatum>2017-05-01</svk:startdatum>
+                </svk:giltighetsperiod>
+                <svk:procentfordelning></svk:procentfordelning>
+                <svk:dimensioner>
+                  <svk:dimension>
+                    <svk:namn>Resultatenhet</svk:namn>
+                    <svk:varde>4200</svk:varde>
+                  </svk:dimension>
+                </svk:dimensioner>
+              </svk:kostnadsfordelning>
+            </svk:kostnadsfordelningar>
+          </svk:anstallningstillagg>
+        </additionalXMLData>
+      </additionalElements>
+    </employmentDescription>
+  </cpfDescription>
+  <relations>
+    <cpfRelation cpfRelationType="creatorOf" xlink:type="simple" xlink:href="../arbetstagare/A_196708203456.xml#A_196708203456"/>
+    <cpfRelation cpfRelationType="isAssociatedWith" xlink:type="simple" xlink:href="../organisation/organisation.xml#ORG_0987654321"/>
+  </relations>
+</eac-cpf>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<utbetalningsgrupper xmlns="https://earkiv.svenskakyrkan.se/schemas/SVK-personal-lon/v1">
+  <utbetalningsgrupp>
+    <id>0</id>
+    <namn>Månadsutbetalning</namn>
+  </utbetalningsgrupp>
+  <utbetalningsgrupp>
+    <id>1</id>
+    <namn>Månadsutbetalning</namn>
+  </utbetalningsgrupp>
+</utbetalningsgrupper>

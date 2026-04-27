@@ -1,31 +1,31 @@
-﻿system|artal_start|artal_slut|organisationsnummer|foretagsnummer|personnummer|anstallningsnummer|utbetalningsgrupp_id|utbetalningsgrupp_namn|personalkategori|befattning|bksk_kod|bksk_klartext|befattningskod|fornamn|efternamn|skyddad|nationalitet
-Flex Lön|1973|2022|098765-4321|921|            |1|1|Månadsutbetalning|MÅN|Musiker|413001|Kantor||Mimmi|Musiker||
-Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|0|Månadsutbetalning|MÅN|Vaktmästare|421005|Kyrkvaktmästare||Valter|Vaktis||
-Flex Lön|1973|2022|098765-4321|921|            |30|0|Månadsutbetalning|MÅN|Vaktmästare|421005|Kyrkvaktmästare||Vera|Vaktis||
-Flex Lön|1973|2022|098765-4321|921|            |40|0|Månadsutbetalning|MÅN|Sjukhuspräst|411004|Sjukhuspräst||Piia|Präst||
-Flex Lön|1973|2022|098765-4321|921|19650927-0689|50|0|Månadsutbetalning|MÅN|Pedagog||||Petra|Pedagog||
-Flex Lön|1973|2022|098765-4321|921|            |60|0|Månadsutbetalning|MÅN|Kansliachef|433001|Kanslichef/Verksamhetschef||Karin|Kanslist||
-Flex Lön|1973|2022|098765-4321|921|            |70|0|Månadsutbetalning|MÅN|Pedagog|414001|Församlingspedagog||Fröken|Fredrik||
-Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|0|Månadsutbetalning|MÅN|Fastighetssamordnare|422006|Fastighetschef||Fabian|Fastigheter||
-Flex Lön|1973|2022|098765-4321|921|19780525-3148|90|0|Månadsutbetalning|MÅN|Diakon|412003|Sjukhusdiakon||Diana|Diakon||
-Flex Lön|1973|2022|098765-4321|921|            |100|0|Månadsutbetalning|MÅN|Kyrkoherde|411001|Kyrkoherde||Kicki|Kyrkoherde||
-Flex Lön|1973|2022|098765-4321|921|19610514-0666|110|0|Månadsutbetalning|TIM|Intermittent|421009|Kyrkogårdsarbetare||Pelle|På Stan||
-Flex Lön|1973|2022|098765-4321|921|            |120|0|Månadsutbetalning|TIM|Tim med schema|421009|Kyrkogårdsarbetare||Tim|Timmis||
-Flex Lön|1973|2022|098765-4321|921|            |130|0|Månadsutbetalning|TIM|Feriearbetare|421009|Kyrkogårdsarbetare||Felix|ferie||
-Flex Lön|1973|2022|098765-4321|921|            |140|0|Månadsutbetalning|FÖRT|||||Fred|Förtroende||
-Flex Lön|1973|2022|098765-4321|921|            |150|0|Månadsutbetalning|UPPDR|||||Uffe|Uppdragstagare||
-Flex Lön|1973|2022|098765-4321|921|20110827-0669|151|0|Månadsutbetalning|UPPDR|||||Bea|Barn||
-Flex Lön|1973|2022|098765-4321|921|            |300|0|Månadsutbetalning|MÅN|Vaktmästare|421005|Kyrkvaktmästare||Pelle|Pensionär||
-Flex Lön|1973|2022|098765-4321|921|            |301|0|Månadsutbetalning|MÅN|Föramslingsassistent|414005|Församlingsassistent||Dennis|Dublett||
-Flex Lön|1973|2022|098765-4321|921|            |302|0|Månadsutbetalning|TIM|Ledare barngrupp|414006|Fritids-/ungdomsledare||Dennis|Dublett||
-Flex Lön|1973|2022|098765-4321|921|            |303|0|Månadsutbetalning|MÅN|Diakon|412001|Församlingsdiakon||Doris|fr Deltid||
-Flex Lön|1973|2022|098765-4321|921|            |304|0|Månadsutbetalning|MÅN|Vaktmästare|421005|Kyrkvaktmästare||Frida|Föräldraledig||
-Flex Lön|1973|2022|098765-4321|921|            |305|0|Månadsutbetalning|MÅN|Lokalvårdare|422002|Lokalvårdare||Daniel|Dubbel Frånvaro||
-Flex Lön|1973|2022|098765-4321|921|            |306|0|Månadsutbetalning|MÅN|Präst|411004|Sjukhuspräst||Lena|Lönetillägg||
-Flex Lön|1973|2022|098765-4321|921|            |307|0|Månadsutbetalning|MÅN|Församlingsassistent|414005|Församlingsassistent||Nettan|Nettolöneavdrag||
-Flex Lön|1973|2022|098765-4321|921|            |308|0|Månadsutbetalning|MÅN|Kamrer|433002|Ekonomichef||Lennart|Löneväxling||
-Flex Lön|1973|2022|098765-4321|921|            |309|0|Månadsutbetalning|MÅN|HR-assistent|431004|HR-specialist||Sune|Semesterväxling||
-Flex Lön|1973|2022|098765-4321|921|            |310|0|Månadsutbetalning|MÅN|Komminister|411002|Komminister||Sabine|Sinkare||
-Flex Lön|1973|2022|098765-4321|921|            |311|0|Månadsutbetalning|UPPDR|||||Arian|Grande||
-Flex Lön|1973|2022|098765-4321|921|            |312|0|Månadsutbetalning|MÅN|Förskolelärare|414002|Förskollärare||Ulla|Uppehållsanställning||
-Flex Lön|1973|2022|098765-4321|921|            |313|0|Månadsutbetalning|MÅN|Kyrkvaktmästare|421005|Kyrkvaktmästare||Samuel|Som Slutat||
+system|artal_start|artal_slut|organisationsnummer|foretagsnummer|personnummer|anstallningsnummer|utbetalningsgrupp_id|utbetalningsgrupp_namn|personalkategori|befattning|bksk_kod|bksk_klartext|befattningskod|fornamn|efternamn|skyddad|nationalitet
+Flex Lön|1973|2022|098765-4321|921|19680523-3456|1|1|Månadsutbetalning|MÅN|Musiker|413001|Kantor||Mimmi|Musiker||Sverige
+Flex Lön|1973|2022|098765-4321|921|19760628-0696|20|0|Månadsutbetalning|MÅN|Vaktmästare|421005|Kyrkvaktmästare||Valter|Vaktis||Sverige
+Flex Lön|1973|2022|098765-4321|921|19720415-2340|30|0|Månadsutbetalning|MÅN|Vaktmästare|421005|Kyrkvaktmästare||Vera|Vaktis||Sverige
+Flex Lön|1973|2022|098765-4321|921|19730301-4567|40|0|Månadsutbetalning|MÅN|Sjukhuspräst|411004|Sjukhuspräst||Piia|Präst||Finland
+Flex Lön|1973|2022|098765-4321|921|19650927-0689|50|0|Månadsutbetalning|MÅN|Pedagog||||Petra|Pedagog||Sverige
+Flex Lön|1973|2022|098765-4321|921|19640312-3890|60|0|Månadsutbetalning|MÅN|Kansliachef|433001|Kanslichef/Verksamhetschef||Karin|Kanslist||Sverige
+Flex Lön|1973|2022|098765-4321|921|19820715-4321|70|0|Månadsutbetalning|MÅN|Pedagog|414001|Församlingspedagog||Fröken|Fredrik||Sverige
+Flex Lön|1973|2022|098765-4321|921|19760801-0695|80|0|Månadsutbetalning|MÅN|Fastighetssamordnare|422006|Fastighetschef||Fabian|Fastigheter||Sverige
+Flex Lön|1973|2022|098765-4321|921|19780525-3148|90|0|Månadsutbetalning|MÅN|Diakon|412003|Sjukhusdiakon||Diana|Diakon||Sverige
+Flex Lön|1973|2022|098765-4321|921|19600520-1234|100|0|Månadsutbetalning|MÅN|Kyrkoherde|411001|Kyrkoherde||Kicki|Kyrkoherde||Sverige
+Flex Lön|1973|2022|098765-4321|921|19610514-0666|110|0|Månadsutbetalning|TIM|Intermittent|421009|Kyrkogårdsarbetare||Pelle|På Stan||Sverige
+Flex Lön|1973|2022|098765-4321|921|19750831-2222|120|0|Månadsutbetalning|TIM|Tim med schema|421009|Kyrkogårdsarbetare||Tim|Timmis||Sverige
+Flex Lön|1973|2022|098765-4321|921|20020618-1234|130|0|Månadsutbetalning|TIM|Feriearbetare|421009|Kyrkogårdsarbetare||Felix|ferie||Sverige
+Flex Lön|1973|2022|098765-4321|921|19591201-3456|140|0|Månadsutbetalning|FÖRT|||||Fred|Förtroende||Sverige
+Flex Lön|1973|2022|098765-4321|921|19810403-5678|150|0|Månadsutbetalning|UPPDR|||||Uffe|Uppdragstagare||Sverige
+Flex Lön|1973|2022|098765-4321|921|20110827-0669|151|0|Månadsutbetalning|UPPDR|||||Bea|Barn||Sverige
+Flex Lön|1973|2022|098765-4321|921|19480613-2345|300|0|Månadsutbetalning|MÅN|Vaktmästare|421005|Kyrkvaktmästare||Pelle|Pensionär|true|Sverige
+Flex Lön|1973|2022|098765-4321|921|19940307-3456|301|0|Månadsutbetalning|MÅN|Församlingsassistent|414005|Församlingsassistent||Dennis|Dublett||Sverige
+Flex Lön|1973|2022|098765-4321|921|19940307-3456|302|0|Månadsutbetalning|TIM|Ledare barngrupp|414006|Fritids-/ungdomsledare||Dennis|Dublett||Sverige
+Flex Lön|1973|2022|098765-4321|921|19700205-6789|303|0|Månadsutbetalning|MÅN|Diakon|412001|Församlingsdiakon||Doris|fr Deltid||Sverige
+Flex Lön|1973|2022|098765-4321|921|19870916-0123|304|0|Månadsutbetalning|MÅN|Vaktmästare|421005|Kyrkvaktmästare||Frida|Föräldraledig||Sverige
+Flex Lön|1973|2022|098765-4321|921|19810622-7890|305|0|Månadsutbetalning|MÅN|Lokalvårdare|422002|Lokalvårdare||Daniel|Dubbel Frånvaro||Sverige
+Flex Lön|1973|2022|098765-4321|921|19680401-2345|306|0|Månadsutbetalning|MÅN|Präst|411004|Sjukhuspräst||Lena|Lönetillägg||Sverige
+Flex Lön|1973|2022|098765-4321|921|19850315-9012|307|0|Månadsutbetalning|MÅN|Församlingsassistent|414005|Församlingsassistent||Nettan|Nettolöneavdrag||Sverige
+Flex Lön|1973|2022|098765-4321|921|19670820-3456|308|0|Månadsutbetalning|MÅN|Kamrer|433002|Ekonomichef||Lennart|Löneväxling||Sverige
+Flex Lön|1973|2022|098765-4321|921|19770930-7890|309|0|Månadsutbetalning|MÅN|HR-assistent|431004|HR-specialist||Sune|Semesterväxling||Sverige
+Flex Lön|1973|2022|098765-4321|921|19791110-4567|310|0|Månadsutbetalning|MÅN|Komminister|411002|Komminister||Sabine|Sinkare||Sverige
+Flex Lön|1973|2022|098765-4321|921|19990612-2345|311|0|Månadsutbetalning|UPPDR|||||Arian|Grande||USA
+Flex Lön|1973|2022|098765-4321|921|19830512-5678|312|0|Månadsutbetalning|MÅN|Förskolelärare|414002|Förskollärare||Ulla|Uppehållsanställning||Sverige
+Flex Lön|1973|2022|098765-4321|921|19561023-8901|313|0|Månadsutbetalning|MÅN|Kyrkvaktmästare|421005|Kyrkvaktmästare||Samuel|Som Slutat||Sverige
